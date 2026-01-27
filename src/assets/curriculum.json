@@ -1,0 +1,400 @@
+{
+  "schemaVersion": "1.0",
+  "id": "lao-curriculum",
+  "name": "Lao Language Curriculum",
+  "targetCefr": "A1",
+  "totalLessons": 30,
+  "totalDurationMinutes": 1350,
+  "paths": [
+    {
+      "id": "path-1",
+      "name": "Foundations (Transliteration & Survival)",
+      "description": "Learn basic Lao using romanization",
+      "scriptMode": "romanized",
+      "completionMedal": "🎖️",
+      "levels": [
+        {
+          "id": "1.1",
+          "name": "Greetings & Survival Essentials",
+          "description": "Greet, ask for help, say basic needs (no script)",
+          "estimatedDurationMinutes": 135,
+          "prerequisites": [],
+          "lessonFiles": [
+            "lesson-1-1-1.json",
+            "lesson-1-1-2.json",
+            "lesson-1-1-3.json"
+          ],
+          "lessons": [
+            {
+              "id": "1-1-1",
+              "title": "Greetings & Politeness",
+              "estimatedDurationMinutes": 45,
+              "topics": ["sabaidee", "khop jai", "la kon"]
+            },
+            {
+              "id": "1-1-2",
+              "title": "Numbers 1-10",
+              "estimatedDurationMinutes": 45,
+              "topics": ["romanized 1-10"]
+            },
+            {
+              "id": "1-1-3",
+              "title": "Survival Phrases",
+              "estimatedDurationMinutes": 45,
+              "topics": ["bo dai", "bo ao", "khop jai"]
+            }
+          ]
+        },
+        {
+          "id": "1.2",
+          "name": "Daily Interactions & Family",
+          "description": "Order food, ask directions, introduce self",
+          "estimatedDurationMinutes": 135,
+          "prerequisites": ["1.1"],
+          "lessonFiles": [
+            "lesson-1-2-1.json",
+            "lesson-1-2-2.json",
+            "lesson-1-2-3.json"
+          ],
+          "lessons": [
+            {
+              "id": "1-2-1",
+              "title": "Food & Drink",
+              "estimatedDurationMinutes": 45,
+              "topics": ["khao", "nam", "gai", "pa", "som tam"]
+            },
+            {
+              "id": "1-2-2",
+              "title": "At Restaurant",
+              "estimatedDurationMinutes": 45,
+              "topics": ["khor...", "boe sai...", "hoy bin"]
+            },
+            {
+              "id": "1-2-3",
+              "title": "Family & Basic Verbs",
+              "estimatedDurationMinutes": 45,
+              "topics": ["po", "me", "pee", "nong", "pai", "ma"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "path-2",
+      "name": "Script Mastery (Lao Script Introduction)",
+      "description": "Learn to read and write Lao script",
+      "scriptMode": "lao-script",
+      "completionMedal": "🎖️",
+      "levels": [
+        {
+          "id": "2.1",
+          "name": "Consonants & Syllables",
+          "description": "Recognize Lao consonants, read simple syllables",
+          "estimatedDurationMinutes": 135,
+          "prerequisites": ["1.2"],
+          "lessonFiles": [
+            "lesson-2-1-1.json",
+            "lesson-2-1-2.json",
+            "lesson-2-1-3.json"
+          ],
+          "lessons": [
+            {
+              "id": "2-1-1",
+              "title": "Consonants: High & Mid Class",
+              "estimatedDurationMinutes": 45,
+              "topics": ["ຂ kh", "ຫ h", "ຟ f", "ກ g", "ບ b"]
+            },
+            {
+              "id": "2-1-2",
+              "title": "Consonants: Low Class",
+              "estimatedDurationMinutes": 45,
+              "topics": ["ຄ", "ງ", "ຍ", "ຊ", "ສ", "ລ"]
+            },
+            {
+              "id": "2-1-3",
+              "title": "Simple Syllable Reading",
+              "estimatedDurationMinutes": 45,
+              "topics": ["kho", "go", "bo", "pa", "ma", "sa"]
+            }
+          ]
+        },
+        {
+          "id": "2.2",
+          "name": "Vowels & Tone Marks",
+          "description": "Read words with vowel marks and tones",
+          "estimatedDurationMinutes": 135,
+          "prerequisites": ["2.1"],
+          "lessonFiles": [
+            "lesson-2-2-1.json",
+            "lesson-2-2-2.json",
+            "lesson-2-2-3.json"
+          ],
+          "lessons": [
+            {
+              "id": "2-2-1",
+              "title": "Short & Long Vowels",
+              "estimatedDurationMinutes": 45,
+              "topics": ["ະ", "ັ", "າ", "ໍ", "ື"]
+            },
+            {
+              "id": "2-2-2",
+              "title": "Tone Rules (Mai Tho, Mai Ti)",
+              "estimatedDurationMinutes": 45,
+              "topics": ["Mid", "Low", "High", "Falling", "Rising"]
+            },
+            {
+              "id": "2-2-3",
+              "title": "Mixed Vowel & Tone Drills",
+              "estimatedDurationMinutes": 45,
+              "topics": ["Fluency with marks"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "path-3",
+      "name": "Elementary Communication (Basic Conversations)",
+      "description": "Build vocabulary and form simple sentences",
+      "scriptMode": "lao-script",
+      "completionMedal": "🎖️",
+      "levels": [
+        {
+          "id": "3.1",
+          "name": "Vocabulary Expansion & Questions",
+          "description": "Read & understand common words, ask basic questions",
+          "estimatedDurationMinutes": 135,
+          "prerequisites": ["2.2"],
+          "lessonFiles": [
+            "lesson-3-1-1.json",
+            "lesson-3-1-2.json",
+            "lesson-3-1-3.json"
+          ],
+          "lessons": [
+            {
+              "id": "3-1-1",
+              "title": "Body Parts & Descriptions",
+              "estimatedDurationMinutes": 45,
+              "topics": ["ຫົວ", "ມື", "ຕົວ", "ໃຫຍ່", "ນ້ອຍ"]
+            },
+            {
+              "id": "3-1-2",
+              "title": "Question Words & Negation",
+              "estimatedDurationMinutes": 45,
+              "topics": ["ໃຜ", "ຍັງ", "ບໍ່", "ບໍ່ຮູ້"]
+            },
+            {
+              "id": "3-1-3",
+              "title": "Time & Directions",
+              "estimatedDurationMinutes": 45,
+              "topics": ["ວັນ", "ເວລາ", "ເບື້ອງ", "ໄກ"]
+            }
+          ]
+        },
+        {
+          "id": "3.2",
+          "name": "Simple Sentences & Word Order",
+          "description": "Form simple sentences with correct structure",
+          "estimatedDurationMinutes": 135,
+          "prerequisites": ["3.1"],
+          "lessonFiles": [
+            "lesson-3-2-1.json",
+            "lesson-3-2-2.json",
+            "lesson-3-2-3.json"
+          ],
+          "lessons": [
+            {
+              "id": "3-2-1",
+              "title": "Common Verbs & Word Order",
+              "estimatedDurationMinutes": 45,
+              "topics": ["ໄປ", "ມາ", "ກິນ", "ດື່ມ", "ຢູ່"]
+            },
+            {
+              "id": "3-2-2",
+              "title": "Adjectives & Basic Particles",
+              "estimatedDurationMinutes": 45,
+              "topics": ["ຮົ້ງ", "ມົນ", "ສະສຸກ", "ຍັງ"]
+            },
+            {
+              "id": "3-2-3",
+              "title": "SVO Sentence Formation",
+              "estimatedDurationMinutes": 45,
+              "topics": ["Simple production drills"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "path-4",
+      "name": "Intermediate Fluency (Complex Grammar)",
+      "description": "Master complex grammar and expanded vocabulary",
+      "scriptMode": "lao-script",
+      "completionMedal": "🎖️",
+      "levels": [
+        {
+          "id": "4.1",
+          "name": "Expanded Vocabulary & Scenarios",
+          "description": "Understand and discuss familiar topics",
+          "estimatedDurationMinutes": 135,
+          "prerequisites": ["3.2"],
+          "lessonFiles": [
+            "lesson-4-1-1.json",
+            "lesson-4-1-2.json",
+            "lesson-4-1-3.json"
+          ],
+          "lessons": [
+            {
+              "id": "4-1-1",
+              "title": "Restaurant & Shopping Scenarios",
+              "estimatedDurationMinutes": 45,
+              "topics": ["ລາຄາ", "ຕໍ່ລອງ", "ປະກາດ", "ເລືອກ"]
+            },
+            {
+              "id": "4-1-2",
+              "title": "Hotel & Travel Vocabulary",
+              "estimatedDurationMinutes": 45,
+              "topics": ["ຫ້ອງ", "ກົາງເຮືອນ", "ລົດ", "ບິນ"]
+            },
+            {
+              "id": "4-1-3",
+              "title": "Weather & Seasons",
+              "estimatedDurationMinutes": 45,
+              "topics": ["ຝົນ", "ແດດ", "ຮ້ອນ", "ເລັນ", "ລົມ"]
+            }
+          ]
+        },
+        {
+          "id": "4.2",
+          "name": "Tense & Complex Structures",
+          "description": "Express past, present, and future; use compound sentences",
+          "estimatedDurationMinutes": 135,
+          "prerequisites": ["4.1"],
+          "lessonFiles": [
+            "lesson-4-2-1.json",
+            "lesson-4-2-2.json",
+            "lesson-4-2-3.json"
+          ],
+          "lessons": [
+            {
+              "id": "4-2-1",
+              "title": "Past Tense & Aspect Markers",
+              "estimatedDurationMinutes": 45,
+              "topics": ["ແລ້ວ", "ກຳລັງ", "ຈະ", "ພຽງ"]
+            },
+            {
+              "id": "4-2-2",
+              "title": "Compound Sentences",
+              "estimatedDurationMinutes": 45,
+              "topics": ["ແລະ", "ຫຼື", "ເພາະວ່າ", "ກ່ອນ"]
+            },
+            {
+              "id": "4-2-3",
+              "title": "Complex Question Formation",
+              "estimatedDurationMinutes": 45,
+              "topics": ["Multiple clause questions"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "path-5",
+      "name": "Advanced Mastery (Real Conversations)",
+      "description": "Achieve conversational fluency",
+      "scriptMode": "lao-script",
+      "completionMedal": "💎",
+      "levels": [
+        {
+          "id": "5.1",
+          "name": "Cultural Context & Advanced Topics",
+          "description": "Discuss culture, traditions, and express opinions",
+          "estimatedDurationMinutes": 135,
+          "prerequisites": ["4.2"],
+          "lessonFiles": [
+            "lesson-5-1-1.json",
+            "lesson-5-1-2.json",
+            "lesson-5-1-3.json"
+          ],
+          "lessons": [
+            {
+              "id": "5-1-1",
+              "title": "Cultural Concepts & Traditions",
+              "estimatedDurationMinutes": 45,
+              "topics": ["ບຸນ", "ວັດ", "ປະເພນີ", "ວັດທະນະທຳ", "ຜູ້ໃຫຍ່"]
+            },
+            {
+              "id": "5-1-2",
+              "title": "Numbers & Math (11-100)",
+              "estimatedDurationMinutes": 45,
+              "topics": ["ສິບ", "ຮ້ອຍ", "ບວກ", "ລົບ", "ຄູນ"]
+            },
+            {
+              "id": "5-1-3",
+              "title": "Opinions & Preferences",
+              "estimatedDurationMinutes": 45,
+              "topics": ["ມັກ", "ບໍ່ມັກ", "ຄວນ", "ຈະ"]
+            }
+          ]
+        },
+        {
+          "id": "5.2",
+          "name": "Fluency & Conversation Mastery",
+          "description": "Sustain natural conversations on any familiar topic",
+          "estimatedDurationMinutes": 135,
+          "prerequisites": ["5.1"],
+          "lessonFiles": [
+            "lesson-5-2-1.json",
+            "lesson-5-2-2.json",
+            "lesson-5-2-3.json"
+          ],
+          "lessons": [
+            {
+              "id": "5-2-1",
+              "title": "Travel Stories & Narratives",
+              "estimatedDurationMinutes": 45,
+              "topics": ["Descriptive conversation practice"]
+            },
+            {
+              "id": "5-2-2",
+              "title": "Problem-Solving & Advice",
+              "estimatedDurationMinutes": 45,
+              "topics": ["Conditional sentences", "suggestions"]
+            },
+            {
+              "id": "5-2-3",
+              "title": "Fluency Check & Mastery Test",
+              "estimatedDurationMinutes": 45,
+              "topics": ["Unrestricted conversation drills"]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "spacedRepetition": {
+    "recommendedIntervalsDays": [1, 3, 7, 14, 30],
+    "withinLessonSessionMix": [
+      { "session": 1, "newPercent": 50, "reviewPercent": 50 },
+      { "session": 2, "newPercent": 40, "reviewPercent": 60 },
+      { "session": 3, "newPercent": 20, "reviewPercent": 80 },
+      { "session": 4, "newPercent": 10, "reviewPercent": 90 }
+    ]
+  },
+  "awards": {
+    "masteryThresholds": {
+      "fact": { "accuracyPercent": 80, "sessions": 3 },
+      "activity": { "accuracyPercent": 85 },
+      "lesson": { "allActivitiesCompleted": true },
+      "level": { "avgAccuracyPercent": 90 }
+    },
+    "displayLogic": {
+      "inProgressPath": "showLevelMedals",
+      "completedPath": "showPathMedalOnly"
+    }
+  },
+  "romanization": {
+    "scheme": "TBD",
+    "notes": "Pick one scheme and apply globally; until then, mark uncertain items with needsVerification=true."
+  }
+}

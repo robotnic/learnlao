@@ -48,23 +48,37 @@ export interface VocabularyItem {
   id: string;
   lao: string;
   english: string;
-  pronunciation: string;
   level_id: string;
-  part_of_speech?: string;
+  phonetic?: string;
+  pronunciation?: string;
+  category?: string;
+  usage_rank?: number;
   audio_key?: string;
   image_key?: string;
   example?: string;
+  needs_translation?: boolean;
 }
 
 export interface PhraseItem {
   id: string;
   lao: string;
   english: string;
-  pronunciation: string;
+  phonetic: string;
   level_id: string;
-  components: string[]; // Array of component IDs
+  components?: string[]; // Array of component IDs
+  related_word_ids?: string[];
+  complexity?: number;
   audio_key?: string;
   use_case?: string;
+}
+
+export interface Topic {
+  id: string;
+  name: string;
+  description?: string;
+  pinned?: boolean;
+  words: string[]; // Array of vocabulary IDs
+  phrases: string[]; // Array of phrase IDs
 }
 
 export interface KnowledgeBase {
@@ -73,4 +87,5 @@ export interface KnowledgeBase {
   alphabet: AlphabetItem[];
   vocabulary?: VocabularyItem[];
   phrases?: PhraseItem[];
+  topics?: Topic[];
 }

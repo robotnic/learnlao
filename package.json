@@ -5,6 +5,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "learnlao": "ng serve learnlao --port 4201",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint"

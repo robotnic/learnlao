@@ -6,6 +6,10 @@ export const routes: Routes = [
     loadComponent: () => import('./home.component').then(m => m.HomeComponent)
   },
   {
+    path: 'topics/:id',
+    loadComponent: () => import('./topics.component').then(m => m.TopicsComponent)
+  },
+  {
     path: 'topics',
     loadComponent: () => import('./topics.component').then(m => m.TopicsComponent)
   },
@@ -16,6 +20,10 @@ export const routes: Routes = [
   {
     path: 'dict',
     loadComponent: () => import('./dict.component').then(m => m.DictComponent)
+  },
+  {
+    path: 'word/:id',
+    loadComponent: () => import('./word-detail.component').then(m => m.WordDetailComponent)
   },
   {
     path: 'progress',

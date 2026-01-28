@@ -48,6 +48,7 @@ export interface VocabularyItem {
   id: string;
   lao: string;
   english: string;
+  emoji?: string;
   level_id: string;
   phonetic?: string;
   pronunciation?: string;
@@ -75,6 +76,7 @@ export interface PhraseItem {
 export interface Topic {
   id: string;
   name: string;
+  emoji?: string;
   description?: string;
   pinned?: boolean;
   words: string[]; // Array of vocabulary IDs

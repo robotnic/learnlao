@@ -27,6 +27,10 @@ import { RouterLink } from '@angular/router';
               Progress
             </a>
           </nav>
+
+          <div class="qr-section">
+            <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://robotnic.github.io/learnlao/" alt="QR Code" class="qr-code">
+          </div>
         </main>
       </div>
     </div>
@@ -93,6 +97,22 @@ import { RouterLink } from '@angular/router';
       background: #fafafa;
     }
 
+    .qr-section {
+      margin-top: 3rem;
+      padding-top: 2rem;
+      border-top: 1px solid #e5e5e5;
+      display: flex;
+      justify-content: center;
+    }
+
+    .qr-code {
+      max-width: 150px;
+      height: auto;
+      border: 1px solid #e5e5e5;
+      padding: 0.5rem;
+      border-radius: 4px;
+    }
+
     @media (max-width: 768px) {
       .nav-grid {
         grid-template-columns: 1fr;
@@ -101,6 +121,11 @@ import { RouterLink } from '@angular/router';
 
       .nav-item {
         padding: 2rem;
+      }
+
+      .qr-section {
+        margin-top: 2rem;
+        padding-top: 1.5rem;
       }
     }
   `]

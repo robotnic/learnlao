@@ -44,7 +44,11 @@ export class LearningService {
     
     let nextProgress: Progress | null = null;
     if (overdueCards.length > 0) {
-      overdueCards.sort((a, b) => a.due.getTime() - b.due.getTime());
+      overdueCards.sort((a, b) => {
+        const aDue = a.due instanceof Date ? a.due : new Date(a.due);
+        const bDue = b.due instanceof Date ? b.due : new Date(b.due);
+        return aDue.getTime() - bDue.getTime();
+      });
       nextProgress = overdueCards[0];
     }
 

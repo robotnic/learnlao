@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { CommonModule } from '@angular/common';
-import { Observable, of } from 'rxjs';
+import { Observable } from 'rxjs';
+import { ProgressService } from './learn-fsrs/services/progress.service';
 
 interface ProgressStats {
   overall: number;
@@ -303,28 +304,13 @@ interface ProgressStats {
   `]
 })
 export class ProgressComponent implements OnInit {
-  stats$: Observable<ProgressStats>;
+  stats$: Observable<any>;
 
-  constructor() {
-    this.stats$ = this.getStats();
+  constructor(private progressService: ProgressService) {
+    this.stats$ = this.progressService.getStats();
   }
 
   ngOnInit(): void {}
-
-  private getStats(): Observable<ProgressStats> {
-    // Mock data - will be replaced with real data from database
-    const mockStats: ProgressStats = {
-      overall: 0,
-      states: [
-        { val: 0, label: 'Mastered', color: 'mastered' },
-        { val: 0, label: 'Learning', color: 'learning' },
-        { val: 0, label: 'Lapses', color: 'lapses' },
-        { val: 2000, label: 'Unseen', color: 'unseen' }
-      ],
-      weekly: []
-    };
-    return of(mockStats);
-  }
 
   getCircleOffset(percent: number): number {
     const circumference = 339.29;

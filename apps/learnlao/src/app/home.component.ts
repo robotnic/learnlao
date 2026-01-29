@@ -1,52 +1,48 @@
 import { Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
-import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [RouterLink, CommonModule],
+  imports: [RouterLink],
   template: `
     <div class="home">
       <div class="container">
         <header class="header">
           <div class="header-top">
             <h1 class="logo">LearnLao</h1>
-            <button class="lang-toggle" (click)="toggleLanguage()">
-              {{ isEnglish ? 'ລາວ' : 'EN' }}
-            </button>
           </div>
-          <p class="subtitle" [ngSwitch]="isEnglish">
-            <span *ngSwitchCase="true">Learn Lao Language</span>
-            <span *ngSwitchDefault>ຮຽນພາສາລາວ</span>
-          </p>
+          <div class="subtitle">
+            <div>ຮຽນພາສາລາວ</div>
+            <div class="subtitle-eng">Learn Lao Language</div>
+          </div>
         </header>
 
         <main class="main-content">
           <nav class="nav-grid">
             <a class="nav-item" routerLink="/topics">
-              <span [ngSwitch]="isEnglish">
-                <span *ngSwitchCase="true">Topics</span>
-                <span *ngSwitchDefault>ຫົວຂໍ້</span>
-              </span>
+              <div class="text-bilingual">
+                <div class="text-lao">ຫົວຂໍ້</div>
+                <div class="text-eng">Topics</div>
+              </div>
             </a>
             <a class="nav-item" routerLink="/learn">
-              <span [ngSwitch]="isEnglish">
-                <span *ngSwitchCase="true">Learn</span>
-                <span *ngSwitchDefault>ຮຽນ</span>
-              </span>
+              <div class="text-bilingual">
+                <div class="text-lao">ຮຽນ</div>
+                <div class="text-eng">Learn</div>
+              </div>
             </a>
             <a class="nav-item" routerLink="/dict">
-              <span [ngSwitch]="isEnglish">
-                <span *ngSwitchCase="true">Dict</span>
-                <span *ngSwitchDefault>ວັດຈະນານຸກຣົມ</span>
-              </span>
+              <div class="text-bilingual">
+                <div class="text-lao">ວັດຈະນານຸກຣົມ</div>
+                <div class="text-eng">Dict</div>
+              </div>
             </a>
             <a class="nav-item" routerLink="/progress">
-              <span [ngSwitch]="isEnglish">
-                <span *ngSwitchCase="true">Progress</span>
-                <span *ngSwitchDefault>ກ້າວຫນ້າ</span>
-              </span>
+              <div class="text-bilingual">
+                <div class="text-lao">ກ້າວຫນ້າ</div>
+                <div class="text-eng">Progress</div>
+              </div>
             </a>
           </nav>
 
@@ -80,7 +76,6 @@ import { CommonModule } from '@angular/common';
     }
 
     .header-top {
-      position: relative;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -94,31 +89,21 @@ import { CommonModule } from '@angular/common';
       letter-spacing: -0.5px;
     }
 
-    .lang-toggle {
-      position: absolute;
-      right: 0;
-      padding: 0.5rem 1rem;
-      font-size: 0.9rem;
-      border: 1px solid #e5e5e5;
-      background: #fff;
-      color: #000;
-      cursor: pointer;
-      transition: all 0.2s ease;
-      border-radius: 4px;
-      font-weight: 500;
-    }
-
-    .lang-toggle:hover {
-      border-color: #000;
-      background: #fafafa;
-    }
-
     .subtitle {
-      margin-top: 0.5rem;
+      margin-top: 1rem;
       font-size: 1rem;
       color: #666;
       font-weight: 300;
-      letter-spacing: 0.3px;
+      text-align: center;
+    }
+
+    .subtitle div {
+      line-height: 1.4;
+    }
+
+    .subtitle-eng {
+      color: #999;
+      font-size: 0.95rem;
     }
 
     .main-content {
@@ -134,9 +119,7 @@ import { CommonModule } from '@angular/common';
     }
 
     .nav-item {
-      padding: 3rem 2rem;
-      font-size: 1.25rem;
-      font-weight: 300;
+      padding: 2rem 1.5rem;
       border: 1px solid #e5e5e5;
       background: #fff;
       color: #000;
@@ -147,6 +130,24 @@ import { CommonModule } from '@angular/common';
       align-items: center;
       justify-content: center;
       min-height: 120px;
+    }
+
+    .text-bilingual {
+      display: flex;
+      flex-direction: column;
+      gap: 0.3rem;
+      align-items: center;
+    }
+
+    .text-lao {
+      font-size: 1.25rem;
+      font-weight: 400;
+    }
+
+    .text-eng {
+      font-size: 1.25rem;
+      font-weight: 300;
+      color: #666;
     }
 
     .nav-item:hover {
@@ -184,18 +185,8 @@ import { CommonModule } from '@angular/common';
         margin-top: 2rem;
         padding-top: 1.5rem;
       }
-
-      .lang-toggle {
-        position: static;
-        margin-top: 1rem;
-      }
     }
   `]
 })
 export class HomeComponent {
-  isEnglish = true;
-
-  toggleLanguage(): void {
-    this.isEnglish = !this.isEnglish;
-  }
 }

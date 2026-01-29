@@ -1,0 +1,55 @@
+<div class="game-container">
+  <div class="header">
+    <a routerLink="/" class="back-link">← Back</a>
+    <h1>Vocabulary Quiz</h1>
+    <div class="stats">
+      <span class="accuracy">Accuracy: {{ accuracy }}%</span>
+    </div>
+  </div>
+
+  <div class="game-content" *ngIf="currentQuestion">
+    <div class="question-card">
+      <div class="word-display">
+        <h2 class="lao-word">{{ currentQuestion.laoWord }}</h2>
+      </div>
+
+      <div class="audio-section">
+        <button class="audio-btn" (click)="playAudio()">
+          🔊 Play Audio
+        </button>
+        <audio #audioPlayer></audio>
+      </div>
+
+      <div class="options">
+        <button 
+          *ngFor="let option of currentQuestion.options"
+          class="option-btn"
+          (click)="selectAnswer(option)"
+          [disabled]="answered">
+          {{ option }}
+        </button>
+      </div>
+
+      <div class="feedback" *ngIf="answered">
+        <p [class.correct]="selectedCorrect" [class.incorrect]="!selectedCorrect">
+          {{ selectedCorrect ? 'Correct! ✓' : 'Incorrect. The answer is: ' + currentQuestion.correctAnswer }}
+        </p>
+      </div>
+
+      <div class="rating-buttons" *ngIf="answered && selectedCorrect">
+        <button class="rating-btn again" (click)="rateCard('Again')">Again</button>
+        <button class="rating-btn hard" (click)="rateCard('Hard')">Hard</button>
+        <button class="rating-btn good" (click)="rateCard('Good')">Good</button>
+        <button class="rating-btn easy" (click)="rateCard('Easy')">Easy</button>
+      </div>
+
+      <div class="next-btn-container" *ngIf="answered && !selectedCorrect">
+        <p class="waiting">Next question in {{ waitingSeconds }} seconds...</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="loading" *ngIf="!currentQuestion">
+    <p>Loading...</p>
+  </div>
+</div>

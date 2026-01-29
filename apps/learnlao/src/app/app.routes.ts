@@ -18,8 +18,12 @@ export const routes: Routes = [
     loadComponent: () => import('./learn.component').then(m => m.LearnComponent)
   },
   {
+    path: 'fsrs',
+    loadComponent: () => import('./fsrs-game.component').then(m => m.FsrsGameComponent)
+  },
+  {
     path: 'progress',
-    loadComponent: () => import('./learn-fsrs/components/progress.component').then(m => m.ProgressComponent)
+    loadComponent: () => import('./progress.component').then(m => m.ProgressComponent)
   },
   {
     path: 'dict',

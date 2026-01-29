@@ -1,0 +1,2030 @@
+Lao Script,Transliteration,English Translation,Word Type
+ສະບາຍດີ,Sabaidee,Hello,greeting
+ຂອບໃຈ,Khop chai,Thank you,phrase
+ແມ່ນ,Maen,Yes/To be,verb
+ບໍ່,Bor,No/Not,particle
+ໂດຍ,Doi,Yes (Polite),particle
+ຂ້ອຍ,Khoy,I/Me,pronoun
+ເຈົ້າ,Jao,You,pronoun
+ລາວ,Lao,He/She,pronoun
+ພວກເຮົາ,Phuak hao,We,pronoun
+ພວກເຂົາ,Phuak khao,They,pronoun
+ນີ້,Nee,This,determiner
+ນັ້ນ,Nan,That,determiner
+ຫຍັງ,Nyang,What,pronoun
+ໃສ,Sai,Where,adverb
+ໃຜ,Phai,Who,pronoun
+ເມື່ອໃດ,Meua dai,When,adverb
+ເປັນຫຍັງ,Pen nyang,Why,adverb
+ແນວໃດ,Naew dai,How,adverb
+ກິນ,Gin,Eat,verb
+ດື່ມ,Deum,Drink,verb
+ໄປ,Pai,Go,verb
+ມາ,Ma,Come,verb
+ນອນ,Non,Sleep,verb
+ຮັກ,Huk,Love,verb
+ຢາກ,Yak,Want,verb
+ມີ,Mee,Have,verb
+ຮູ້,Roo,Know,verb
+ເຂົ້າໃຈ,Khao jai,Understand,verb
+ເຮັດ,Het,Do/Make,verb
+ເວົ້າ,Vao,Speak,verb
+ເບິ່ງ,Beung,Look,verb
+ຟັງ,Fang,Listen,verb
+ອ່ານ,An,Read,verb
+ຂຽນ,Khian,Write,verb
+ຮຽນ,Hian,Learn,verb
+ເຮັດວຽກ,Het viak,Work,verb
+ຫຼິ້ນ,Lin,Play,verb
+ຊື້,Seu,Buy,verb
+ຂາຍ,Khai,Sell,verb
+ພົບ,Phop,Meet,verb
+ຊ່ວຍ,Suay,Help,verb
+ຢຸດ,Yut,Stop,verb
+ຍ່າງ,Nyang,Walk,verb
+ແລ່ນ,Laen,Run,verb
+ນັ່ງ,Nang,Sit,verb
+ຢືນ,Yeun,Stand,verb
+ຄົນ,Khon,Person,noun
+ນ້ຳ,Nam,Water,noun
+ເຂົ້າ,Khao,Rice/Food,noun
+ເຮືອນ,Heuan,House,noun
+ໂຮງຮຽນ,Hong hian,School,noun
+ວັດ,Wat,Temple,noun
+ຕະຫຼາດ,Ta lat,Market,noun
+ໂຮງໝໍ,Hong mor,Hospital,noun
+ທາງ,Tang,Road,noun
+ມື້,Meu,Day,noun
+ອາທິດ,Athit,Week,noun
+ເດືອນ,Deuan,Month,noun
+ປີ,Pi,Year,noun
+ເວລາ,Vela,Time,noun
+ພໍ່,Phor,Father,noun
+ແມ່,Mae,Mother,noun
+ອ້າຍ,Ai,Older brother,noun
+ເອື້ອຍ,Euay,Older sister,noun
+ໝູ່,Moo,Friend,noun
+ເງິນ,Ngin,Money,noun
+ດີ,Dee,Good,adjective
+ບໍ່ດີ,Bor dee,Bad,adjective
+ໃຫຍ່,Nyai,Big,adjective
+ນ້ອຍ,Noy,Small,adjective
+ສູງ,Soong,Tall,adjective
+ງາມ,Ngam,Beautiful,adjective
+ຮ້ອນ,Hon,Hot,adjective
+ໜາວ,Nao,Cold,adjective
+ແຊບ,Saep,Delicious,adjective
+ແພງ,Phaeng,Expensive,adjective
+ຖືກ,Theuk,Cheap,adjective
+ໃໝ່,Mai,New,adjective
+ເກົ່າ,Kao,Old,adjective
+ໄວ,Vai,Fast,adjective
+ຊ້າ,Sa,Slow,adjective
+ຫຼາຍ,Lai,Many/Very,adjective
+ໜ້ອຍ,Noy,Few/Little,adjective
+ແລະ,Lae,And,conjunction
+ແຕ່,Tae,But,conjunction
+ຫຼື,Leu,Or,conjunction
+ກັບ,Gap,With/And,preposition
+ຢູ່,Yuu,At/Live,preposition
+ໃນ,Nai,In,preposition
+ເທິງ,Theung,On/Above,preposition
+ກ່ອນ,Kon,Before,preposition
+ຫຼັງ,Lang,After/Behind,preposition
+ແລ້ວ,Laew,Already,adverb
+ອີກ,Eek,Again,adverb
+ມື້ວານນີ້,Meu van nee,Yesterday,noun
+ມື້ນີ້,Meu nee,Today,noun
+ມື້ອື່ນ,Meu eun,Tomorrow,noun
+ຫົວ,Hua,Head,noun
+ມື,Meu,Hand,noun
+ຕີນ,Thin,Foot,noun
+ຕາ,Ta,Eye,noun
+ດັງ,Dang,Nose,noun
+ປາກ,Pak,Mouth,noun
+ຫູ,Hoo,Ear,noun
+ໃຈ,Jai,Heart/Mind,noun
+ໜຶ່ງ,Neung,One,number
+ສອງ,Song,Two,number
+ສາມ,Sam,Three,number
+ສີ່,See,Four,number
+ຫ້າ,Ha,Five,number
+ຫົກ,Hok,Six,number
+ເຈັດ,Jet,Seven,number
+ແປດ,Paet,Eight,number
+ເກົ້າ,Kao,Nine,number
+ສິບ,Sip,Ten,number
+ສິບເອັດ,Sip et,Eleven,number
+ສິບສອງ,Sip song,Twelve,number
+ຊາວ,Sao,Twenty,number
+ສາມສິບ,Sam sip,Thirty,number
+ສີ່ສິບ,See sip,Forty,number
+ຫ້າສິບ,Ha sip,Fifty,number
+ຫົກສິບ,Hok sip,Sixty,number
+ເຈັດສິບ,Jet sip,Seventy,number
+ແປດສິບ,Paet sip,Eighty,number
+ເກົ້າສິບ,Kao sip,Ninety,number
+ຮ້ອຍ,Hoy,Hundred,number
+ສີແດງ,See daeng,Red,noun/adj
+ສີຟ້າ,See fa,Blue,noun/adj
+ສີຂຽວ,See khiao,Green,noun/adj
+ສີເຫຼືອງ,See lueang,Yellow,noun/adj
+ສີດໍາ,See dam,Black,noun/adj
+ສີຂາວ,See khao,White,noun/adj
+ໝາ,Ma,Dog,noun
+ແມວ,Maew,Cat,noun
+ໄກ່,Gai,Chicken,noun
+ປາ,Pa,Fish,noun
+ງົວ,Ngua,Cow,noun
+ຊ້າງ,Sang,Elephant,noun
+ໝາກໄມ້,Mak mai,Fruit,noun
+ໝາກກ້ວຍ,Mak guay,Banana,noun
+ໝາກນັດ,Mak nat,Pineapple,noun
+ໝາກຫຸ່ງ,Mak hung,Papaya,noun
+ຜັກ,Phak,Vegetable,noun
+ໄຂ່,Khai,Egg,noun
+ເຂົ້າຈີ່,Khao jee,Bread,noun
+ກາເຟ,Ga fe,Coffee,noun
+ນົມ,Nom,Milk,noun
+ເບຍ,Bia,Beer,noun
+ລົດຖີບ,Rot thip,Bicycle,noun
+ລົດຈັກ,Rot jak,Motorcycle,noun
+ເຮືອບິນ,Heua bin,Airplane,noun
+ໂທລະສັບ,Tholasap,Phone,noun
+ປຶ້ມ,Peum,Book,noun
+ໂຕະ,To,Table,noun
+ຕັ່ງ,Tang,Chair,noun
+ຕຽງ,Tiang,Bed,noun
+ຜ້າ,Pha,Cloth,noun
+ເກີບ,Geup,Shoes,noun
+ໝວກ,Muak,Hat,noun
+ຝົນ,Fon,Rain,noun
+ແດດ,Daet,Sunshine,noun
+ລົມ,Lom,Wind,noun
+ພູ,Phoo,Mountain,noun
+ປ່າ,Pa,Forest,noun
+ແມ່ນ້ຳ,Mae nam,River,noun
+ທະເລ,Tha lae,Sea,noun
+ຕົ້ນໄມ້,Ton mai,Tree,noun
+ສະບາຍ,Sabai,Comfortable,adjective
+ເສຍໃຈ,Sia jai,Sad,adjective
+ຢ້ານ,Yan,Afraid,adjective
+ເມື່ອຍ,Meuay,Tired,adjective
+ຫິວ,Hiu,Hungry,adjective
+ເຈັບ,Jep,Pain/Sick,adjective
+ງ່າຍ,Ngai,Easy,adjective
+ຍາກ,Nyak,Difficult,adjective
+ສະອາດ,Sa at,Clean,adjective
+ເປື້ອນ,Peuan,Dirty,adjective
+ເປີດ,Peut,Open,verb
+ປິດ,Pit,Close,verb
+ຖາມ,Tham,Ask,verb
+ຕອບ,Top,Answer,verb
+ລໍຖ້າ,Lor tha,Wait,verb
+ຄິດ,Khit,Think,verb
+ເຊື່ອ,Seua,Believe,verb
+ຈື່,Cheu,Remember,verb
+ລືມ,Leum,Forget,verb
+ໃຊ້,Say,Use,verb
+ແປ,Pae,Translate,verb
+ໂທ,Tho,Call,verb
+ສົ່ງ,Song,Send,verb
+ຮັບ,Hap,Receive,verb
+ເລີ່ມ,Loem,Start,verb
+ຈົບ,Chop,Finish,verb
+Lao Script,Transliteration,English Translation,word type
+ເກີດ,Koet,To be born,verb
+ຕາຍ,Tai,To die,verb
+ເລືອກ,Leuak,To choose,verb
+ລອງ,Long,To try / To test,verb
+ແລກປ່ຽນ,Laek pian,To exchange,verb
+ປ່ຽນ,Pian,To change,verb
+ຊອກຫາ,Sok ha,To look for,verb
+ເຫັນ,Hen,To see,verb
+ສົນໃຈ,Son chai,To be interested,verb
+ຕົກລົງ,Tok long,To agree / To fall,verb
+ປະຕິເສດ,Pa ti set,To refuse,verb
+ລົງທຶນ,Long thun,To invest,verb
+ປະຢັດ,Pa yat,To save (money/time),verb
+ຈ່າຍ,Chai,To pay,verb
+ຢືມ,Yeum,To borrow,verb
+ໃຫ້ຢືມ,Hai yeum,To lend,verb
+ກັບຄືນ,Gap kheun,To return,verb
+ແນະນໍາ,Nae nam,To recommend / Introduce,verb
+ອະທິບາຍ,A thi bai,To explain,verb
+ສັນຍາ,San nya,To promise,noun/verb
+ລາຍງານ,Lai ngan,To report,noun/verb
+ກວດສອບ,Guat sop,To check / Inspect,verb
+ປັບປຸງ,Pap pung,To improve,verb
+ພັດທະນາ,Phat tha na,To develop,verb
+ກໍ່ສ້າງ,Go sang,To build / Construct,verb
+ທໍາລາຍ,Tham lai,To destroy,verb
+ປ້ອງກັນ,Pong gan,To protect,verb
+ຕໍ່ສູ້,Tor soo,To fight,verb
+ຊະນະ,Sa na,To win,verb
+ເສຍ,Sia,To lose / Broken,verb/adj
+ແຂ່ງຂັນ,Khaeng khan,To compete,verb
+ສະໜັບສະໜູນ,Sa nap sa noon,To support,verb
+ຊົມເຊີຍ,Som seuay,To praise / Congratulate,verb
+ຕໍານິ,Tam ni,To criticize,verb
+ອະນຸຍາດ,A nu yat,To allow,verb
+ຫ້າມ,Ham,To forbid,verb
+ບັງຄັບ,Bang khap,To force,verb
+ອາໄສ,A sai,To reside / Rely on,verb
+ເດີນທາງ,Deun thang,To travel,verb
+ຍ້າຍ,Nyai,To move,verb
+ຂຶ້ນ,Kheun,To go up / Increase,verb/adv
+ລົງ,Long,To go down / Decrease,verb/adv
+ເຂົ້າ,Khao,To enter,verb
+ອອກ,Ok,To exit,verb
+ລໍຖ້າ,Lor tha,To wait,verb
+ຮີບຮ້ອນ,Hip hon,To hurry,verb
+ຊ້າໆ,Sa sa,Slowly,adverb
+ໄວໆ,Vai vai,Quickly,adverb
+ແນ່ນອນ,Nae non,Certainly,adverb
+ບາງທີ,Bang thi,Maybe,adverb
+ບ່ອນນີ້,Bon nee,Here,adverb
+ບ່ອນນັ້ນ,Bon nan,There,adverb
+ທຸກໆມື້,Thuk thuk meu,Every day,adverb
+ບາງຄັ້ງ,Bang khang,Sometimes,adverb
+ສະເໝີ,Sa moer,Always,adverb
+ບໍ່ເຄີຍ,Bor kheuay,Never,adverb
+ປົກກະຕິ,Pok ga ti,Normally,adverb
+ທັນທີ,Than thi,Immediately,adverb
+ພ້ອມ,Phom,Ready / Together,adj/adv
+ຕ່າງຫາກ,Tang hak,Separately,adverb
+ພຽງແຕ່,Phiang tae,Only,adverb
+ເກີນໄປ,Geun pai,Too much,adverb
+ພໍດີ,Phor dee,Just right,adverb
+ຫຼາຍເກີນໄປ,Lai geun pai,Excessive,adjective
+ໜ້ອຍເກີນໄປ,Noy geun pai,Insufficient,adjective
+ທັງໝົດ,Thang mot,All / Everything,adjective
+ບາງຢ່າງ,Bang yang,Something,noun
+ທຸກຢ່າງ,Thuk yang,Everything,noun
+ບໍ່ມີຫຍັງ,Bor mee nyang,Nothing,noun
+ຄົນອື່ນ,Khon eun,Others / Someone else,noun
+ໃຜກໍ່ຕາມ,Phai go tam,Anyone,pronoun
+ໃຜກໍ່ໄດ້,Phai go dai,Whoever,pronoun
+ຫ້ອງການ,Hong gan,Office,noun
+ບໍລິສັດ,Bo ri sat,Company,noun
+ລັດຖະບານ,Lat tha ban,Government,noun
+ກົດໝາຍ,Got mai,Law,noun
+ພາສີ,Pha see,Tax,noun
+ເອກະສານ,Ek ga san,Document,noun
+ລາຍຊື່,Lai seu,List / Names,noun
+ປະຊຸມ,Pa xum,Meeting,noun/verb
+ແຜນການ,Phaen gan,Plan,noun
+ໂຄງການ,Khong gan,Project,noun
+ຜົນປະໂຫຍດ,Phon pa nnyot,Benefit / Profit,noun
+ລາຄາ,La kha,Price,noun
+ຄ່າຈ້າງ,Kha chang,Salary / Wage,noun
+ວຽກງານ,Viak ngan,Task / Job,noun
+ອາຊີບ,A sip,Career,noun
+ລູກຄ້າ,Luk kha,Customer,noun
+ຜູ້ຈັດການ,Phu chat gan,Manager,noun
+ພະນັກງານ,Pha nak ngan,Staff / Employee,noun
+ເຈົ້າຂອງ,Chao khong,Owner,noun
+ຕະຫຼາດ,Ta lat,Market,noun
+ທະນາຄານ,Tha na khan,Bank,noun
+ບັນຊີ,Ban xee,Account,noun
+ບັດ,Bat,Card,noun
+ລະຫັດ,Ra hat,Code / Password,noun
+ຂໍ້ມູນ,Kho moon,Data / Info,noun
+ອິນເຕີເນັດ,In ter net,Internet,noun
+ເວັບໄຊທ໌,Web site,Website,noun
+ອີເມວ,E mail,Email,noun
+ຂໍ້ຄວາມ,Kho khuam,Message,noun
+ຮູບພາບ,Hoop phap,Image / Photo,noun
+ວິດີໂອ,Vi dee o,Video,noun
+ສຽງ,Siang,Sound / Voice,noun
+ແອັບ,App,Application,noun
+ລະບົບ,Ra bop,System,noun
+ເຄື່ອງຈັກ,Kheuang chak,Machine,noun
+ໄຟຟ້າ,Fai fa,Electricity,noun
+ພະລັງງານ,Pha lang ngan,Energy,noun
+ສານເຄມີ,San khe mee,Chemical,noun
+ສິ່ງແວດລ້ອມ,Sing vaet lom,Environment,noun
+ທໍາມະຊາດ,Tham ma xat,Nature,noun
+ອາກາດ,A gat,Weather / Air,noun
+ອຸນຫະພູມ,Oon ha phoom,Temperature,noun
+ລະດູການ,Ra doo gan,Season,noun
+ລະດູຮ້ອນ,Ra doo hon,Summer,noun
+ລະດູຝົນ,Ra doo fon,Rainy season,noun
+ລະດູໜາວ,Ra doo nao,Winter,noun
+ທ້ອງຟ້າ,Thong fa,Sky,noun
+ເມກ,Mek,Cloud,noun
+ດວງອາທິດ,Duang a thit,Sun,noun
+ດວງຈັນ,Duang chan,Moon,noun
+ດາວ,Dao,Star,noun
+ໂລກ,Lok,Earth / World,noun
+ປະເທດ,Pa thet,Country,noun
+ຊາດ,Xat,Nation,noun
+ເມືອງຫຼວງ,Meuang luang,Capital city,noun
+ບ້ານ,Ban,Village / Home,noun
+ຖະໜົນ,Tha non,Street,noun
+ຂົວ,Khua,Bridge,noun
+ສວນ,Suan,Garden / Park,noun
+ປ່າໄມ້,Pa mai,Forest,noun
+ພູເຂົາ,Phoo khao,Mountain range,noun
+ຖໍ້າ,Tham,Cave,noun
+ຫ້ວຍ,Huay,Stream,noun
+ໜອງ,Nong,Pond / Lake,noun
+ທົ່ງນາ,Thong na,Rice field,noun
+ດິນ,Din,Soil / Land,noun
+ຫີນ,Hin,Stone / Rock,noun
+ຄໍາ,Kham,Gold,noun
+ເງິນ,Ngin,Silver / Money,noun
+ເຫຼັກ,Lek,Iron / Steel,noun
+ໄມ້,Mai,Wood,noun
+ຢາງ,Yang,Rubber / Plastic,noun
+ແກ້ວ,Kaew,Glass,noun
+ເຈ້ຍ,Chia,Paper,noun
+ສີ,See,Color,noun
+ສີບົວ,See bua,Pink,adjective
+ສີສົ້ມ,See som,Orange,adjective
+ສີມ່ວງ,See muang,Purple,adjective
+ສີນ້ຳຕານ,See nam tan,Brown,adjective
+ສີເທົາ,See thao,Grey,adjective
+ຮູບຮ່າງ,Hoop hang,Shape,noun
+ວົງມົນ,Vong mon,Circle,noun
+ຈະຕຸລັດ,Cha tu lat,Square,noun
+ສາມຫຼ່ຽມ,Sam liam,Triangle,noun
+ຂະໜາດ,Kha nat,Size,noun
+ນ້ຳໜັກ,Nam nak,Weight,noun
+ຄວາມຍາວ,Khuam nyao,Length,noun
+ຄວາມກວ້າງ,Khuam guang,Width,noun
+ຄວາມສູງ,Khuam soong,Height,noun
+ຄວາມເລິກ,Khuam loek,Depth,noun
+ຄວາມໄວ,Khuam vai,Speed,noun
+ໄລຍະທາງ,Lai ya thang,Distance,noun
+ຄວາມຮ້ອນ,Khuam hon,Heat,noun
+ຄວາມເຢັນ,Khuam yen,Coldness,noun
+ຄວາມສະຫວ່າງ,Khuam sa vang,Brightness,noun
+ຄວາມມືດ,Khuam meut,Darkness,noun
+ຄວາມຈິງ,Khuam ching,Truth,noun
+ຄວາມຝັນ,Khuam fan,Dream,noun
+ຄວາມຫວັງ,Khuam vang,Hope,noun
+ຄວາມຮັກ,Khuam huk,Love (Noun),noun
+ຄວາມສຸກ,Khuam suk,Happiness,noun
+ຄວາມທຸກ,Khuam thuk,Suffering,noun
+ຄວາມໃຈຮ້ອນ,Khuam jai hon,Impatience,noun
+ຄວາມກ້າຫານ,Khuam ga han,Bravery,noun
+ຄວາມຢ້ານ,Khuam yan,Fear,noun
+ຄວາມຮູ້,Khuam roo,Knowledge,noun
+ຄວາມຄິດ,Khuam khit,Thought / Idea,noun
+ຄວາມຊົງຈໍາ,Khuam song cham,Memory,noun
+ຄວາມໝາຍ,Khuam mai,Meaning,noun
+ເຫດຜົນ,Het phon,Reason,noun
+ບັນຫາ,Ban ha,Problem,noun
+ຄໍາຕອບ,Kham top,Answer / Solution,noun
+ວິທີ,Vi thi,Method / Way,noun
+ໂອກາດ,O gat,Opportunity,noun
+ອະນາຄົດ,A na khot,Future,noun
+ອະດີດ,A deet,Past,noun
+ປັດຈຸບັນ,Pat xu ban,Present,noun
+ຊີວິດ,Xee vit,Life,noun
+Lao Script,Transliteration,English Translation,word type
+ສຸຂະພາບ,Suk ha phap,Health,noun
+ຮ່າງກາຍ,Hang gai,Body,noun
+ຈິດໃຈ,Chit chai,Mind / Spirit,noun
+ພະຍາດ,Pha nyat,Disease / Illness,noun
+ອາການ,A gan,Symptom,noun
+ຢາ,Ya,Medicine,noun
+ການປິ່ນປົວ,Gan pin pua,Treatment,noun
+ຜ່າຕັດ,Pha tat,Surgery,verb
+ປະກັນໄພ,Pa gan phai,Insurance,noun
+ອຸບັດຕິເຫດ,Oo bat ti het,Accident,noun
+ຄວາມປອດໄພ,Khuam pot phai,Safety,noun
+ອັນຕະລາຍ,An ta lai,Danger,noun/adj
+ສຸກເສີນ,Suk sein,Emergency,noun/adj
+ການສຶກສາ,Gan seuk sa,Education,noun
+ຄວາມຮູ້,Khuam roo,Knowledge,noun
+ວິຊາ,Vi sa,Subject (Study),noun
+ຄູ / ອາຈານ,Khoo / A chan,Teacher / Professor,noun
+ນັກຮຽນ,Nak hian,Student,noun
+ມະຫາວິທະຍາໄລ,Ma ha vi tha nya lai,University,noun
+ໃບປະກາດ,Bai pa gat,Diploma / Certificate,noun
+ການທົດລອງ,Gan thot long,Experiment,noun
+ປະສົບການ,Pa sop gan,Experience,noun
+ວັດທະນະທໍາ,Wat tha na tham,Culture,noun
+ປະເພນີ,Pa phe nee,Tradition,noun
+ສິນລະປະ,Sin la pa,Art,noun
+ດົນຕີ,Don tee,Music,noun
+ກິລາ,Gi la,Sport,noun
+ການທ່ອງທ່ຽວ,Gan thong thiao,Tourism,noun
+ສັງຄົມ,Sang khom,Society,noun
+ປະຊາຊົນ,Pa sa xon,People / Citizens,noun
+ຄອບຄົວ,Khop khua,Family,noun
+ລັດຖະທໍາມະນູນ,Lat tha tham ma noon,Constitution,noun
+ການເມືອງ,Gan meuang,Politics,noun
+ປະຊາທິປະໄຕ,Pa sa thi pa tai,Democracy,noun
+ເສລີພາບ,Se lee phap,Freedom,noun
+ສັນຕິພາບ,San ti phap,Peace,noun
+ສົງຄາມ,Song kham,War,noun
+ຄວາມຍຸຕິທໍາ,Khuam yu ti tham,Justice,noun
+ສິດທິ,Sit thi,Rights,noun
+ກົດລະບຽບ,Got la biap,Regulation / Rule,noun
+ໂຄສະນາ,Kho sa na,Advertising,noun
+ຂ່າວ,Khao,News,noun
+ວາລະສານ,Va la san,Magazine,noun
+ປຶ້ມແບບຮຽນ,Peum baep hian,Textbook,noun
+ວັດຈະນານຸກົມ,Wat cha na nu kom,Dictionary,noun
+ຄວາມສໍາພັນ,Khuam sam phan,Relationship,noun
+ເພື່ອນຮ່ວມງານ,Pheuan huam ngan,Colleague,noun
+ບຸກຄະລິກ,Buk kha lik,Personality,noun
+ລັກສະນະ,Lak sa na,Character / Feature,noun
+ຄວາມສໍາເລັດ,Khuam sam let,Success,noun
+ຄວາມລົ້ມເຫຼວ,Khuam lom hleo,Failure,noun
+ເປົ້າໝາຍ,Pao mai,Goal / Target,noun
+ຄວາມພະຍາຍາມ,Khuam pha nya yam,Effort,noun
+ຄວາມອົດທົນ,Khuam ot thon,Patience,noun
+ຄວາມຮັບຜິດຊອບ,Khuam hap phit sop,Responsibility,noun
+ການຕັດສິນໃຈ,Gan tat sin chai,Decision,noun
+ການວາງແຜນ,Gan vang phaen,Planning,noun
+ການຈັດການ,Gan chat gan,Management,noun
+ການບໍລິການ,Gan bo ri gan,Service,noun
+ຄຸນນະພາບ,Khun na phap,Quality,noun
+ປະລິມານ,Pa li man,Quantity,noun
+ມາດຕະຖານ,Mat ta than,Standard,noun
+ລາຄາຖືກ,La kha theuk,Cheap price,adjective
+ລາຄາແພງ,La kha phaeng,Expensive price,adjective
+ສ່ວນຫຼຸດ,Suan loot,Discount,noun
+ພາສີມູນຄ່າເພີ່ມ,Pha see moon kha pheurm,VAT,noun
+ໃບເກັບເງິນ,Bai gep ngin,Invoice / Bill,noun
+ໃບຮັບເງິນ,Bai hap ngin,Receipt,noun
+ກໍາໄລ,Gam lai,Profit,noun
+ຂາດທຶນ,Khat thun,Loss (Financial),verb/noun
+ຕະຫຼາດຫຸ້ນ,Ta lat hoon,Stock market,noun
+ການລົງທຶນ,Gan long thun,Investment,noun
+ຄວາມສ່ຽງ,Khuam siang,Risk,noun
+ໂຊກດີ,Sok dee,Lucky,adjective
+ໂຊກຮ້າຍ,Sok hai,Unlucky,adjective
+ພິເສດ,Phi set,Special,adjective
+ທໍາມະດາ,Tham ma da,Ordinary / Normal,adjective
+ສໍາຄັນ,Sam khan,Important,adjective
+ຈໍາເປັນ,Cham pen,Necessary,adjective
+ຊັດເຈນ,Sat chen,Clear / Precise,adjective
+ກົງໄປກົງມາ,Gong pai gong ma,Straightforward,adjective
+ສຸພາບ,Su phap,Polite,adjective
+ໃຈດີ,Chai dee,Kind,adjective
+ຊື່ສັດ,Seu sat,Honest,adjective
+ຈິງໃຈ,Ching chai,Sincere,adjective
+ຂີ້ຄຸຍ,Khee khuy,Boastful,adjective
+ຂີ້ຢ້ານ,Khee yan,Cowardly,adjective
+ສະຫຼາດ,Sa lat,Intelligent,adjective
+ໂງ່,Ngo,Stupid,adjective
+ຂີ້ຄ້ານ,Khee khan,Lazy,adjective
+ຂະຫຍັນ,Kha nyan,Hardworking,adjective
+ອົດທົນ,Ot thon,Patient / Enduring,adjective
+ອ່ອນໂຍນ,On nyon,Gentle,adjective
+ແຂງແຮງ,Khaeng haeng,Strong,adjective
+ອ່ອນແອ,On ae,Weak,adjective
+ລວຍ,Luay,Rich,adjective
+ທຸກຍາກ,Thuk nyak,Poor,adjective
+ສະດວກ,Sa duak,Convenient,adjective
+ລໍາບາກ,Lam bak,Difficult / Hardship,adjective
+ສົມບູນ,Som boon,Perfect / Complete,adjective
+Lao Script,Transliteration,English Translation,word type
+ເກືອ,Geua,Salt,noun
+ນ້ຳຕານ,Nam tan,Sugar,noun
+ນ້ຳປາ,Nam pa,Fish sauce,noun
+ພິກໄທ,Phik thai,Black pepper,noun
+ໝາກເຜັດ,Mak phet,Chili,noun
+ຜັກທຽມ,Phak thiam,Garlic,noun
+ຫອມບົ່ວ,Hom bua,Onion,noun
+ຂີງ,Khing,Ginger,noun
+ຂ່າ,Kha,Galangal,noun
+ໃບຂີ້ຫູດ,Bai khee hoot,Kaffir lime leaf,noun
+ຕະໄຄ,Ta khai,Lemongrass,noun
+ໝາກນາວ,Mak nao,Lime / Lemon,noun
+ນ້ຳມັນ,Nam man,Oil,noun
+ນ້ຳສົ້ມສາຍຊູ,Nam som sai xoo,Vinegar,noun
+ແປ້ງນົວ,Phaeng nua,MSG,noun
+ກະປິ,Ga pi,Shrimp paste,noun
+ປາແດກ,Pa daek,Fermented fish,noun
+ໝາກຖົ່ວ,Mak thua,Beans / Peanuts,noun
+ໝາກງາ,Mak nga,Sesame,noun
+ມັນຝະລັ່ງ,Man pha lang,Potato,noun
+ຜັກກາດ,Phak gat,Cabbage / Lettuce,noun
+ຜັກບົ້ງ,Phak bong,Morning glory,noun
+ຜັກຫອມປ້ອມ,Phak hom pom,Coriander,noun
+ສາລີ,Sa lee,Corn,noun
+ເຫັດ,Het,Mushroom,noun
+ຊີ້ນໝູ,Seen moo,Pork,noun
+ຊີ້ນງົວ,Seen ngua,Beef,noun
+ຊີ້ນໄກ່,Seen gai,Chicken meat,noun
+ເປັດ,Pet,Duck,noun
+ກຸ້ງ,Goong,Shrimp,noun
+ປູ,Poo,Crab,noun
+ຫອຍ,Hoy,Shellfish / Snail,noun
+ໝໍ້,Mor,Pot,noun
+ກະທະ,Ga tha,Pan,noun
+ຈານ,Chan,Plate,noun
+ບ່ວງ,Buang,Spoon,noun
+ສ້ອມ,Som,Fork,noun
+ມີດ,Meet,Knife,noun
+ຈອກ,Chok,Glass / Cup,noun
+ຟອຍ,Phoy,Broom,noun
+ຖັງຂີ້ເຫຍື້ອ,Thang khee nyeua,Trash can,noun
+ສະບູ,Sa boo,Soap,noun
+ຢາຖູແຂ້ວ,Ya thoo khaew,Toothpaste,noun
+ແປງຖູແຂ້ວ,Phaeng thoo khaew,Toothbrush,noun
+ແຟັບ,Faep,Laundry detergent,noun
+ຜ້າເຊັດໂຕ,Pha set to,Towel,noun
+ກະຈົກ,Ga chok,Mirror,noun
+ຫວີ,Vee,Comb,noun
+ຕູ້ເສື້ອຜ້າ,Too seua pha,Wardrobe,noun
+ໂຄມໄຟ,Khom fai,Lamp,noun
+ພັດລົມ,Phat lom,Fan,noun
+ເຄື່ອງປັບອາກາດ,Kheuang pap a gat,Air conditioner,noun
+ຕູ້ເຢັນ,Too yen,Refrigerator,noun
+ເຄື່ອງຊັກຜ້າ,Kheuang sak pha,Washing machine,noun
+ເຕົາລີດ,Tao leet,Iron (for clothes),noun
+ໂທລະທັດ,Thola that,Television,noun
+ວິທະຍຸ,Vi tha nyoo,Radio,noun
+ໂມງ,Mong,Clock / Watch,noun
+ກະແຈ,Ga chae,Key,noun
+ປ່ອງຢ້ຽມ,Pong nyiam,Window,noun
+ປະຕູ,Pa too,Door,noun
+ຫຼັງຄາ,Lang kha,Roof,noun
+ພື້ນ,Pheun,Floor,noun
+ກຳແພງ,Gam phaeng,Wall,noun
+ຮົ້ວ,Hua,Fence,noun
+ຂັ້ນໄດ,Khan dai,Stairs,noun
+ເດີ່ນ,Deun,Yard / Lawn,noun
+ບ່ອນຈອດລົດ,Bon chot lot,Parking lot,noun
+ຖະໜົນຫົນທາງ,Tha non hon thang,Roadways,noun
+ສີ່ແຍກ,See nyaek,Intersection,noun
+ໄຟອຳນາດ,Fai am nat,Traffic light,noun
+ທາງມ້າລາຍ,Thang ma lai,Zebra crossing,noun
+ຂົວລອຍ,Khua loy,Pedestrian bridge,noun
+ສະຖານີລົດເມ,Sa tha nee lot me,Bus station,noun
+ສະໜາມບິນ,Sa nam bin,Airport,noun
+ສະຖານີລົດໄຟ,Sa tha nee lot fai,Train station,noun
+ທ່າເຮືອ,Tha heua,Port / Harbor,noun
+ໂຮງແຮມ,Hong haem,Hotel,noun
+ຮ້ານອາຫານ,Han a han,Restaurant,noun
+ຮ້ານກາເຟ,Han ga fe,Coffee shop,noun
+ຮ້ານຂາຍເຄື່ອງ,Han khai kheuang,Shop / Grocery,noun
+ສູນການຄ້າ,Soon gan kha,Shopping mall,noun
+ທະນາຄານ,Tha na khan,Bank,noun
+ຕູ້ເອທີເອັມ,Too e tee em,ATM,noun
+ໄປສະນີ,Pai sa nee,Post office,noun
+ສະຖານີຕຳຫຼວດ,Sa tha nee tam luat,Police station,noun
+ດັບເພີງ,Dap pheung,Fire station,noun
+ຫໍສະໝຸດ,Hor sa moot,Library,noun
+ພິພິທະພັນ,Phi phi tha phan,Museum,noun
+ສວນສາທາລະນະ,Suan sa tha la na,Public park,noun
+ສະໜາມກິລາ,Sa nam gi la,Stadium,noun
+ໂຮງໜັງ,Hong nang,Cinema,noun
+ໂບດ,Bot,Church,noun
+ມັດສະຍິດ,Mat sa nyit,Mosque,noun
+ປ່າຊ້າ,Pa sa,Cemetery,noun
+ຊາຍຫາດ,Xai hat,Beach,noun
+ເກາະ,Goh,Island,noun
+ນ້ຳຕົກຕາດ,Nam tok tat,Waterfall,noun
+ຖ້ຳ,Tham,Cave,noun
+ທົ່ງຫຍ້າ,Thong nya,Meadow / Pasture,noun
+ທະເລຊາຍ,Tha lae xai,Desert,noun
+ມະຫາສະໝຸດ,Ma ha sa moot,Ocean,noun
+ຄື້ນ,Kheun,Wave,noun
+ນ້ຳຂຶ້ນ,Nam kheun,High tide,noun
+ນ້ຳລົງ,Nam long,Low tide,noun
+ແຜ່ນດິນໄຫວ,Phaen din vai,Earthquake,noun
+ພາຍຸ,Pha nyoo,Storm,noun
+ນ້ຳຖ້ວມ,Nam thuam,Flood,noun
+ໄຟໄໝ້,Fai mai,Fire (Disaster),noun
+ໝອກ,Mok,Fog,noun
+ຫິມະ,Hi ma,Snow,noun
+ອາກາດແຫ້ງ,A gat haeng,Dry air,noun
+ອາກາດຊຸ່ມ,A gat xoom,Humid air,noun
+ລະດັບນ້ຳທະເລ,Ra dap nam tha lae,Sea level,noun
+ມົນລະພິດ,Mon la phit,Pollution,noun
+ຂີ້ເຫຍື້ອ,Khee nyeua,Garbage,noun
+ການລີໄຊເຄິນ,Gan re-cycle,Recycling,noun
+ພະລັງງານສີຂຽວ,Pha lang ngan see khiao,Green energy,noun
+ໂລກຮ້ອນ,Lok hon,Global warming,noun
+ທຳມະຊາດ,Tham ma xat,Nature,noun
+ສິ່ງມີຊີວິດ,Sing mee xee vit,Living things,noun
+ມະນຸດ,Ma noot,Human,noun
+ຊາຍ,Xai,Male,noun
+ຍິງ,Nying,Female,noun
+ເດັກນ້ອຍ,Dek noy,Child,noun
+ຜູ້ໃຫຍ່,Phu nyai,Adult,noun
+ຄົນແກ່,Khon gae,Elderly person,noun
+ໄວລຸ້ນ,Vai loon,Teenager,noun
+ຄູ່ຮັກ,Khoo huk,Couple,noun
+ພັນລະຍາ,Phan la nya,Wife,noun
+ສາມີ,Sa mee,Husband,noun
+ລູກຊາຍ,Look xai,Son,noun
+ລູກສາວ,Look sao,Daughter,noun
+ຫຼານ,Lan,Grandchild / Niece / Nephew,noun
+ປູ່,Poo,Paternal Grandfather,noun
+ຍ່າ,Nya,Paternal Grandmother,noun
+ຕາ,Ta,Maternal Grandfather,noun
+ຍາຍ,Nyai,Maternal Grandmother,noun
+ລຸງ,Loong,Uncle,noun
+ປ້າ,Pa,Aunt,noun
+ພີ່ນ້ອງ,Phee nong,Relatives,noun
+ເພື່ອນບ້ານ,Pheuan ban,Neighbor,noun
+ຄົນແປກໜ້າ,Khon paek na,Stranger,noun
+ສັດຕູ,Sat too,Enemy,noun
+ອາສາສະໝັກ,A sa sa moot,Volunteer,noun
+ປະທານ,Pa than,President / Chairman,noun
+ຜູ້ນໍາ,Phu nam,Leader,noun
+ປະຊາຊົນ,Pa sa xon,Citizens,noun
+ຕຳຫຼວດ,Tam luat,Police,noun
+ທະຫານ,Tha han,Soldier,noun
+ທ່ານໝໍ,Than mor,Doctor,noun
+ພະຍາບານ,Pha nya ban,Nurse,noun
+ທັນຕະແພດ,Than ta phaet,Dentist,noun
+ວິສະວະກອນ,Vi sa va gon,Engineer,noun
+ສະຖາປານິກ,Sa tha pa nik,Architect,noun
+ນັກບິນ,Nak bin,Pilot,noun
+ພໍ່ຄົວ,Phor khua,Chef / Cook,noun
+ຊ່າງໄຟຟ້າ,Xang fai fa,Electrician,noun
+ຊ່າງປະປາ,Xang pa pa,Plumber,noun
+ຊ່າງໄມ້,Xang mai,Carpenter,noun
+ນັກຮ້ອງ,Nak hong,Singer,noun
+ນັກເຕັ້ນ,Nak ten,Dancer,noun
+ນັກສະແດງ,Nak sa daeng,Actor / Actress,noun
+ນັກຂຽນ,Nak khian,Writer,noun
+ນັກຂ່າວ,Nak khao,Journalist,noun
+ທະນາຍຄວາມ,Tha nai khuam,Lawyer,noun
+ຊາວກະສິກອນ,Xao ga si gon,Farmer,noun
+ຊາວປະມົງ,Xao pa mong,Fisherman,noun
+ພະນັກງານຂາຍ,Pha nak ngan khai,Salesperson,noun
+ຊ່າງເສີມສວຍ,Xang seim suay,Hairdresser,noun
+ຄົນຂັບລົດ,Khon khap lot,Driver,noun
+ນັກທຸລະກິດ,Nak thu la git,Businessman,noun
+ເລຂານຸການ,Le kha nu gan,Secretary,noun
+ນັກບັນຊີ,Nak ban xee,Accountant,noun
+ນັກວິທະຍາສາດ,Nak vi tha nya xat,Scientist,noun
+ນັກການເມືອງ,Nak gan meuang,Politician,noun
+ຕຸລາການ,Too la gan,Judge,noun
+ພະສົງ,Pha song,Monk,noun
+ນັກບວດ,Nak buat,Priest / Clergy,noun
+ນັກທ່ອງທ່ຽວ,Nak thong thiao,Tourist,noun
+ແຂກ,Khaek,Guest,noun
+ຜູ້ຈັດການ,Phu chat gan,Manager,noun
+ຫົວໜ້າ,Hua na,Boss / Head,noun
+ລູກນ້ອງ,Look nong,Subordinate,noun
+ເພື່ອນຮ່ວມງານ,Pheuan huam ngan,Colleague,noun
+Lao Script,Transliteration,English Translation,word type
+ແປ້ນພິມ,Paen phim,Keyboard,noun
+ເມົາສ໌,Mouse,Mouse (Computer),noun
+ໜ້າຈໍ,Na chor,Screen / Monitor,noun
+ລຳໂພງ,Lam phong,Speaker,noun
+ຫູຟັງ,Hoo fang,Headphones,noun
+ສາຍຊາດ,Sai xat,Charger,noun
+ແບັດເຕີຣີ,Bat tery,Battery,noun
+ປລັກໄຟ,Plak fai,Power plug,noun
+ສະວິດ,Sa wit,Switch,noun
+ສັນຍານ,San nyan,Signal,noun
+ເຄືອຂ່າຍ,Kheua khai,Network,noun
+ຊອບແວ,Soft ware,Software,noun
+ຮາດແວ,Hard ware,Hardware,noun
+ຖານຂໍ້ມູນ,Than kho moon,Database,noun
+ການປະມວນຜົນ,Gan pa muan phon,Processing,noun
+ຄວາມຈຳ,Khuam cham,Memory / Storage,noun
+ດາວໂຫຼດ,Dao lode,Download,verb/noun
+ອັບໂຫຼດ,Up lode,Upload,verb/noun
+ຕິດຕັ້ງ,Tit tang,Install,verb
+ລຶບ,Leup,Delete / Erase,verb
+ແກ້ໄຂ,Gae khai,Edit / Fix,verb
+ບັນທຶກ,Ban theuk,Save / Record,verb
+ຄົ້ນຫາ,Khon ha,Search,verb
+ແບ່ງປັນ,Baeng pan,Share,verb
+ເຊື່ອມຕໍ່,Cheuam tor,Connect,verb
+ຕັດການເຊື່ອມຕໍ່,Tat gan cheuam tor,Disconnect,verb
+ອອນໄລນ໌,On line,Online,adjective/adverb
+ອອຟໄລນ໌,Off line,Offline,adjective/adverb
+ຄວາມປອດໄພໄຊເບີ,Khuam pot phai cyber,Cybersecurity,noun
+ໄວຣັສ,Vai rut,Virus,noun
+ໄຟລ໌,File,File,noun
+ໂຟນເດີ,Folder,Folder,noun
+ຄລາວ,Cloud,Cloud (Computing),noun
+ປັນຍາປະດິດ,Pan nya pa dit,Artificial Intelligence,noun
+ຫຸ່ນຍົນ,Hoon yon,Robot,noun
+ອັດຕະໂນມັດ,At ta no mat,Automatic,adjective
+ດິຈິຕອນ,Di chi ton,Digital,adjective
+ອະນາລັອກ,A na lok,Analog,adjective
+ວິທະຍາສາດ,Vi tha nya xat,Science,noun
+ເຕັກໂນໂລຊີ,Tek no lo xee,Technology,noun
+ວິສະວະກຳ,Vi sa va gam,Engineering,noun
+ຄະນິດສາດ,Kha nit xat,Mathematics,noun
+ຟີຊິກ,Phee xik,Physics,noun
+ເຄມີ,Khe mee,Chemistry,noun
+ຊີວະວິທະຍາ,Xee va vi tha nya,Biology,noun
+ດາລາສາດ,Da la xat,Astronomy,noun
+ພູມີສາດ,Phoo mee xat,Geography,noun
+ປະຫວັດສາດ,Pa vat xat,History,noun
+ເສດຖະສາດ,Set tha xat,Economics,noun
+ຈິດວິທະຍາ,Chit vi tha nya,Psychology,noun
+ປັດຊະຍາ,Pat xa ya,Philosophy,noun
+ວັນນະຄະດີ,Van na kha dee,Literature,noun
+ພາສາ,Pha sa,Language,noun
+ໄວຍາກອນ,Vai ya gon,Grammar,noun
+ຄຳສັບ,Kham xap,Vocabulary,noun
+ການອອກສຽງ,Gan ok siang,Pronunciation,noun
+ການແປ,Gan pae,Translation,noun
+ວັດຈະນານຸກົມ,Vat xa na nu kom,Dictionary,noun
+ບົດຄວາມ,Bot khuam,Article,noun
+ບົດກະວີ,Bot ga vee,Poem,noun
+ນິຍາຍ,Ni nyai,Novel,noun
+ຂ່າວສານ,Khao san,Information / News,noun
+ສື່ມວນຊົນ,Seu muan xon,Mass media,noun
+ໂທລະໂຄ່ງ,Tho la khong,Megaphone,noun
+ໜັງສືພິມ,Nang seu phim,Newspaper,noun
+ວາລະສານ,Va la san,Magazine,noun
+ປ້າຍໂຄສະນາ,Pai kho sa na,Billboard / Sign,noun
+ລາຍການ,Lai gan,Program / List,noun
+ຊ່ອງ,Xong,Channel,noun
+ການຖ່າຍທອດສົດ,Gan thai thot xot,Live broadcast,noun
+ຮູບເງົາ,Hoop ngao,Movie / Film,noun
+ລະຄອນ,La khon,Drama / Play,noun
+ກາຕູນ,Ga toon,Cartoon,noun
+ການສະແດງ,Gan sa daeng,Performance,noun
+ເວທີ,Ve thee,Stage,noun
+ຜູ້ຊົມ,Phu xom,Audience / Viewer,noun
+ແຟນຄລັບ,Fan club,Fan / Follower,noun
+ຊື່ສຽງ,Seu siang,Fame / Reputation,noun
+ລາງວັນ,Lang van,Award / Prize,noun
+ການແຂ່ງຂັນ,Gan khaeng khan,Competition,noun
+ກົດລະບຽບ,Got la biap,Rule / Regulation,noun
+ມາດຕະຖານ,Mat ta than,Standard,noun
+ນະໂຍບາຍ,Na yo bai,Policy,noun
+ຍຸດທະສາດ,Yut tha xat,Strategy,noun
+ເປົ້າໝາຍ,Pao mai,Target / Goal,noun
+ຜົນສຳເລັດ,Phon xam let,Achievement,noun
+ຄວາມພະຍາຍາມ,Khuam pha nya yam,Effort,noun
+ຄວາມລົ້ມເຫຼວ,Khuam lom hleo,Failure,noun
+ປະສົບການ,Pa xop gan,Experience,noun
+ທັກສະ,Thak xa,Skill,noun
+ຄວາມສາມາດ,Khuam xa mat,Ability,noun
+ພອນສະຫວັນ,Phon xa vang,Talent,noun
+ໂອກາດ,O gat,Opportunity,noun
+ອຸປະສັກ,Oo pa xak,Obstacle,noun
+ທາງເລືອກ,Thang leuak,Option / Choice,noun
+ການຕັດສິນໃຈ,Gan tat xin chai,Decision,noun
+ຄວາມຮັບຜິດຊອບ,Khuam hap phit xop,Responsibility,noun
+ໜ້າທີ່,Na thee,Duty / Task,noun
+ສິດທິ,Sit thi,Right (Legal/Human),noun
+ເສລີພາບ,Se lee phap,Freedom,noun
+ຄວາມຍຸຕິທຳ,Khuam yu ti tham,Justice,noun
+ກົດໝາຍ,Got mai,Law,noun
+ສັນຍາ,San nya,Contract / Promise,noun
+ຫຼັກຖານ,Lak than,Evidence,noun
+ພະຍານ,Pha nyan,Witness,noun
+ຜູ້ຕ້ອງຫາ,Phu tong ha,Suspect,noun
+ຄຸກ,Khuk,Prison,noun
+ຄວາມສະຫງົບ,Khuam xa ngop,Peace / Quiet,noun
+ຄວາມຮຸນແຮງ,Khuam hoon haeng,Violence,noun
+ອາດຊະຍາກຳ,At xa ya gam,Crime,noun
+ຄວາມທຸກຍາກ,Khuam thuk nyak,Poverty,noun
+ຄວາມຮັ່ງມີ,Khuam hang mee,Wealth,noun
+ການພັດທະນາ,Gan phat tha na,Development,noun
+ການປ່ຽນແປງ,Gan pian paeng,Change,noun
+ວັດທະນະທຳ,Vat tha na tham,Culture,noun
+ປະເພນີ,Pa phe nee,Tradition,noun
+ຄວາມເຊື່ອ,Khuam xeuam,Belief,noun
+ສາດສະໜາ,Xat xa na,Religion,noun
+ພິທີກຳ,Phi thee gam,Ritual / Ceremony,noun
+ງານລ້ຽງ,Ngan liang,Party / Banquet,noun
+ງານດອງ,Ngan dong,Wedding,noun
+ງານສົບ,Ngan xop,Funeral,noun
+ວັນຢຸດ,Van nyut,Holiday,noun
+ເທດສະການ,Thet xa gan,Festival,noun
+ການພັກຜ່ອນ,Gan phak phon,Relaxation,noun
+ວັນຫວ່າງ,Van vang,Free time,noun
+ງານອະດິເຣກ,Ngan a di rek,Hobby,noun
+ການເດີນທາງ,Gan deun thang,Travel / Journey,noun
+ປີ້,Pee,Ticket,noun
+ໜັງສືເດີນທາງ,Nang seu deun thang,Passport,noun
+ວີຊາ,Vee xa,Visa,noun
+ກະເປົາເດີນທາງ,Ga pao deun thang,Suitcase / Luggage,noun
+ໂຮງແຮມ,Hong haem,Hotel,noun
+ບ້ານພັກ,Ban phak,Guesthouse,noun
+ການຈອງ,Gan xong,Reservation / Booking,noun
+ລາຄາ,La kha,Price,noun
+ສ່ວນຫຼຸດ,Xuan loot,Discount,noun
+ເງິນສົດ,Ngin xot,Cash,noun
+ບັດເຄຣດິດ,Bat credit,Credit card,noun
+ການໂອນເງິນ,Gan on ngin,Money transfer,noun
+ໃບຮັບເງິນ,Bai hap ngin,Receipt,noun
+ພາສີ,Pha xee,Tax,noun
+ກຳໄລ,Gam lai,Profit,noun
+ຂາດທຶນ,Khat thun,Loss (Money),noun/verb
+ໜີ້ສິນ,Nee xin,Debt,noun
+ການລົງທຶນ,Gan long thun,Investment,noun
+ຕະຫຼາດ,Ta lat,Market,noun
+ການຄ້າ,Gan kha,Trade / Commerce,noun
+ທຸລະກິດ,Thu la git,Business,noun
+ຫຸ້ນ,Hoon,Stock / Share,noun
+ປະກັນໄພ,Pa gan phai,Insurance,noun
+ການກຸສົນ,Gan gu xon,Charity,noun
+ອາສາສະໝັກ,A xa xa moot,Volunteer,noun
+ການຊ່ວຍເຫຼືອ,Gan xuay hleuam,Assistance,noun
+ມູນນິທິ,Moon ni thi,Foundation,noun
+ໂຄງການ,Khong gan,Project,noun
+ອົງການ,Ong gan,Organization,noun
+ລັດຖະບານ,Lat tha ban,Government,noun
+ກະຊວງ,Ga xuang,Ministry,noun
+ເທດສະບານ,Thet xa ban,Municipality,noun
+ການເລືອກຕັ້ງ,Gan leuak tang,Election,noun
+ປະຊາທິປະໄຕ,Pa xa thi pa tai,Democracy,noun
+ການເມືອງ,Gan meuang,Politics,noun
+ສັນຕິພາບ, San ti phap,Peace,noun
+ສົງຄາມ,Song kham,War,noun
+ກອງທັບ,Gong thap,Army / Military,noun
+ອາວຸດ,A vut,Weapon,noun
+ລະເບີດ,Ra beut,Bomb,noun
+ຄວາມຮັກ,Khuam huk,Love,noun
+ຄວາມກຽດຊັງ,Khuam giat xang,Hatred,noun
+ຄວາມເມດຕາ,Khuam met ta,Kindness / Compassion,noun
+ຄວາມອິດສາ,Khuam it xa,Jealousy,noun
+ຄວາມໂມໂຫ,Khuam mo ho,Anger,noun
+ຄວາມກ້າຫານ,Khuam ga han,Bravery,noun
+ຄວາມຢ້ານ,Khuam yan,Fear,noun
+ຄວາມອາຍ,Khuam ai,Shame / Shyness,noun
+ຄວາມພູມໃຈ,Khuam phoom chai,Pride,noun
+ຄວາມໝັ້ນໃຈ,Khuam man chai,Confidence,noun
+ความອົດທົນ,Khuam ot thon,Patience,noun
+ຄວາມຫວັງ,Khuam vang,Hope,noun
+ຄວາມສິ້ນຫວັງ,Khuam xin vang,Despair,noun
+ຄວາມໂດດດ່ຽວ,Khuam dot diao,Loneliness,noun
+ຄວາມຕື່ນເຕັ້ນ,Khuam teun ten,Excitement,noun
+ຄວາມສົງໄສ,Khuam xong xai,Doubt / Suspicion,noun
+ຄວາມໄວ້ວາງໃຈ,Khuam vai vang chai,Trust,noun
+ຄວາມເຄົາລົບ,Khuam khao lop,Respect,noun
+ຄວາມກະຕັນຍູ,Khuam ga tan nyoo,Gratitude,noun
+ຄວາມຮັບຜິດຊອບ,Khuam hap phit xop,Responsibility,noun
+Lao Script,Transliteration,English Translation,word type
+ອົກຊີແຊນ,Ok see xen,Oxygen,noun
+ຄາບອນ,Kha bon,Carbon,noun
+ໄນໂຕຣເຈນ,Nai tro chen,Nitrogen,noun
+ທາດອາຍ,That ai,Gas,noun
+ຂອງແຫຼວ,Khong hlaew,Liquid,noun
+ຂອງແຂງ,Khong khaeng,Solid,noun
+ປະລໍາມະນູ,Pa la ma noo,Atom,noun
+ໂມເລກຸນ,Mo le koon,Molecule,noun
+ແຮງໂນ້ມຖ່ວງ,Haeng nom thuang,Gravity,noun
+ສະໜາມແມ່ເຫຼັກ,Sa nam mae lek,Magnetic field,noun
+ລັງສີ,Lang see,Radiation,noun
+ຄື້ນສຽງ,Kheun siang,Sound wave,noun
+ຄວາມຖີ່,Khuam thee,Frequency,noun
+ແຮງດັນ,Haeng dan,Pressure,noun
+ສູນຍາກາດ,Soon nya gat,Vacuum,noun
+ກ້ອງຈຸລະທັດ,Gong chu la that,Microscope,noun
+ກ້ອງດາລາສາດ,Gong da la xat,Telescope,noun
+ຫ້ອງທົດລອງ,Hong thot long,Laboratory,noun
+ສູດ,Soot,Formula,noun
+ທິດສະດີ,Thit sa dee,Theory,noun
+ຫຼັກການ,Lak gan,Principle,noun
+ວິວັດທະນາການ,Vi vat tha na gan,Evolution,noun
+ພັນທຸກຳ,Phan thu gam,Genetics,noun
+ຈຸລັງ,Chu lang,Cell (Biology),noun
+ເຊື້ອແບັກທີເຣຍ,Xeu bacte ria,Bacteria,noun
+ເຊື້ອລາ,Xeu la,Fungus,noun
+ພາກສ່ວນ,Phak suan,Part / Section,noun
+ອົງປະກອບ,Ong pa gop,Component,noun
+ໂຄງສ້າງ,Khong sang,Structure,noun
+ຂະບວນການ,Kha buan gan,Process,noun
+ເຕັກນິກ,Tek nik,Technique,noun
+ປະສິດທິພາບ,Pa sit thi phap,Efficiency,noun
+ຄວາມທົນທານ,Khuam thon than,Durability,noun
+ຄວາມຍືດຫຍຸ່ນ,Khuam yeut nyoon,Flexibility,noun
+ວັດສະດຸ,Vat sa doo,Material,noun
+ຊີມັງ,See mang,Cement,noun
+ດິນຈີ່,Din chee,Brick,noun
+ກະເບື້ອງ,Ga beuang,Tile,noun
+ສີທາເຮືອນ,See tha heuan,Paint,noun
+ທໍ່,Tho,Pipe,noun
+ສາຍໄຟ,Sai fai,Electric wire,noun
+ຕະປູ,Ta poo,Nail (Tool),noun
+ຄ້ອນຕີ,Khon tee,Hammer,noun
+ສະກູ,Sa goo,Screw,noun
+ໄຂຄວງ,Khai khuang,Screwdriver,noun
+ຄີມ,Keem,Pliers,noun
+ເລື່ອຍ,Leuay,Saw,noun
+ຂວານ,Khuan,Axe,noun
+ຊ້ວນ,Xuan,Shovel,noun
+ລໍ້ຍູ້,Lo nyoo,Wheelbarrow,noun
+ລົດເຄນ,Rot crane,Crane,noun
+ລົດໄຖ,Rot thai,Tractor,noun
+ເຄື່ອງຈັກໜັກ,Kheuang chak nak,Heavy machinery,noun
+ນ້ຳມັນເຊື້ອໄຟ,Nam man xeu fai,Fuel,noun
+ຖ່ານຫີນ,Than heen,Coal,noun
+ແກັສທຳມະຊາດ,Gas tham ma xat,Natural gas,noun
+ພະລັງງານແສງອາທິດ,Pha lang ngan saeng,Solar energy,noun
+ກັງຫັນລົມ,Gang han lom,Wind turbine,noun
+ເຂື່ອນ,Kheuan,Dam,noun
+ການຜະລິດ,Gan pha lit,Production,noun
+ໂຮງງານ,Hong ngan,Factory,noun
+ສາງສິນຄ້າ,Sang sin kha,Warehouse,noun
+ການຂົນສົ່ງ,Gan khon song,Logistics / Transport,noun
+ພາຫະນະ,Pha ha na,Vehicle,noun
+ລົດບັນທຸກ,Rot ban thook,Truck,noun
+ລົດຕູ້,Rot too,Van,noun
+ລົດເມ,Rot me,Bus,noun
+ລົດແທັກຊີ້,Rot taxi,Taxi,noun
+ລົດສາມລໍ້,Rot sam lo,Tuk-tuk,noun
+ເຮືອສິນຄ້າ,Heua sin kha,Cargo ship,noun
+ເຮືອດຳນ້ຳ,Heua dam nam,Submarine,noun
+ຍານອະວະກາດ,Nyan a va gat,Spacecraft,noun
+ດາວທຽມ,Dao thiam,Satellite,noun
+ລູກສອນໄຟ,Look son fai,Rocket / Missile,noun
+ການບິນ,Gan bin,Aviation,noun
+ການນຳທາງ,Gan nam thang,Navigation / GPS,noun
+ແຜນທີ່,Phaen thee,Map,noun
+ເຂັມທິດ,Khem thit,Compass,noun
+ຈຸດໝາຍ,Choot mai,Destination,noun
+ການສື່ສານ,Gan seu san,Communication,noun
+ໂທລະຄົມ,Tho la khom,Telecom,noun
+ຄວາມຖີ່ວິທະຍຸ,Khuam thee vi tha nyoo,Radio frequency,noun
+ແບນວິດ,Bandwidth,Bandwidth,noun
+ເຊີເວີ,Server,Server,noun
+ຖານຂໍ້ມູນ,Than kho moon,Database,noun
+ການຂຽນໂປຣແກຣມ,Gan khian program,Programming,noun
+ພາສາຄອມພິວເຕີ,Pha sa computer,Coding language,noun
+ປັນຍາປະດິດ,Pan nya pa dit,AI,noun
+ການຮຽນຮູ້ຂອງເຄື່ອງ,Gan hian roo machine,Machine learning,noun
+ຄວາມປອດໄພຂອງຂໍ້ມູນ,Khuam pot phai data,Data security,noun
+ການເຂົ້າລະຫັດ,Gan khao ra hat,Encryption,noun
+ບລັອກເຊນ,Block chain,Blockchain,noun
+ສະກຸນເງິນດິຈິຕອນ,Sa goon ngin digital,Cryptocurrency,noun
+ການຕະຫຼາດ,Gan ta lat,Marketing,noun
+ຍີ່ຫໍ້,Nyi ho,Brand,noun
+ໂລໂກ້,Logo,Logo,noun
+ການອອກແບບ,Gan ok baep,Design,noun
+ຄວາມຄິດສ້າງສັນ,Khuam khit sang san,Creativity,noun
+ນະວັດຕະກຳ,Na vat ta gam,Innovation,noun
+ການຄົ້ນຄວ້າ,Gan khon khua,Research,noun
+ສະຖິຕິ,Sa thi ti,Statistics,noun
+ການວິເຄາະ,Gan vi khaw,Analysis,noun
+ບົດສະຫຼຸບ,Bot sa loop,Conclusion,noun
+ລາຍໄດ້,Lai dai,Income / Revenue,noun
+ລາຍຈ່າຍ,Lai chai,Expense,noun
+ງົບປະມານ,Ngop pa man,Budget,noun
+ພາສີອາກອນ,Pha see a gon,Taxation,noun
+ການກວດສອບບັນຊີ,Gan guat sop ban xee,Audit,noun
+ອັດຕາດອກເບ້ຍ,At ta dok bia,Interest rate,noun
+ອັດຕາແລກປ່ຽນ,At ta laek pian,Exchange rate,noun
+ອັດຕາເງິນເຟີ້,At ta ngin phur,Inflation,noun
+ຕະຫຼາດຫຼັກຊັບ,Ta lat lak xap,Stock exchange,noun
+ການຄຸ້ມຄອງ,Gan khoom khong,Governance,noun
+ນະໂຍບາຍສາທາລະນະ,Na yo bai sa tha,Public policy,noun
+ການພົວພັນຕ່າງປະເທດ,Gan phua phan,International relations,noun
+ສະຫະປະຊາຊາດ,Sa ha pa xa xat,United Nations,noun
+ສົນທິສັນຍາ,Son thi san nya,Treaty,noun
+ການທູດ,Gan thoot,Diplomacy,noun
+ຊາຍແດນ,Xai daen,Border,noun
+ອະທິປະໄຕ,A thi pa tai,Sovereignty,noun
+ພົນລະເມືອງ,Phon la meuang,Citizenry,noun
+ສິດທິມະນຸດ,Sit thi ma noot,Human rights,noun
+ຄວາມສະເໝີພາບ,Khuam sa mur phap,Equality,noun
+ຄວາມຫຼາກຫຼາຍ,Khuam hlak lai,Diversity,noun
+ຄວາມສາມັກຄີ,Khuam sa mak khee,Unity / Solidarity,noun
+ການປະຕິຮູບ,Gan pa ti hoop,Reform,noun
+ການປະຕິວັດ,Gan pa ti vat,Revolution,noun
+ລະບອບການປົກຄອງ,Ra bop gan pok gong,Regime,noun
+ລັດທິ,Lat thi,Ideology,noun
+ຈັນຍາບັນ,Chan nya ban,Ethics,noun
+ຄຸນນະທຳ,Khoon na tham,Virtue,noun
+ສິນລະທຳ,Sin la tham,Morality,noun
+ຄວາມຮັບຜິດຊອບຕໍ່ສັງຄົມ,Khuam hap phit,Social responsibility,noun
+ການພັດທະນາແບບຍືນຍົງ,Phat tha na yeun yong,Sustainable dev,noun
+ການປ່ຽນແປງສະພາບພູມອາກາດ,Pian paeng a gat,Climate change,noun
+ອະນຸລັກ,A nu lak,Conserve,verb
+ປົກປັກຮັກສາ,Pok pak huk sa,Protect / Maintain,verb
+ຟື້ນຟູ,Feun foo,Restore,verb
+ປັບຕົວ,Pap tua,Adapt,verb
+ປະເມີນ,Pa mein,Evaluate,verb
+ຄາດຄະເນ,Khat kha ne,Predict / Forecast,verb
+ສົມມຸດ,Som moot,Assume,verb
+ພິສູດ,Phi soot,Prove,verb
+ໂຕ້ແຍ້ງ,To nyaeng,Argue / Dispute,verb
+ສະໜັບສະໜູນ,Sa nap sa noon,Support,verb
+ຄັດຄ້ານ,Khat khan,Oppose,verb
+ເຈລະຈາ,Che la cha,Negotiate,verb
+ໄກ່ເກ່ຍ,Gai gia,Mediate,verb
+ແກ້ໄຂບັນຫາ,Gae khai ban ha,Solve problems,verb
+ປະສານງານ,Pa san ngan,Coordinate,verb
+ຮ່ວມມື,Huam meu,Cooperate,verb
+ແຂ່ງຂັນ,Khaeng khan,Compete,verb
+ກະຕຸ້ນ,Ga toon,Stimulate / Motivate,verb
+ຊຸກຍູ້,Xook nyoo,Push / Promote,verb
+ຈັດຕັ້ງ,Chat tang,Organize,verb
+ບໍລິຫານ,Bo ri han,Administer,verb
+ຄວບຄຸມ,Khuap khoom,Control,verb
+ຕິດຕາມ,Tit tam,Monitor / Follow,verb
+ກວດກາ,Guat ga,Inspect,verb
+ອະນຸມັດ,A nu mat,Approve,verb
+ປະກາດ,Pa gat,Announce,verb
+ເຜີຍແຜ່,Pheur phae,Distribute / Publish,verb
+ສື່ສານ,Seu san,Communicate,verb
+ແນະນຳ,Nae nam,Guide / Introduce,verb
+ຝຶກອົບຮົມ,Feuk op hom,Train,verb
+ພັດທະນາທັກສະ,Phat tha na thak xa,Develop skills,verb
+ສ້າງແຮງບັນດານໃຈ,Sang haeng ban dan chai,Inspire,verb
+ອົດທົນ,Ot thon,Endure,verb
+ເສຍສະຫຼະ,Sia sa hla,Sacrifice,verb
+ອຸທິດ,Oo thit,Dedicate,verb
+ບັນລຸ,Ban loo,Achieve,verb
+ສະຫຼຸບ,Sa loop,Summarize,verb
+Lao Script,Transliteration,English Translation,word type
+ຈັກກະວານ,Chak ka van,Universe,noun
+ກາລັກຊີ,Ga lak xee,Galaxy,noun
+ລະບົບສຸລິຍະ,Ra bop su li nya,Solar system,noun
+ດາວເຄາະ,Dao khaw,Planet,noun
+ຊັ້ນບັນຍາກາດ,Xan ban nya gat,Atmosphere,noun
+ແຮງດຶງດູດ,Haeng deung doot,Attraction / Gravity,noun
+ສູນສູດ,Soon soot,Equator,noun
+ເສັ້ນຂະໜານ,Xen kha nan,Latitude,noun
+ເສັ້ນແວງ,Xen vaeng,Longitude,noun
+ເຂດເວລາ,Khet ve la,Time zone,noun
+ພູມສັນຖານ,Phoom san than,Topography,noun
+ຊັບພະຍາກອນ,Xap pha nya gon,Resources,noun
+ຊີວະນາໆພັນ,Xee va na na phan,Biodiversity,noun
+ລະບົບນິເວດ,Ra bop ni vet,Ecosystem,noun
+ຕ່ອງໂສ້ອາຫານ,Tong so a han,Food chain,noun
+ການສັງເຄາະແສງ,Gan sang khaw saeng,Photosynthesis,noun
+ທາດອາຍພິດ,That ai phit,Toxic gas,noun
+ຝຸ່ນລະອອງ,Foon la ong,Dust / Particulates,noun
+ຂີ້ຕົມ,Khee tom,Mud,noun
+ດິນໜຽວ,Din niay,Clay,noun
+ດິນຊາຍ,Din xai,Sand,noun
+ຫີນປູນ,Hin poon,Limestone,noun
+ຫີນອ່ອນ,Hin on,Marble,noun
+ແຮ່ທາດ,Hae that,Minerals,noun
+ເພັດ,Phet,Diamond,noun
+ນິນ,Nin,Sapphire / Black gem,noun
+ທອງແດງ,Thong daeng,Copper,noun
+ກົ່ວ,Gua,Tin,noun
+ຊືນ,Xuen,Lead (Metal),noun
+ອາລູມິນຽມ,A lu mi nium,Aluminum,noun
+ສະແຕນເລດ,Stainless,Stainless steel,noun
+ພລາສຕິກ,Plastic,Plastic,noun
+ຢາງພາລາ,Yang pha la,Rubber,noun
+ເສັ້ນໃຍ,Xen nyai,Fiber,noun
+ສານສະກັດ,San sa gat,Extract,noun
+ສ່ວນປະສົມ,Xuan pa som,Ingredients / Mixture,noun
+ຄວາມເຂັ້ມຂຸ້ນ,Khuam khem khoon,Concentration,noun
+ຄວາມບໍລິສຸດ,Khuam bo ri soot,Purity,noun
+ຄວາມດັນເລືອດ,Khuam dan leuad,Blood pressure,noun
+ອັດຕາການເຕັ້ນຂອງຫົວໃຈ,At ta gan ten hua jai,Heart rate,noun
+ລະບົບປະສາດ,Ra bop pa xat,Nervous system,noun
+ກ້າມຊີ້ນ,Gam xeen,Muscle,noun
+ກະດູກ,Ga dook,Bone,noun
+ຂໍ້ຕໍ່,Khaw tor,Joint,noun
+ຜິວໜັງ,Phiu nang,Skin,noun
+ຮໍໂມນ,Hormone,Hormone,noun
+ວິຕາມິນ,Vitamin,Vitamin,noun
+ທາດໂປຣຕີນ,That protein,Protein,noun
+ທາດແປ້ງ,That phaeng,Carbohydrate,noun
+ໄຂມັນ,Khai man,Fat,noun
+ພູມຄຸ້ມກັນ,Phoom khoom gan,Immunity,noun
+ເຊື້ອໄວຣັສ,Xeu virus,Virus,noun
+ຢາຂ້າເຊື້ອ,Ya kha xeu,Antiseptic / Antibiotic,noun
+ວັກຊີນ,Vaccine,Vaccine,noun
+ການກວດເລືອດ,Gan guat leuad,Blood test,noun
+ໃບສັ່ງຢາ,Bai sang ya,Prescription,noun
+ຄລີນິກ,Clinic,Clinic,noun
+ການຟື້ນຟູ,Gan feun foo,Rehabilitation,noun
+ຈິດພະຍາດ,Chit pha nyat,Mental illness,noun
+ຄວາມຄຽດ,Khuam khiad,Stress,noun
+ຄວາມວິຕົກກັງວົນ,Khuam vi tok gang von,Anxiety,noun
+ຄວາມຊຶມເສົ້າ,Khuam xeum sao,Depression,noun
+ຄວາມເຊື່ອໝັ້ນ,Khuam xeuam man,Confidence,noun
+ຄວາມພາກພູມໃຈ,Khuam phak phoom chai,Pride,noun
+ຄວາມກະຕືລືລົ້ນ,Khuam ga teu leu lon,Enthusiasm,noun
+ຄວາມອິດເມື່ອຍ,Khuam it meuay,Fatigue,noun
+ຄວາມຢາກຮູຢາກເຫັນ,Khuam yak roo yak hen,Curiosity,noun
+ຄວາມຄິດສ້າງສັນ,Khuam khit sang san,Creativity,noun
+ຈິນຕະນາການ,Chin ta na gan,Imagination,noun
+ຄວາມສະຫຼາດທາງອາລົມ,Khuam sa lat arom,EQ,noun
+ສາມັນສໍານຶກ,Sa man sam neuk,Common sense,noun
+ສະຕິປັນຍາ,Sa ti pan nya,Wisdom,noun
+ຄ່ານິຍົມ,Kha ni nyom,Values,noun
+ທັດສະນະຄະຕິ,That sa na kha ti,Attitude,noun
+ມຸມມອງ,Moom mong,Perspective,noun
+ອະຄະຕິ,A kha ti,Prejudice / Bias,noun
+ການຈໍາແນກ,Gan cham naek,Discrimination,noun
+ຄວາມເຫັນອົກເຫັນໃຈ,Khuam hen ok hen chai,Empathy,noun
+ຄວາມເອື້ອເຟື້ອ,Khuam eua feua,Generosity,noun
+ຄວາມຊື່ສັດສຸຈະລິດ,Khuam seu sat,Integrity,noun
+ຄວາມຮັບຜິດຊອບ,Khuam hap phit xop,Accountability,noun
+ຄວາມໂປ່ງໃສ,Khuam pong xai,Transparency,noun
+ຈັນຍາບັນວິຊາຊີບ,Chan nya ban,Professional ethics,noun
+ມາດຕະຖານສາກົນ,Mat ta than sa gon,Intl standard,noun
+ກົດໝາຍແພ່ງ,Got mai phaeng,Civil law,noun
+ກົດໝາຍອາຍາ,Got mai a ya,Criminal law,noun
+ສັນຍາຈ້າງ,San nya chang,Employment contract,noun
+ກໍາມະສິດ,Gam ma sit,Ownership,noun
+ລິຂະສິດ,Li kha sit,Copyright,noun
+ເຄື່ອງໝາຍການຄ້າ,Kheuang mai gan kha,Trademark,noun
+ສິດທິບັດ,Sit thi bat,Patent,noun
+ການລະເມີດ,Gan la meut,Violation / Infringement,noun
+ການຟ້ອງຮ້ອງ,Gan fong hong,Lawsuit,noun
+ທະນາຍຄວາມ,Tha nai khuam,Attorney,noun
+ສານຕັດສິນ,San tat sin,Court verdict,noun
+ລັດຖະກອນ,Lat tha gon,Civil servant,noun
+ການບໍລິຫານລັດ,Gan bo ri han lat,Public admin,noun
+ນະໂຍບາຍການເງິນ,Na yo bai gan ngin,Fiscal policy,noun
+ການຄ້າເສລີ,Gan kha se lee,Free trade,noun
+ພາສີຂາເຂົ້າ,Pha xee kha khao,Import tax,noun
+ພາສີຂາອອກ,Pha xee kha ok,Export tax,noun
+ດຸນການຄ້າ,Doon gan kha,Trade balance,noun
+ການຂາດດຸນ,Gan khat doon,Deficit,noun
+ເງິນເຟີ້,Ngin phur,Inflation,noun
+ເງິນຝືດ,Ngin pheut,Deflation,noun
+ການລົ້ມລະລາຍ,Gan lom la lai,Bankruptcy,noun
+ການລວມຕົວ,Gan luam tua,Merger,noun
+ການຜູກຂາດ,Gan phook khat,Monopoly,noun
+ການແຂ່ງຂັນທີ່ບໍ່ເປັນທຳ,Khaeng khan bor pen tham,Unfair competition,noun
+ຕະຫຼາດແຮງງານ,Ta lat haeng ngan,Labor market,noun
+ກຳລັງການຜະລິດ,Gam lang gan pha lit,Production capacity,noun
+ວັດຖຸດິບ,Vat thoo dip,Raw material,noun
+ສິນຄ້າເຄິ່ງສຳເລັດຮູບ,Sin kha kheung,Semi-finished good,noun
+ສິນຄ້າສຳເລັດຮູບ,Sin kha xam let hoop,Finished good,noun
+ການຄວບຄຸມຄຸນນະພາບ,Khuap khoom khun na phap,Quality control,noun
+ຕ່ອງໂສ້ອຸປະທານ,Tong so oo pa than,Supply chain,noun
+ສາງສິນຄ້າອັດສະລິຍະ,Sang sin kha,Smart warehouse,noun
+ການຂົນສົ່ງທາງບົກ,Khon song thang bok,Land transport,noun
+ການຂົນສົ່ງທາງນ້ຳ,Khon song thang nam,Water transport,noun
+ການຂົນສົ່ງທາງອາກາດ,Khon song thang a gat,Air transport,noun
+ລະບົບລາງ,Ra bop lang,Rail system,noun
+ການກະຈາຍສິນຄ້າ,Gan ga chai sin kha,Distribution,noun
+ຕົວແທນຈໍາໜ່າຍ, Tua thaen cham nai,Distributor,noun
+ຜູ້ບໍລິໂພກ,Phu bo ri phok,Consumer,noun
+ພຶດຕິກໍາຜູ້ບໍລິໂພກ,Pheut ti gam,Consumer behavior,noun
+ການສໍາຫຼວດຕະຫຼາດ,Gan sam luat ta lat,Market survey,noun
+ກຸ່ມເປົ້າໝາຍ,Goom pao mai,Target group,noun
+ການສ້າງແບຣນ,Gan sang brand,Branding,noun
+ສື່ສັງຄົມອອນໄລນ໌,Seu sang khom online,Social media,noun
+ການຕະຫຼາດດິຈິຕອນ,Ta lat digital,Digital marketing,noun
+ການເພີ່ມປະສິດທິພາບ,Gan phurm pa sit thi phap,Optimization,noun
+ການວິເຄາະຂໍ້ມູນບີກດາຕ້າ,Vi khaw Big Data,Big data analysis,noun
+ລະບົບການຮຽນຮູ້,Ra bop gan hian roo,Learning system,noun
+ຄວາມເປັນສ່ວນຕົວ,Khuam pen xuan tua,Privacy,noun
+ການປົກປ້ອງຂໍ້ມູນ,Gan pok pong kho moon,Data protection,noun
+ອາຊະຍາກຳທາງໄຊເບີ,At xa ya gam cyber,Cybercrime,noun
+ການແຮັກຂໍ້ມູນ,Gan hack kho moon,Hacking,noun
+ລະຫັດຜ່ານ,Ra hat phan,Password,noun
+ການຢືນຢັນຕົວຕົນ,Gan yeun yan tua ton,Authentication,noun
+ລາຍເຊັນດິຈິຕອນ,Lai xen digital,Digital signature,noun
+ການເຮັດທຸລະກຳອອນໄລນ໌,Gan het thu la gam,Online transaction,noun
+ກະເປົາເງິນດິຈິຕອນ,Ga pao ngin digital,E-wallet,noun
+ສະກຸນເງິນສະເໝືອນ,Sa goon ngin sa meuan,Virtual currency,noun
+ໂລກສະເໝືອນຈິງ,Lok sa meuan ching,Metaverse,noun
+ຄວາມເປັນຈິງເສີມ,Khuam pen ching serm,Augmented Reality,noun
+ເຕັກໂນໂລຊີສີຂຽວ,Tek no see khiao,Green tech,noun
+ການປ່ອຍອາຍພິດເຮືອນແກ້ວ,Gan poy ai phit,Greenhouse gas emission,noun
+ຄາບອນຟຸດພຣິນ,Carbon footprint,Carbon footprint,noun
+ການພັດທະນາຕົວເມືອງ,Gan phat tha na meuang,Urban development,noun
+ເມືອງອັດສະລິຍະ,Meuang at sa ri nya,Smart city,noun
+ໂຄງລ່າງພື້ນຖານ,Khong lang pheun than,Infrastructure,noun
+ການຄົມມະນາຄົມ,Gan khom ma na khom,Telecommunication,noun
+ການສື່ສານດາວທຽມ,Gan seu san dao thiam,Satellite comms,noun
+ອິນເຕີເນັດຄວາມໄວສູງ,Internet khuam vai soong,Broadband,noun
+ເຄືອຂ່າຍໄຮ້ສາຍ,Kheua khai hai sai,Wireless network,noun
+ການອອກແບບລະບົບ,Gan ok baep ra bop,System design,noun
+ການພັດທະນາຊອບແວ,Phat tha na software,Software development,noun
+ວົງຈອນການຮຽນຮູ້,Vong chon gan hian roo,Learning cycle,noun
+ການທົດສອບລະບົບ,Gan thot sop ra bop,System testing,noun
+ການບຳລຸງຮັກສາ,Gan bam loong huk sa,Maintenance,noun
+ການແກ້ໄຂບັນຫາ,Gan gae khai ban ha,Troubleshooting,noun
+ປະສິດທິຜົນ,Pa sit thi phon,Effectiveness,noun
+ຄວາມກ້າວໜ້າ,Khuam gao na,Progress,noun
+ຄວາມທັນສະໄໝ,Khuam than sa mai,Modernity,noun
+ຍຸກສະໄໝ,Nyook sa mai,Era,noun
+ການປ່ຽນແປງທາງສັງຄົມ,Pian paeng sang khom,Social change,noun
+ໂຄງສ້າງທາງສັງຄົມ,Khong sang sang khom,Social structure,noun
+ຊົນຊັ້ນກາງ,Xon xan gang,Middle class,noun
+ຄວາມຍືນຍົງທາງເສດຖະກິດ,Yeun yong set tha git,Economic sustainability,noun
+ການຮ່ວມມືລະຫວ່າງປະເທດ,Huam meu la vang pa thet,Intl cooperation,noun
+ການທູດດ້ານວັດທະນະທຳ,Thoot dan wat tha na tham,Cultural diplomacy,noun
+Soft Power,Soft Power,Soft Power,noun
+ການແລກປ່ຽນນັກຮຽນ,Laek pian nak hian,Student exchange,noun
+ທຶນການສຶກສາ,Thun gan seuk sa,Scholarship,noun
+ການຄົ້ນຄວ້າທາງວິຊາການ,Khon khua vi sa gan,Academic research,noun
+ວາລະສານທາງວິທະຍາສາດ,Va la san vi tha nya xat,Scientific journal,noun
+ການສຳມະນາ,Gan sam ma na,Seminar,noun
+ການປະຊຸມທາງໄກ,Pa xum thang gai,Teleconference,noun
+ການເຮັດວຽກທາງໄກ,Het ngan thang gai,Remote work,noun
+ເສດຖະກິດດິຈິຕອນ,Set tha git digital,Digital economy,noun
+ຜູ້ປະກອບການ,Phu pa gop gan,Entrepreneur,noun
+ທຸລະກິດສະຕາດອັບ,Startup,Startup,noun
+ການລະດົມທຶນ,Gan la dom thun,Fundraising,noun
+ຜູ້ຮ່ວມລົງທຶນ,Phu huam long thun,Venture capitalist,noun
+ການຄຸ້ມຄອງຄວາມສ່ຽງ,Khoom khong khuam siang,Risk management,noun
+ທັກສະການເປັນຜູ້ນໍາ,Thak xa pen phu nam,Leadership skills,noun
+ການເຮັດວຽກເປັນທີມ,Gan het ngan pen team,Teamwork,noun
+ການສ້າງຄວາມສໍາພັນ,Gan sang sam phan,Networking,noun
+ການເຈລະຈາຕໍ່ຮອງ,Che la cha tor hong,Negotiation,noun
+ການປາກເວົ້າໃນທີ່ສາທາລະນະ,Vao nai sa tha la na,Public speaking,noun
+ຄວາມສະຫຼາດຫຼັກແຫຼມ,Khuam sa lat hlak hlaem,Acuteness / Shrewdness,noun
+ຄວາມຄ່ອງຕົວ,Khuam khong tua,Agility / Versatility,noun
+ຄວາມຄິດລໍເລີ່ມ,Khuam khit lor lerm,Initiative,noun
+ຄວາມທະເຍີທະຍານ,Khuam tha nnyi tha nyan,Ambition,noun
+ຄວາມຕັ້ງໃຈ,Khuam tang chai,Intention / Determination,noun
+ຄວາມພາກພຽນ,Khuam phak phian,Diligence / Perseverance,noun
+ຄວາມລະອຽດອ່ອນ,Khuam la iat on,Sensitivity / Delicacy,noun
+ຄວາມຊັບຊ້ອນ,Khuam xap xon,Complexity,noun
+ຄວາມແນ່ນອນ,Khuam nae non,Certainty,noun
+ຄວາມບໍ່ແນ່ນອນ,Khuam bor nae non,Uncertainty,noun
+ຄວາມເປັນໄປໄດ້,Khuam pen pai dai,Possibility,noun
+ຄວາມເປັນຈິງ,Khuam pen ching,Reality,noun
+ຂໍ້ເທັດຈິງ,Khaw thet ching,Fact,noun
+ຂໍ້ສົມມຸດຖານ,Khaw som moot than,Hypothesis,noun
+ຫຼັກຖານຢັ້ງຢືນ,Lak than nyang yeun,Validation evidence,noun
+ການວິເຄາະທາງສະຖິຕິ,Vi khaw sa thi ti,Statistical analysis,noun
+ການສັງເກດການ,Gan sang get gan,Observation,noun
+ການຕີຄວາມໝາຍ,Gan tee khuam mai,Interpretation,noun
+ບົດວິໄຈ,Bot vi chai,Research paper,noun
+ການອ້າງອີງ,Gan ang eeng,Reference / Citation,noun
+ບັນນານຸກົມ,Ban na nu kom,Bibliography,noun
+ບົດຄັດຫຍໍ້,Bot khat nyo,Abstract,noun
+ບົດນໍາ,Bot nam,Introduction,noun
+ເນື້ອໃນ,Neua nai,Content,noun
+ບົດສະຫຼຸບ,Bot sa loop,Conclusion,noun
+ພາກຜະໜວກ,Phak pha nuak,Appendix,noun
+ການກວດສອບຄືນ,Gan guat sop kheun,Review / Re-check,verb
+ການແກ້ໄຂປັບປຸງ,Gae khai pap poong,Revision,noun
+ຄວາມຖືກຕ້ອງ,Khuam theuk tong,Accuracy,noun
+ຄວາມສອດຄ່ອງ,Khuam sot khong,Consistency,noun
+ຄວາມກ່ຽວຂ້ອງ,Khuam giao khong,Relevance,noun
+ຄວາມໝັ້ນຄົງ,Khuam man khong,Stability / Security,noun
+ຄວາມມັ່ງຄັ່ງ,Khuam mang khang,Prosperity,noun
+ຄວາມກ້າວໜ້າທາງເຕັກໂນໂລຊີ,Gao na tek no lo xee,Tech progress,noun
+ຍຸກດິຈິຕອນ,Nyook digital,Digital age,noun
+ການຫັນເປັນທັນສະໄໝ,Gan han pen than sa mai,Modernization,noun
+ການເຊື່ອມໂຍງ,Gan cheuam nyong,Integration,noun
+ການຮ່ວມມື,Gan huam meu,Collaboration,noun
+ເຄືອຂ່າຍທົ່ວໂລກ,Kheua khai thua lok,Global network,noun
+ການສື່ສານໄຮ້ພົມແດນ,Seu san hai phom daen,Borderless comms,noun
+ອະນາຄົດທີ່ສົດໃສ,A na khot sot xai,Bright future,noun
+Lao Script,Transliteration,English Translation,word type
+ທະນາຄານທາງໄກ,Tha na khan thang gai,Telebanking,noun
+ທຸລະກຳການເງິນ,Thu la gam gan ngin,Financial transaction,noun
+ຍອດເງິນຄົງເຫຼືອ,Nyot ngin khong hleu,Account balance,noun
+ການກວດສອບຍອດເງິນ,Gan guat sop nyot,Balance inquiry,noun
+ການໂອນເງິນລະຫວ່າງທະນາຄານ,Gan on ngin,Interbank transfer,noun
+ລະຫັດຜ່ານຄັ້ງດຽວ,Ra hat phan khang diao,OTP (One-Time Password),noun
+ຄວາມປອດໄພຂອງທະນາຄານ,Khuam pot phai,Banking security,noun
+ການເຂົ້າລະຫັດຂໍ້ມູນ,Gan khao ra hat,Data encryption,noun
+ການຢືນຢັນຕົວຕົນສອງຊັ້ນ,Yeun yan tua ton,2FA (Two-factor auth),noun
+ການທະນາຄານຜ່ານມືຖື,Gan tha na khan mobile,Mobile banking,noun
+ບັດເອທີເອັມ,Bat ATM,ATM card,noun
+ຄ່າທຳນຽມທຸລະກຳ,Kha tham niam,Transaction fee,noun
+ການຖອນເງິນສົດ,Gan thon ngin xot,Cash withdrawal,noun
+ການຝາກເງິນ,Gan fak ngin,Deposit,noun
+ບັນຊີເງິນຝາກປະຢັດ,Ban xee pha yat,Savings account,noun
+ບັນຊີກະແສລາຍວັນ,Ban xee ga sae,Current account,noun
+ເງິນກູ້ຢືມ,Ngin goo yeum,Loan,noun
+ອັດຕາດອກເບ້ຍເງິນກູ້,At ta dok bia goo,Loan interest rate,noun
+ການຊຳລະໜີ້,Gan xam la nee,Debt repayment,noun
+ປະຫວັດການເຮັດທຸລະກຳ,Pa vat thu la gam,Transaction history,noun
+ລະບົບຄລາວ,Ra bop Cloud,Cloud system,noun
+ການປະມວນຜົນແບບຄລາວ,Gan pa muan Cloud,Cloud computing,noun
+ໂຄງລ່າງພື້ນຖານດິຈິຕອນ,Khong lang digital,Digital infrastructure,noun
+ເຊີເວີສະເໝືອນ,Server sa meuan,Virtual server,noun
+ການຈັດເກັບຂໍ້ມູນແບບກະຈາຍ,Gan chat gep,Distributed storage,noun
+ຄວາມພ້ອມໃຊ້ງານສູງ,Khuam phom xai ngan,High availability,noun
+ການຂະຫຍາຍຕົວຂອງລະບົບ,Gan kha nyai tua,Scalability,noun
+ການຈັດການຕົວຕົນແລະການເຂົ້າເຖິງ,IAM,Identity & Access Mgmt,noun
+ການບໍລິຫານຈັດການຖານຂໍ້ມູນ,Bo ri han database,Database management,noun
+ຄວາມປອດໄພຂອງເຄືອຂ່າຍ,Khuam pot phai net,Network security,noun
+ການສຳຮອງຂໍ້ມູນ,Gan sam hong kho moon,Data backup,noun
+ການກູ້ຄືນລະບົບ,Gan goo kheun ra bop,Disaster recovery,noun
+ການພັດທະນາເວັບໄຊທ໌,Phat tha na website,Web development,noun
+ການໂຕ້ຕອບຂອງຜູ້ໃຊ້,UI (User Interface),User Interface,noun
+ປະສົບການຂອງຜູ້ໃຊ້,UX (User Experience),User Experience,noun
+ການຂຽນໂປຣແກຣມແອັບພລິເຄຊັນ,API,Application Programming,noun
+ຊອບແວໂອເພັນຊອດ,Open Source,Open source software,noun
+ປັນຍາປະດິດແບບສ້າງສັນ,Pan nya Generative,Generative AI,noun
+ການຮຽນຮູ້ແບບເລິກເຊິ່ງ,Deep Learning,Deep learning,noun
+ການປະມວນຜົນພາສາທຳມະຊາດ,NLP,Natural Language Processing,noun
+ການວິເຄາະຂໍ້ມູນຂະໜາດໃຫຍ່,Big Data Analysis,Big data analytics,noun
+ການເບິ່ງເຫັນຂໍ້ມູນ,Data Visualization,Data visualization,noun
+ຄວາມເປັນສ່ວນຕົວຂອງຂໍ້ມູນ,Privacy,Data privacy,noun
+ການປົກປ້ອງຂໍ້ມູນສ່ວນບຸກຄົນ,GDPR / PDPA,Personal data protection,noun
+ອາຊະຍາກຳທາງຄອມພິວເຕີ,Cybercrime,Computer crime,noun
+ການລັກລອບເຂົ້າລະຫັດ,Hacking,Hacking,noun
+ໄຟຣວໍ,Firewall,Firewall,noun
+ການກວດສອບຄວາມປອດໄພ,Security Audit,Security audit,noun
+ມາດຕະຖານຄວາມປອດໄພຂໍ້ມູນ,ISO 27001,Info security standard,noun
+ການຫັນເປັນດິຈິຕອນ,Digital Transformation,Digital transformation,noun
+ເສດຖະກິດດິຈິຕອນ,Digital Economy,Digital economy,noun
+ການຄ້າທາງເອເລັກໂຕຣນິກ,E-commerce,E-commerce,noun
+ການຊຳລະເງິນແບບດິຈິຕອນ,Digital Payment,Digital payment,noun
+ກະເປົາເງິນເອເລັກໂຕຣນິກ,E-wallet,Electronic wallet,noun
+ສະກຸນເງິນຄຣິບໂຕ,Cryptocurrency,Cryptocurrency,noun
+ເທັກໂນໂລຊີບລັອກເຊນ,Blockchain Tech,Blockchain technology,noun
+ສັນຍາອັດສະລິຍະ,Smart Contract,Smart contract,noun
+ການລະດົມທຶນແບບດິຈິຕອນ,ICO,Digital fundraising,noun
+ການລົງທຶນໃນຊັບສິນດິຈິຕອນ,Digital Asset,Digital asset investment,noun
+ຄວາມຮູ້ດ້ານການເງິນ,Financial Literacy,Financial literacy,noun
+ຄວາມຮູ້ດ້ານດິຈິຕອນ,Digital Literacy,Digital literacy,noun
+ການຮຽນຮູ້ຕະຫຼອດຊີວິດ,Lifelong Learning,Lifelong learning,noun
+ການສຶກສາທາງໄກ,Distance Education,Distance education,noun
+ຫ້ອງຮຽນສະເໝືອນ,Virtual Classroom,Virtual classroom,noun
+ລະບົບການຈັດການການຮຽນຮູ້,LMS,Learning Management System,noun
+ການພັດທະນາຊັບພະຍາກອນມະນຸດ,HRD,Human Resource Dev,noun
+ຕະຫຼາດແຮງງານໃນອະນາຄົດ,Future Job Market,Future labor market,noun
+ການເຮັດວຽກແບບປະສົມ,Hybrid Work,Hybrid work,noun
+ເສດຖະກິດແບບແບ່ງປັນ,Sharing Economy,Sharing economy,noun
+ທຸລະກິດເພື່ອສັງຄົມ,Social Enterprise,Social enterprise,noun
+ການພັດທະນາແບບຍືນຍົງ,SDGs,Sustainable development,noun
+ພະລັງງານທົດແທນ,Renewable Energy,Renewable energy,noun
+ລົດໄຟຟ້າ,EV (Electric Vehicle),Electric vehicle,noun
+ການຄຸ້ມຄອງສິ່ງແວດລ້ອມ,Environmental Mgmt,Environmental mgmt,noun
+ຄວາມຮັບຜິດຊອບຂອງອົງກອນ,CSR,Corporate responsibility,noun
+ທຳມາພິບານ,Good Governance,Good governance,noun
+ຄວາມໂປ່ງໃສແລະກວດສອບໄດ້,Transparency,Transparency & Audit,noun
+ການຕ້ານການສໍ້ລາດບັງຫຼວງ,Anti-corruption,Anti-corruption,noun
+ສິດທິແລະເສລີພາບ,Rights & Freedom,Rights and freedoms,noun
+ຄວາມຍຸຕິທຳໃນສັງຄົມ,Social Justice,Social justice,noun
+ຄວາມສະເໝີພາບທາງເພດ,Gender Equality,Gender equality,noun
+ການຢູ່ຮ່ວມກັນຢ່າງສັນຕິ,Peaceful Coexistence,Peaceful coexistence,noun
+ການພົວພັນລະຫວ່າງປະເທດ,Intl Relations,International relations,noun
+ການຮ່ວມມືທາງເສດຖະກິດ,Economic Cooperation,Economic cooperation,noun
+ເຂດການຄ້າເສລີ,FTA,Free trade zone,noun
+ການລົງທຶນໂດຍກົງຈາກຕ່າງປະເທດ,FDI,Foreign direct investment,noun
+ຕ່ອງໂສ້ຄຸນຄ່າທົ່ວໂລກ,Global Value Chain,Global value chain,noun
+ການແຂ່ງຂັນລະດັບສາກົນ,Intl Competition,Intl competition,noun
+ຄວາມໝັ້ນຄົງທາງໄຊເບີລະດັບຊາດ,National Cybersecurity,National cybersecurity,noun
+ຍຸດທະສາດການພັດທະນາປະເທດ,National Dev Strategy,National dev strategy,noun
+ນະໂຍບາຍສາທາລະນະ,Public Policy,Public policy,noun
+ການວາງແຜນຍຸດທະສາດ,Strategic Planning,Strategic planning,noun
+ການບໍລິຫານຄວາມສ່ຽງອົງກອນ,ERM,Enterprise risk mgmt,noun
+ວັດທະນະທຳອົງກອນ,Org Culture,Organizational culture,noun
+ພາວະຜູ້ນຳ,Leadership,Leadership,noun
+ການເຮັດວຽກເປັນທີມທີ່ມີປະສິດທິພາບ,Effective Teamwork,Effective teamwork,noun
+ການສື່ສານພາຍໃນອົງກອນ,Internal Comms,Internal communications,noun
+ການເຈລະຈາຕໍ່ຮອງທາງທຸລະກິດ,Business Negotiation,Business negotiation,noun
+ການແກ້ໄຂບັນຫາທີ່ຊັບຊ້ອນ,Complex Problem Solving,Complex problem solving,noun
+ຄວາມຄິດແບບວິພາກ,Critical Thinking,Critical thinking,noun
+ຄວາມຄິດສ້າງສັນແລະນະວັດຕະກຳ,Creativity & Innovation,Creativity/Innovation,noun
+ຄວາມສາມາດໃນການປັບຕົວ,Adaptability,Adaptability,noun
+ຄວາມສະຫຼາດທາງອາລົມ,Emotional Intelligence,Emotional intelligence,noun
+ການຄຸ້ມຄອງເວລາ,Time Management,Time management,noun
+ຈັນຍາບັນໃນການເຮັດວຽກ,Work Ethics,Work ethics,noun
+ຄວາມເປັນມືອາຊີບ,Professionalism,Professionalism,noun
+ການບໍລິການລູກຄ້າທີ່ດີເລີດ,Excellence Service,Excellence service,noun
+ຄວາມພໍໃຈຂອງລູກຄ້າ,Customer Satisfaction,Customer satisfaction,noun
+ການສ້າງຄວາມພັນທະກັບລູກຄ້າ,Customer Loyalty,Customer loyalty,noun
+ການຕະຫຼາດຜ່ານສື່ສັງຄົມ,Social Media Marketing,Social media marketing,noun
+ການສ້າງຍີ່ຫໍ້ໃຫ້ເປັນທີ່ຮູ້ຈັກ,Brand Awareness,Brand awareness,noun
+ການວິເຄາະຄູ່ແຂ່ງ,Competitor Analysis,Competitor analysis,noun
+ແຜນທຸລະກິດ,Business Plan,Business plan,noun
+ການລະດົມທຶນແບບສະຕາດອັບ,Startup Funding,Startup funding,noun
+ຜູ້ຮ່ວມລົງທຶນ,Venture Capital,Venture capital,noun
+ການເຕີບໂຕແບບກ້າວກະໂດດ,Exponential Growth,Exponential growth,noun
+ມາດຕະຖານການຜະລິດ,Production Standard,Production standard,noun
+ການຄວບຄຸມຄຸນນະພາບ,Quality Control,Quality control,noun
+ການເພີ່ມຜົນຜະລິດ,Productivity Improvement,Productivity improvement,noun
+ຕ່ອງໂສ້ອຸປະທານດິຈິຕອນ,Digital Supply Chain,Digital supply chain,noun
+ການຂົນສົ່ງອັດສະລິຍະ,Smart Logistics,Smart logistics,noun
+ຄວາມຍືນຍົງຂອງທຸລະກິດ,Business Sustainability,Business sustainability,noun
+ຄວາມຮັບຜິດຊອບຕໍ່ຜູ້ມີສ່ວນໄດ້ສ່ວນເສຍ,Stakeholder Resp,Stakeholder resp,noun
+ການປະເມີນຜົນກະທົບ,Impact Assessment,Impact assessment,noun
+ຂໍ້ມູນຂ່າວສານ,Information,Information,noun
+ການຄົ້ນຄວ້າແລະພັດທະນາ,R&D,Research & Development,noun
+ສິດທິບັດແລະເຄື່ອງໝາຍການຄ້າ,Patents & Trademarks,Patents/Trademarks,noun
+ຊັບສິນທາງປັນຍາ,Intellectual Property,Intellectual property,noun
+ການປ້ອງກັນການລະເມີດລິຂະສິດ,Copyright Protection,Copyright protection,noun
+ຈັນຍາບັນທາງວິທະຍາສາດ,Scientific Ethics,Scientific ethics,noun
+ຄວາມກ້າວໜ້າທາງເຕັກໂນໂລຊີ,Tech Advancement,Tech advancement,noun
+ຍຸກແຫ່ງຂໍ້ມູນຂ່າວສານ,Information Age,Information age,noun
+ສັງຄົມແຫ່ງການຮຽນຮູ້,Learning Society,Learning society,noun
+ອະນາຄົດຂອງມະນຸດຊາດ,Future of Humanity,Future of humanity,noun
+ຄວາມຫວັງແລະສັນຕິພາບ,Hope & Peace,Hope and peace,noun
+ການຮ່ວມມືທົ່ວໂລກ,Global Collaboration,Global collaboration,noun
+ມິດຕະພາບທີ່ຍືນຍົງ,Lasting Friendship,Lasting friendship,noun
+ຄວາມສໍາເລັດທີ່ຍິ່ງໃຫຍ່,Great Success,Great success,noun
+ການເລີ່ມຕົ້ນໃໝ່,New Beginning,New beginning,noun
+ຄວາມສຸກທີ່ແທ້ຈິງ,True Happiness,True happiness,noun
+ຄວາມໝາຍຂອງຊີວິດ,Meaning of Life,Meaning of life,noun
+ໂລກທີ່ໜ້າຢູ່,Liveable World,Liveable world,noun
+ສິ່ງແວດລ້ອມທີ່ສະອາດ,Clean Environment,Clean environment,noun
+ອາກາດທີ່ບໍລິສຸດ,Pure Air,Pure air,noun
+ນ້ຳທີ່ໃສສະອາດ,Clear Water,Clear water,noun
+ພະລັງງານສະອາດ,Clean Energy,Clean energy,noun
+ການອະນຸລັກທຳມະຊາດ,Nature Conservation,Nature conservation,noun
+ຄວາມຫຼາກຫຼາຍທາງວັດທະນະທຳ,Cultural Diversity,Cultural diversity,noun
+ການເຄົາລົບເຊິ່ງກັນແລະກັນ,Mutual Respect,Mutual respect,noun
+ຄວາມເຂົ້າໃຈລະຫວ່າງປະເທດ,Intl Understanding,Intl understanding,noun
+ຄວາມສາມັກຄີປອງດອງ,Solidarity & Harmony,Solidarity/Harmony,noun
+ອະນາຄົດທີ່ສົດໃສຂອງເດັກນ້ອຍ,Bright Future for Kids,Bright future for kids,noun
+ການສຶກສາທີ່ມີຄຸນນະພາບ,Quality Education,Quality education,noun
+ໂອກາດທີ່ເທົ່າທຽມ,Equal Opportunity,Equal opportunity,noun
+ຄວາມຍຸຕິທຳສຳລັບທຸກຄົນ,Justice for All,Justice for all,noun
+ໂລກທີ່ບໍ່ມີສົງຄາມ,World without War,World without war,noun
+ສັນຕິພາບທົ່ວໂລກ,Global Peace,Global peace,noun
+ຄວາມຮັກທີ່ບໍ່ມີຂອບເຂດ,Limitless Love,Limitless love,noun
+ຄວາມເມດຕາຕໍ່ສັດ,Kindness to Animals,Kindness to animals,noun
+ການປົກປ້ອງໂລກ,Protecting the Earth,Protecting the Earth,noun
+ຄວາມຮັບຜິດຊອບຮ່ວມກັນ,Shared Responsibility,Shared responsibility,noun
+ການກະທຳທີ່ດີ,Good Deeds,Good deeds,noun
+ຈິດໃຈທີ່ເຂັ້ມແຂງ,Strong Spirit,Strong spirit,noun
+ຮ່າງກາຍທີ່ແຂງແຮງ,Healthy Body,Healthy body,noun
+ຊີວິດທີ່ສົມດຸນ,Balanced Life,Balanced life,noun
+ການພັດທະນາຕົນເອງ,Self-development,Self-development,noun
+ຄວາມກະຕັນຍູຕໍ່ພໍ່ແມ່,Gratitude to Parents,Gratitude to parents,noun
+ຄວາມຮັກແພງພີ່ນ້ອງ,Brotherly Love,Brotherly love,noun
+ຄວາມຊື່ສັດຕໍ່ເພື່ອນ,Loyalty to Friends,Loyalty to friends,noun
+ຄວາມຈິງໃຈຕໍ່ທຸກຄົນ,Sincerity to All,Sincerity to all,noun
+ຄວາມດີງາມຂອງສັງຄົມ,Social Goodness,Social goodness,noun
+ແຮງບັນດານໃຈໃນການດຳເນີນຊີວິດ,Life Inspiration,Life inspiration,noun
+ຄວາມມຸ່ງໝັ້ນສູ່ເປົ້າໝາຍ,Commitment to Goals,Commitment to goals,noun
+ຄວາມພາກພຽນທີ່ບໍ່ຢຸດຢັ້ງ,Relentless Diligence,Relentless diligence,noun
+ຄວາມສໍາເລັດໃນວິຊາຊີບ,Professional Success,Professional success,noun
+ຄວາມໝັ້ນຄົງທາງການເງິນ,Financial Stability,Financial stability,noun
+ຄວາມພໍໃຈໃນສິ່ງທີ່ມີ,Contentment,Contentment,noun
+ຄວາມສະຫງົບທາງໃຈ,Inner Peace,Inner peace,noun
+ສະມາທິແລະປັນຍາ,Meditation & Wisdom,Meditation/Wisdom,noun
+ການໃຫ້ທີ່ບໍ່ຫວັງຜົນຕອບແທນ,Selfless Giving,Selfless giving,noun
+ຄວາມດີທີ່ຍືນຍົງ,Enduring Goodness,Enduring goodness,noun
+ຊື່ສຽງທີ່ດີ,Good Reputation,Good reputation,noun
+ກຽດຕິຍົດແລະສັກສີ,Honor & Dignity,Honor and dignity,noun
+ຄວາມພາກພູມໃຈໃນຊາດ,National Pride,National pride,noun
+ການປົກປັກຮັກສາວັດທະນະທຳ,Preserving Culture,Preserving culture,noun
+ມູນເຊື້ອທີ່ດີງາມ,Fine Heritage,Fine heritage,noun
+ການສືບທອດຄວາມຮູ້,Passing on Knowledge,Passing on knowledge,noun
+ການຮຽນຮູ້ສິ່ງໃໝ່ໆ,Learning New Things,Learning new things,noun
+ຄວາມຄິດທີ່ກ້າວໄກ,Visionary Thinking,Visionary thinking,noun
+ນະວັດຕະກຳເພື່ອມວນມະນຸດ,Innovation for Mankind,Innovation for mankind,noun
+ເຕັກໂນໂລຊີທີ່ເປັນມິດ,Friendly Technology,Friendly technology,noun
+ການເຊື່ອມຕໍ່ທົ່ວໂລກ,Global Connectivity,Global connectivity,noun
+ຂໍ້ມູນທີ່ຖືກຕ້ອງ,Accurate Information,Accurate information,noun
+ການຕັດສິນໃຈທີ່ສະຫຼາດ,Smart Decision,Smart decision,noun
+ການວາງແຜນທີ່ຮອບຄອບ,Careful Planning,Careful planning,noun
+ຄວາມສຳເລັດທີ່ຍືນຍົງ,Sustainable Success,Sustainable success,noun
+ຄວາມຮັກໃນການຮຽນຮູ້,Love of Learning,Love of learning,noun
+ຄວາມມ່ວນຊື່ນໃນການເຮັດວຽກ,Joy in Work,Joy in work,noun
+ມິດຕະພາບທີ່ດີ,Good Friendship,Good friendship,noun
+ຄວາມເຂົ້າໃຈທີ່ດີ,Good Understanding,Good understanding,noun
+ຄວາມເຊື່ອໝັ້ນເຊິ່ງກັນແລະກັນ,Mutual Trust,Mutual trust,noun
+ການສະໜັບສະໜູນເຊິ່ງກັນແລະກັນ,Mutual Support,Mutual support,noun
+ຄວາມສາມັກຄີຄືພະລັງ,Unity is Power,Unity is power,noun
+ຄວາມສຳເລັດຂອງທີມ,Team Success,Team success,noun
+ການສະເຫຼີມສະຫຼອງຄວາມສຳເລັດ,Celebrating Success,Celebrating success,noun
+ຄວາມສຸກຂອງຄອບຄົວ,Family Happiness,Family happiness,noun
+ຄວາມອົບອຸ່ນໃນເຮືອນ,Warmth in Home,Warmth in home,noun
+ສຸຂະພາບທີ່ດີຂອງທຸກຄົນ,Health for All,Health for all,noun
+ໂລກທີ່ສວຍງາມ,Beautiful World,Beautiful world,noun
+ທ້ອງຟ້າທີ່ສົດໃສ,Bright Sky,Bright sky,noun
+ດອກໄມ້ທີ່ເບັ່ງບານ,Blooming Flowers,Blooming flowers,noun
+ຕົ້ນໄມ້ທີ່ຂຽວງາມ,Green Trees,Green trees,noun
+ສຽງເພງແຫ່ງຄວາມສຸກ,Song of Happiness,Song of happiness,noun
+ຮອຍຍິ້ມທີ່ຈິງໃຈ,Sincere Smile,Sincere smile,noun
+ແສງສະຫວ່າງແຫ່ງປັນຍາ,Light of Wisdom,Light of wisdom,noun
+ເສັ້ນທາງສູ່ຄວາມສຳເລັດ,Path to Success,Path to success,noun
+ອະນາຄົດທີ່ເຮົາສ້າງໄດ້,Future We Can Create,Future we can create,noun
+ຄວາມຫວັງທີ່ບໍ່ສິ້ນສຸດ,Endless Hope,Endless hope,noun
+ຄວາມພະຍາຍາມທີ່ເຫັນຜົນ,Fruitful Effort,Fruitful effort,noun
+ຄວາມມຸ່ງໝັ້ນທີ່ແນ່ວແນ່,Unwavering Commitment,Unwavering commitment,noun
+ຄວາມກ້າວໜ້າທີ່ບໍ່ຢຸດຢັ້ງ,Steady Progress,Steady progress,noun
+ຄວາມສໍາເລັດທີ່ລໍຖ້າຢູ່,Awaiting Success,Awaiting success,noun
+Lao Script,Transliteration,English Translation,word type
+ສະຖາປັດຕະຍະກຳຄລາວ,Sa tha pat ta nya gam Cloud,Cloud Architecture,noun
+ການຈັດການຊັບພະຍາກອນ,Gan chat gan xap pha nya gon,Resource Management,noun
+ຄວາມປອດໄພຂັ້ນສູງ,Khuam pot phai khan soong,Advanced Security,noun
+ການຢັ້ງຢືນຕົວຕົນທາງຊີວະພາບ,Yeun yan tua ton bio,Biometric Auth,noun
+ການເຂົ້າລະຫັດປາຍທາງ,Gan khao ra hat pai thang,End-to-end Encryption,noun
+ຄວາມໜ້າເຊື່ອຖືຂອງລະບົບ,Khuam na xeuam theu,System Reliability,noun
+ການກວດສອບອັດຕະໂນມັດ,Gan guat sop at ta no mat,Automated Audit,noun
+ບັດເຄຣດິດສະເໝືອນ,Bat credit sa meuan,Virtual Credit Card,noun
+ວົງເງິນສິນເຊື່ອ,Vong ngin sin xeu,Credit Limit,noun
+ການຊຳລະເງິນແບບໄຮ້ສາມຜັດ,Xam la ngin contactless,Contactless Payment,noun
+ສະກຸນເງິນດີຈີຕອນທະນາຄານກາງ,CBDC,Central Bank Digital Currency,noun
+ລະບົບນິເວດການເງິນ,Ra bop ni vet gan ngin,Financial Ecosystem,noun
+ການວິເຄາະຄວາມສ່ຽງທາງການເງິນ,Vi khaw khuam siang,Financial Risk Analysis,noun
+ຄວາມຍືນຍົງທາງການເງິນ,Yeun yong set tha git,Financial Sustainability,noun
+ການບໍລິຫານຄວາມຮັ່ງມີ,Bo ri han khuam hang mee,Wealth Management,noun
+ການລົງທຶນທີ່ມີຄວາມຮັບຜິດຊອບ,Long thun hap phit xop,Responsible Investing,noun
+ເສດຖະສາດພຶດຕິກຳ,Set tha xat pheut ti gam,Behavioral Economics,noun
+ການປະມວນຜົນຂໍ້ມູນຂະໜາດມະຫາສານ,Pa muan phon Big Data,Big Data Processing,noun
+ການຮຽນຮູ້ຂອງເຄື່ອງຈັກ,Machine Learning,Machine Learning,noun
+ລະບົບປະສາດທຽມ,Neural Network,Neural Network,noun
+ປັນຍາປະດິດແບບໂຕ້ຕອບ,Interactive AI,Interactive AI,noun
+ການວິເຄາະຄວາມຮູ້ສຶກ,Sentiment Analysis,Sentiment Analysis,noun
+ການຮັບຮູ້ໃບໜ້າ,Gan hap hoo bai na,Facial Recognition,noun
+ການຮັບຮູ້ສຽງ,Gan hap hoo siang,Voice Recognition,noun
+ຄວາມເປັນຈິງສະເໝືອນ,Virtual Reality,Virtual Reality,noun
+ໂລກຄູ່ຂະໜານດິຈິຕອນ,Digital Twin,Digital Twin,noun
+ອິນເຕີເນັດສຳລັບທຸກສິ່ງ,IoT,Internet of Things,noun
+ເມືອງອັດສະລິຍະ,Meuang at sa ri nya,Smart City,noun
+ຕາໜ່າງໄຟຟ້າອັດສະລິຍະ,Smart Grid,Smart Grid,noun
+ການຂົນສົ່ງແບບອັດຕະໂນມັດ,Autonomous Transport,Autonomous Transport,noun
+ພະລັງງານໄຮໂດຣເຈນ,Hydrogen Energy,Hydrogen Energy,noun
+ການກັກເກັບຄາບອນ,Carbon Capture,Carbon Capture,noun
+ເສດຖະກິດໝູນວຽນ,Circular Economy,Circular Economy,noun
+ການພັດທະນາແບບຍືນຍົງ,SDGs,Sustainable Development,noun
+ຄວາມຮັບຜິດຊອບຕໍ່ສັງຄົມຂອງອົງກອນ,CSR,Corporate Social Resp,noun
+ການບໍລິຫານຈັດການແບບໂປ່ງໃສ,Transparent Mgmt,Transparent Mgmt,noun
+ການຕ້ານການຟອກເງິນ,Anti-money laundering,Anti-money laundering,noun
+ການກວດສອບຄວາມຖືກຕ້ອງຂອງຂໍ້ມູນ,Data Validation,Data Validation,noun
+ການເຊື່ອມໂຍງລະບົບ,System Integration,System Integration,noun
+ການພັດທະນາຊອບແວແບບວ່ອງໄວ,Agile Development,Agile Development,noun
+ການໂຕ້ຕອບລະຫວ່າງມະນຸດແລະຄອມພິວເຕີ,HCI,Human-Computer Interaction,noun
+ຄວາມປອດໄພຂອງຊອບແວ,Software Security,Software Security,noun
+ການທົດສອບຄວາມປອດໄພ,Penetration Testing,Penetration Testing,noun
+ການບໍລິຫານຈັດການວິກິດ,Crisis Management,Crisis Management,noun
+ການວາງແຜນສືບທອດທຸລະກິດ,BCP,Business Continuity Planning,noun
+ວັດທະນະທຳນະວັດຕະກຳ,Innovation Culture,Innovation Culture,noun
+ການສ້າງແຮງບັນດານໃຈ,Inspiration,Inspiration,noun
+ຄວາມເປັນຜູ້ນຳແບບປ່ຽນຜ່ານ,Transformational Leadership,Leadership,noun
+ການສື່ສານຍຸດທະສາດ,Strategic Communication,Strategic Communication,noun
+ການສ້າງເຄືອຂ່າຍທຸລະກິດ,Business Networking,Business Networking,noun
+ການຮ່ວມທຶນ,Joint Venture,Joint Venture,noun
+ການຄວບລວມກິດຈະການ,M&A,Mergers & Acquisitions,noun
+ຄວາມໄດ້ປຽບທາງການແຂ່ງຂັນ,Competitive Advantage,Competitive Advantage,noun
+ການຕະຫຼາດແບບເຈາະຈົງ,Target Marketing,Target Marketing,noun
+ການສ້າງປະສົບການລູກຄ້າ,Customer Experience,Customer Experience,noun
+ຄວາມຈົງຮັກພັກດີຕໍ່ແບຣນ,Brand Loyalty,Brand Loyalty,noun
+ການວິເຄາະຄວາມຕ້ອງການ,Requirement Analysis,Requirement Analysis,noun
+ການອອກແບບລະບົບນິເວດ,Ecosystem Design,Ecosystem Design,noun
+ຄວາມຫຼາກຫຼາຍທາງຊີວະພາບ,Biodiversity,Biodiversity,noun
+ການອະນຸລັກພັນທຸກຳ,Genetic Conservation,Genetic Conservation,noun
+ເຕັກໂນໂລຊີຊີວະພາບ,Biotechnology,Biotechnology,noun
+ນາໂນເຕັກໂນໂລຊີ,Nanotechnology,Nanotechnology,noun
+ການສຳຫຼວດອະວະກາດ,Space Exploration,Space Exploration,noun
+ຟີຊິກຄວັນຕັມ,Quantum Physics,Quantum Physics,noun
+ຄອມພິວເຕີຄວັນຕັມ,Quantum Computing,Quantum Computing,noun
+ການເຂົ້າລະຫັດຄວັນຕັມ,Quantum Encryption,Quantum Encryption,noun
+ຄວາມຮູ້ແຈ້ງ,Enlightenment,Enlightenment,noun
+ສັດຈະທຳ,Satchatham,Absolute Truth,noun
+ປັນຍາທິຄຸນ,Panya thikhun,Great Wisdom,noun
+ເມດຕາທຳ,Metta tham,Compassion,noun
+ສັນຕິສຸກ,Santi suk,Inner Peace,noun
+ຄວາມຫຼຸດພົ້ນ,Khuam loot phon,Liberation,noun
+ອະນິດຈັງ,Anitchang,Impermanence,noun
+ທຸກຂັງ,Thukkhang,Suffering / Stress,noun
+ອະນັດຕາ,Anatta,Non-self,noun
+ກົດແຫ່ງກຳ,Got haeng gam,Law of Karma,noun
+ຄວາມກະຕັນຍູກະຕະເວທີ,Gratitude,Gratitude / Requital,noun
+ສາມັກຄີທຳ,Samakkee tham,Unity in Ethics,noun
+ຄວາມອົດທົນອົດກັ້ນ,Tolerance,Tolerance / Forbearance,noun
+ຄວາມຊື່ສັດສຸຈະລິດ,Integrity,Integrity,noun
+ຄວາມຍຸດຕິທຳສາກົນ,International Justice,Global Justice,noun
+ສິດທິມະນຸດຂັ້ນພື້ນຖານ,Fundamental Human Rights,Human Rights,noun
+ເສລີພາບທາງຄວາມຄິດ,Freedom of Thought,Freedom of Thought,noun
+ການຢູ່ຮ່ວມກັນຢ່າງສັນຕິ,Peaceful Coexistence,Peaceful Coexistence,noun
+ມິດຕະພາບໄຮ້ພົມແດນ,Borderless Friendship,Borderless Friendship,noun
+ການແລກປ່ຽນວັດທະນະທຳ,Cultural Exchange,Cultural Exchange,noun
+ມໍລະດົກໂລກ,World Heritage,World Heritage,noun
+ການອະນຸລັກສິລະປະ,Art Conservation,Art Conservation,noun
+ຈັນຍາບັນສື່ມວນຊົນ,Media Ethics,Media Ethics,noun
+ເສລີພາບຂອງສື່,Freedom of Press,Freedom of Press,noun
+ການເຂົ້າເຖິງຂໍ້ມູນຂ່າວສານ,Access to Information,Access to Info,noun
+ຄວາມຮູ້ດ້ານສື່,Media Literacy,Media Literacy,noun
+ການສຶກສາຕະຫຼອດຊີວິດ,Lifelong Education,Lifelong Education,noun
+ສັງຄົມແຫ່ງປັນຍາ,Knowledge Society,Knowledge Society,noun
+ການພັດທະນາມະນຸດ,Human Development,Human Development,noun
+ຄຸນນະພາບຊີວິດ,Quality of Life,Quality of Life,noun
+ຄວາມໝັ້ນຄົງທາງອາຫານ,Food Security,Food Security,noun
+ຄວາມໝັ້ນຄົງທາງພະລັງງານ,Energy Security,Energy Security,noun
+ການປ້ອງກັນພະຍາດລະບາດ,Pandemic Prevention,Pandemic Prevention,noun
+ລະບົບສາທາລະນະສຸກສາກົນ,Global Health System,Global Health,noun
+ຄວາມສະເໝີພາບທາງການສຶກສາ,Education Equality,Education Equality,noun
+ໂອກາດທີ່ເທົ່າທຽມກັນ,Equal Opportunity,Equal Opportunity,noun
+ການລົບລ້າງຄວາມທຸກຍາກ,Poverty Eradication,Poverty Eradication,noun
+ຄວາມຍືນຍົງຂອງໂລກ,Global Sustainability,Global Sustainability,noun
+ຄວາມຮັບຜິດຊອບຮ່ວມກັນ,Shared Responsibility,Shared Responsibility,noun
+ອະນາຄົດຂອງຄົນລຸ້ນຫຼັງ,Future Generations,Future Generations,noun
+ຄວາມຫວັງອັນສູງສົ່ງ,Noble Hope,Noble Hope,noun
+ຄວາມສຳເລັດທີ່ຍືນຍົງ,Sustainable Success,Sustainable Success,noun
+ຄວາມສຸກທີ່ແທ້ຈິງ,True Happiness,True Happiness,noun
+ການປ່ຽນແປງທີ່ສ້າງສັນ,Constructive Change,Constructive Change,noun
+ພະລັງແຫ່ງຄວາມດີ,Power of Goodness,Power of Goodness,noun
+ຈິດວິນຍານທີ່ເຂັ້ມແຂງ,Strong Soul,Strong Soul,noun
+ຄວາມຮັກທີ່ບໍ່ມີເງື່ອນໄຂ,Unconditional Love,Unconditional Love,noun
+ການໃຫ້ອະໄພ,Forgiveness,Forgiveness,verb/noun
+ຄວາມເຫັນອົກເຫັນໃຈ,Empathy,Empathy,noun
+ຄວາມເອື້ອເຟື້ອເພື່ອແຜ່,Generosity,Generosity,noun
+ຄວາມສຸພາບຮຽບຮ້ອຍ,Politeness,Politeness,noun
+ຄວາມອ່ອນນ້ອມຖ່ອມຕົວ,Humility,Humility,noun
+ຄວາມກ້າຫານທາງຈິດໃຈ,Moral Courage,Moral Courage,noun
+ຄວາມພາກພຽນທີ່ບໍ່ຢຸດຢັ້ງ,Relentless Perseverance,Diligence,noun
+ຄວາມຊື່ສັດຕໍ່ຕົນເອງ,Honesty to Self,Self-honesty,noun
+ຄວາມເຊື່ອໝັ້ນໃນມະນຸດຊາດ,Faith in Humanity,Faith in Humanity,noun
+ໂລກແຫ່ງສັນຕິພາບ,World of Peace,World of Peace,noun
+ອະນາຄົດທີ່ສົດໃສ,Bright Future,Bright Future,noun
+ແສງສະຫວ່າງແຫ່ງຄວາມຫວັງ,Light of Hope,Light of Hope,noun
+ເສັ້ນທາງສູ່ຄວາມຮຸ່ງເຮືອງ,Path to Prosperity,Path to Prosperity,noun
+ການຮ່ວມມືລະຫວ່າງຊາດ,International Collaboration,Collaboration,noun
+ຄວາມສາມັກຄີທົ່ວໂລກ,Global Solidarity,Solidarity,noun
+ການພັດທະນາທີ່ສົມດຸນ,Balanced Development,Balanced Development,noun
+ເຕັກໂນໂລຊີເພື່ອມະນຸດ,Tech for Humanity,Tech for Humanity,noun
+ນະວັດຕະກຳສີຂຽວ,Green Innovation,Green Innovation,noun
+ການປົກປ້ອງໂລກສີຂຽວ,Protecting Green Earth,Conservation,noun
+ອາກາດທີ່ບໍລິສຸດສຳລັບທຸກຄົນ,Clean Air for All,Clean Air,noun
+ນ້ຳດື່ມທີ່ປອດໄພ,Safe Drinking Water,Safe Water,noun
+ພະລັງງານສະອາດແລະລາຄາຖືກ,Affordable Clean Energy,Clean Energy,noun
+ການກຳຈັດຂີ້ເຫຍື້ອຢ່າງຖືກວິທີ,Waste Management,Waste Mgmt,noun
+ການລີໄຊເຄິນອັດສະລິຍະ,Smart Recycling,Recycling,noun
+ຄວາມປອດໄພທາງດິຈິຕອນ,Digital Safety,Digital Safety,noun
+ການປົກປ້ອງຄວາມເປັນສ່ວນຕົວ,Privacy Protection,Privacy Protection,noun
+ການສື່ສານທີ່ໂປ່ງໃສ,Transparent Comms,Transparent Comms,noun
+ການເຂົ້າເຖິງເຕັກໂນໂລຊີ,Access to Tech,Access to Tech,noun
+ຄວາມເທົ່າທຽມທາງດິຈິຕອນ,Digital Equality,Digital Equality,noun
+ການຮຽນຮູ້ຜ່ານສື່ດິຈິຕອນ,Digital Learning,Digital Learning,noun
+ທັກສະໃນສະຕະວັດທີ 21,21st Century Skills,Skills,noun
+ຄວາມຄິດລິເລີ່ມສ້າງສັນ,Creative Initiative,Initiative,noun
+ຄວາມມຸ່ງໝັ້ນສູ່ຄວາມເປັນເລີດ,Commitment to Excellence,Excellence,noun
+ຄວາມພາກພູມໃຈໃນຜົນງານ,Pride in Work,Pride,noun
+ຄວາມຮັບຜິດຊອບຕໍ່ໜ້າທີ່,Responsibility to Duty,Duty,noun
+ການເຮັດວຽກຢ່າງມືອາຊີບ,Professional Work,Professionalism,noun
+ຈັນຍາບັນທາງທຸລະກິດ,Business Ethics,Business Ethics,noun
+ຄວາມໂປ່ງໃສໃນການບໍລິຫານ,Transparency in Admin,Transparency,noun
+ການກວດສອບທີ່ຍຸດຕິທຳ,Fair Audit,Audit,noun
+ຄວາມເຊື່ອໝັ້ນຂອງລູກຄ້າ,Customer Trust,Trust,noun
+ຄວາມພໍໃຈຢ່າງສູງສຸດ,Maximum Satisfaction,Satisfaction,noun
+ການບໍລິການທີ່ດີເລີດ,Excellence Service,Service,noun
+ຄວາມສຳພັນທີ່ຍືນຍົງ,Long-term Relationship,Relationship,noun
+ການຮ່ວມມືທີ່ເກີດຜົນ,Productive Cooperation,Cooperation,noun
+ຄວາມສຳເລັດຮ່ວມກັນ,Shared Success,Success,noun
+ການເຕີບໂຕທີ່ໝັ້ນຄົງ,Stable Growth,Growth,noun
+ຄວາມຮັ່ງມີທີ່ຍືນຍົງ,Sustainable Wealth,Wealth,noun
+ການລົງທຶນທີ່ຊານສະຫຼາດ,Smart Investment,Investment,noun
+ການວາງແຜນການເງິນທີ່ດີ,Good Financial Planning,Planning,noun
+ຄວາມໝັ້ນຄົງທາງເສດຖະກິດ,Economic Security,Security,noun
+ຄວາມກ້າວໜ້າຂອງສັງຄົມ,Social Progress,Progress,noun
+ຄວາມສຸກຂອງປະຊາຊົນ,Happiness of People,Happiness,noun
+ສັນຕິພາບຂອງໂລກ,Peace of the World,Peace,noun
+ຄວາມຮັກແພງພີ່ນ້ອງ,Brotherly Love,Love,noun
+ຄວາມສາມັກຄີປອງດອງ,Harmony and Unity,Harmony,noun
+ຄວາມເຂົ້າໃຈເຊິ່ງກັນແລະກັນ,Mutual Understanding,Understanding,noun
+ການໃຫ້ອະໄພເຊິ່ງກັນແລະກັນ,Mutual Forgiveness,Forgiveness,noun
+ຄວາມເມດຕາກະລຸນາ,Kindness and Mercy,Kindness,noun
+ຄວາມດີງາມທີ່ຍືນຍົງ,Enduring Goodness,Goodness,noun
+ກຽດຕິຍົດແລະສັກສີມະນຸດ,Human Honor and Dignity,Dignity,noun
+ສິດທິແລະເສລີພາບສ່ວນບຸກຄົນ,Individual Rights,Rights,noun
+ຄວາມຍຸດຕິທຳສຳລັບທຸກຄົນ,Justice for All,Justice,noun
+ໂລກທີ່ບໍ່ມີການແບ່ງແຍກ,World without Division,Inclusion,noun
+ຄວາມຫຼາກຫຼາຍທີ່ສວຍງາມ,Beautiful Diversity,Diversity,noun
+ການຢູ່ຮ່ວມກັນໃນຄວາມຕ່າງ,Living in Difference,Coexistence,noun
+ຄວາມສະຫງົບສຸກຂອງມວນມະນຸດ,Human Peace,Peace,noun
+ແສງສະຫວ່າງແຫ່ງປັນຍາ,Light of Wisdom,Wisdom,noun
+ອະນາຄົດທີ່ເຮົາສ້າງເອງ,Future We Create,Future,noun
+ຄວາມຫວັງທີ່ບໍ່ມີວັນສິ້ນສຸດ,Endless Hope,Hope,noun
+ຄວາມພະຍາຍາມທີ່ເຫັນຜົນ,Fruitful Effort,Effort,noun
+ຄວາມສຳເລັດທີ່ລໍຖ້າຢູ່,Awaiting Success,Success,noun
+ການເລີ່ມຕົ້ນຂອງສິ່ງໃໝ່,Beginning of New Things,New Beginnings,noun
+ຄວາມສຸກໃນທຸກໆມື້,Happiness Every Day,Happiness,noun
+ຮອຍຍິ້ມຂອງເດັກນ້ອຍ,Smile of Children,Smile,noun
+ຄວາມອົບອຸ່ນຂອງຄອບຄົວ,Warmth of Family,Family,noun
+ຄວາມຮັກຂອງແມ່,Mother's Love,Love,noun
+ຄວາມເຂັ້ມແຂງຂອງພໍ່,Father's Strength,Strength,noun
+ມິດຕະພາບຂອງເພື່ອນ,Friendship,Friendship,noun
+ຄວາມຈິງໃຈຂອງມະນຸດ,Human Sincerity,Sincerity,noun
+ຄວາມດີທີ່ເຮົາເຮັດໄດ້,Good We Can Do,Goodness,noun
+ໂລກທີ່ໜ້າຢູ່ຂຶ້ນ,Liveable World,World,noun
+ສິ່ງແວດລ້ອມທີ່ຂຽວງາມ,Green Environment,Environment,noun
+ທ້ອງຟ້າທີ່ສົດໃສ,Bright Sky,Sky,noun
+ແສງແດດທີ່ອົບອຸ່ນ,Warm Sunshine,Sunshine,noun
+ສາຍລົມທີ່ເຢັນສະບາຍ,Cool Breeze,Breeze,noun
+ສຽງນ້ຳຕົກທີ່ໄຫຼເຢັນ,Sound of Waterfall,Nature,noun
+ກິ່ນຫອມຂອງດອກໄມ້,Scent of Flowers,Nature,noun
+ຄວາມງາມຂອງທຳມະຊາດ,Beauty of Nature,Nature,noun
+ການອະນຸລັກສິ່ງແວດລ້ອມ,Environmental Conservation,Conservation,noun
+ຄວາມຮັບຜິດຊອບຕໍ່ໂລກ,Responsibility to Earth,Responsibility,noun
+ການຮັກສາຄວາມສະອາດ,Keeping Clean,Cleanliness,noun
+ການລົດຜົນກະທົບ,Impact Reduction,Mitigation,noun
+ການປັບຕົວຕໍ່ການປ່ຽນແປງ,Adaptation to Change,Adaptation,noun
+ເຕັກໂນໂລຊີທີ່ສະຫຼາດ,Smart Technology,Technology,noun
+ນະວັດຕະກຳໃໝ່ໆ,New Innovations,Innovation,noun
+ການຄົ້ນຄວ້າທີ່ກ້າວໜ້າ,Advanced Research,Research,noun
+ຄວາມຮູ້ທີ່ທັນສະໄໝ,Modern Knowledge,Knowledge,noun
+ການຮຽນຮູ້ທີ່ບໍ່ມີຂີດຈຳກັດ,Limitless Learning,Learning,noun
+ໂອກາດທີ່ເປີດກວ້າງ,Open Opportunity,Opportunity,noun
+ອະນາຄົດທີ່ສົດໃສຂອງພວກເຮົາ,Our Bright Future,Future,noun
+ຄວາມສຳເລັດອັນຍິ່ງໃຫຍ່,Great Achievement,Success,noun
+ຄວາມພາກພູມໃຈໃນຕົນເອງ,Self-pride,Pride,noun
+ຄວາມໝັ້ນໃຈໃນການກ້າວຍ່າງ,Confidence to Walk,Confidence,noun
+ຄວາມຮັກໃນສິ່ງທີ່ເຮັດ,Love in What You Do,Passion,noun
+ຄວາມສຸກໃນການໃຫ້,Happiness in Giving,Giving,noun
+ຄວາມເມດຕາຕໍ່ສັດທັງຫຼາຍ,Kindness to All Animals,Compassion,noun
+ຄວາມຮັກແພງລະຫວ່າງມະນຸດ,Affection Between Humans,Affection,noun
+ຄວາມສາມັກຄີຄືພະລັງ,Unity is Power,Unity,noun
+ການຮ່ວມມືທີ່ເຂັ້ມແຂງ,Strong Collaboration,Collaboration,noun
+ຜົນສຳເລັດທີ່ເປັນຮູບປະທຳ,Tangible Success,Success,noun
+ມາດຕະຖານລະດັບໂລກ,Global Standard,Standard,noun
+ຄຸນນະພາບທີ່ເຊື່ອຖືໄດ້,Reliable Quality,Quality,noun
+ການບໍລິການທີ່ຈິງໃຈ,Sincere Service,Service,noun
+ຄວາມພໍໃຈຂອງລູກຄ້າສູງສຸດ,Customer Satisfaction,Satisfaction,noun
+ຄວາມໝັ້ນຄົງທາງທຸລະກິດ,Business Stability,Stability,noun
+ການເຕີບໂຕທີ່ຍືນຍົງ,Sustainable Growth,Growth,noun
+ຄວາມຮັ່ງມີທີ່ແບ່ງປັນໄດ້,Shared Wealth,Wealth,noun
+ເສດຖະກິດທີ່ເຂັ້ມແຂງ,Strong Economy,Economy,noun
+ສັງຄົມທີ່ຍຸດຕິທຳ,Just Society,Society,noun
+ການເມືອງທີ່ໂປ່ງໃສ,Transparent Politics,Politics,noun
+ຜູ້ນຳທີ່ມີວິໄສທັດ,Visionary Leader,Leader,noun
+ປະຊາຊົນທີ່ມີຄວາມຮູ້,Knowledgeable People,People,noun
+ປະເທດຊາດທີ່ຮຸ່ງເຮືອງ,Prosperous Nation,Nation,noun
+ໂລກທີ່ສະຫງົບສຸກ,Peaceful World,World,noun
+ສັນຕິພາບທີ່ຖາວອນ,Enduring Peace,Peace,noun
+ຄວາມຮັກທີ່ໄຮ້ພົມແດນ,Borderless Love,Love,noun
+ຄວາມດີທີ່ບໍ່ມີວັນຕາຍ,Immortal Goodness,Goodness,noun
+ແສງສະຫວ່າງຂອງຊີວິດ,Light of Life,Life,noun
+ຄວາມໝາຍທີ່ແທ້ຈິງ,True Meaning,Meaning,noun
+ການເດີນທາງຂອງຊີວິດ,Journey of Life,Life,noun
+ຈຸດໝາຍປາຍທາງທີ່ສວຍງາມ,Beautiful Destination,Destination,noun
+ຄວາມຝັນທີ່ເປັນຈິງ,Dream Come True,Dream,noun
+ຄວາມສຳເລັດທີ່ພາກພູມໃຈ,Proud Success,Success,noun
+ຄວາມສຸກທີ່ຍືນຍົງຕະຫຼອດໄປ,Everlasting Happiness,Happiness,noun
+Lao Script,Transliteration,English Translation,word type
+ຢືນຢັນການຊໍາລະ,Yeun yan gan xam la,Confirm payment,verb/noun
+ຍົກເລີກທຸລະກຳ,Yok loek thu la gam,Cancel transaction,verb/noun
+ຕັ້ງຄ່າບັນຊີ,Tang kha ban xee,Account settings,noun
+ປ່ຽນລະຫັດຜ່ານ,Pian ra hat phan,Change password,verb/noun
+ແຈ້ງເຕືອນ,Chaeng teuan,Notification,noun
+ປະຫວັດການເງິນ,Pa vat gan ngin,Financial history,noun
+ຖອນເງິນດ່ວນ,Thon ngin duan,Quick withdraw,verb/noun
+ສະແກນຄິວອາກົດ,Scan QR code,Scan QR code,verb/noun
+ກະເປົາເງິນ,Ga pao ngin,Wallet,noun
+ຍອດເງິນທີ່ໃຊ້ໄດ້,Nyot ngin xai dai,Available balance,noun
+ຕິດໜີ້,Tit nee,In debt,adjective
+ດອກເບ້ຍສະສົມ,Dok bia sa som,Accumulated interest,noun
+ວົງເງິນສູງສຸດ,Vong ngin soong soot,Maximum limit,noun
+ໂອນເງິນສຳເລັດ,On ngin sam let,Transfer successful,phrase
+ຜິດພາດ,Phit phat,Error / Failure,noun
+ລໍຖ້າການອະນຸມັດ,Lor tha gan a nu mat,Pending approval,phrase
+ກວດສອບຄືນ,Guat sop kheun,Double check,verb
+ຂໍ້ມູນສ່ວນຕົວ,Kho moon xuan tua,Personal info,noun
+ເບີໂທລະສັບ,Ber tho la sap,Phone number,noun
+ທີ່ຢູ່,Thee yuu,Address,noun
+ວັນເດືອນປີເກີດ,Van deuan pee koet,Date of birth,noun
+ເພດ,Phet,Gender,noun
+ສັນຊາດ,San xat,Nationality,noun
+ອາຊີບ,A sip,Occupation,noun
+ລາຍໄດ້ສະເລ່ຍ,Lai dai sa lia,Average income,noun
+ເປົ້າໝາຍການອອມ,Pao mai gan om,Savings goal,noun
+ການລົງທຶນທີ່ມີຄວາມສ່ຽງ,Long thun siang,Risky investment,noun
+ກຸ່ມລູກຄ້າ,Goom look kha,Customer group,noun
+ສູນບໍລິການ,Soon bo ri gan,Service center,noun
+ສາຍດ່ວນ,Sai duan,Hotline,noun
+ສົນທະນາສົດ,Son tha na xot,Live chat,noun
+ຄຳຖາມທີ່ພົບເລື້ອຍ,Kham tham phop leuay,FAQ,noun
+ຂໍ້ກຳນົດແລະເງື່ອນໄຂ,Kho gam not lae ngeuan khai,Terms and conditions,noun
+ນະໂຍບາຍຄວາມເປັນສ່ວນຕົວ,Na yo bai privacy,Privacy policy,noun
+ການຍິນຍອມ,Gan yin nyom,Consent,noun
+ອອກຈາກລະບົບ,Ok chak ra bop,Logout,verb
+ເຂົ້າສູ່ລະບົບ,Khao su ra bop,Login,verb
+ຈົດຈຳຂ້ອຍ,Chot cham khoy,Remember me,phrase
+ລືມລະຫັດຜ່ານ,Leum ra hat phan,Forgot password,phrase
+ສ້າງບັນຊີໃໝ່,Sang ban xee mai,Create new account,verb
+ເຊື່ອມຕໍ່ເຟສບຸກ,Connect Facebook,Connect Facebook,verb
+ຢືນຢັນຕົວຕົນ,Yeun yan tua ton,Identity verification,verb/noun
+ຖ່າຍຮູບໃບໜ້າ,Thai hoop bai na,Take a selfie / face photo,verb
+ອັບໂຫຼດເອກະສານ,Up lode ek ga san,Upload document,verb
+ສຳເນົາບັດປະຊາຊົນ,Sam nao bat,ID card copy,noun
+ສຳເລັດແລ້ວ,Sam let laew,Done / Completed,adjective
+ກຳລັງດຳເນີນການ,Gam lang dam neen gan,In progress,phrase
+ລົ້ມເຫຼວ,Lom hleo,Failed,adjective
+ລອງໃໝ່ອີກຄັ້ງ,Long mai eek khang,Try again,verb
+ກະລຸນາລໍຖ້າ,Ga lu na lor tha,Please wait,phrase
+ບ່ອນວ່າງ,Bon vang,Empty space / Blank,noun
+ປ້ອນຂໍ້ມູນ,Pon kho moon,Input data,verb
+ຄົ້ນຫາ,Khon ha,Search,verb
+ໝວດໝູ່,Muat muu,Category,noun
+ຍອດນິຍົມ,Nyot ni nyom,Popular,adjective
+ໃໝ່ລ່າສຸດ,Mai la soot,Latest,adjective
+ແນະນຳໃຫ້ທ່ານ,Nae nam hai than,Recommended for you,phrase
+ໂປຣໂມຊັນ,Promotion,Promotion,noun
+ສ່ວນຫຼຸດພິເສດ,Xuan loot phi set,Special discount,noun
+ຄູປອງ,Coupon,Coupon,noun
+ແລກຄະແນນ,Laek kha naen,Redeem points,verb
+ສະສົມແຕ້ມ,Sa som taem,Collect points,verb
+ລະດັບສະມາຊິກ,Ra dap sa ma xik,Membership level,noun
+ສິດທິປະໂຫຍດ,Sit thi pa nyot,Benefits / Privileges,noun
+ການຈັດສົ່ງ,Gan chat song,Delivery,noun
+ຕິດຕາມສະຖານະ,Tit tam sa tha na,Track status,verb
+ຮອດແລ້ວ,Hot laew,Arrived,adjective
+ກວດຮັບສິນຄ້າ,Guat hap sin kha,Inspect goods,verb
+ຄືນສິນຄ້າ,Kheun sin kha,Return goods,verb
+ຂໍເງິນຄືນ,Kho ngin kheun,Refund,verb
+ໃຫ້ຄະແນນ,Hai kha naen,Rate / Give score,verb
+ຣີວິວ,Review,Review,noun/verb
+ຄວາມຄິດເຫັນ,Khuam khit hen,Comment / Opinion,noun
+ແບ່ງປັນໃຫ້ໝູ່,Baeng pan hai moo,Share with friends,verb
+ບັນທຶກໄວ້,Ban theuk vai,Save for later,verb
+ລາຍການທີ່ມັກ,Lai gan thee mak,Favorite list,noun
+ລົດເຂັນ,Lot khen,Cart / Trolley,noun
+ຊຳລະເງິນ,Xam la ngin,Checkout / Pay,verb
+ບັດຂອງຂວັນ,Bat khong khuan,Gift card,noun
+ຫໍ່ຂອງຂວັນ,Hor khong khuan,Wrap gift,verb
+ທີ່ຢູ່ການຈັດສົ່ງ,Thee yuu delivery,Shipping address,noun
+ທີ່ຢູ່ການອອກໃບບິນ,Thee yuu billing,Billing address,noun
+ວິທີການຊຳລະ,Vi thi gan xam la,Payment method,noun
+ເງິນສົດປາຍທາງ,Ngin xot pai thang,Cash on delivery,noun
+ຜ່ອນຊຳລະ,Phon xam la,Installment,verb
+ດອກເບ້ຍສູນເປີເຊັນ,Interest zero percent,0% Interest,noun
+ໄລຍະເວລາ,Lai ya ve la,Duration / Period,noun
+ເລີ່ມຕົ້ນ,Loem ton,Start,verb
+ສິ້ນສຸດ,Xin soot,End / Finish,verb
+ຕໍ່ອາຍຸ,Tor a nyoo,Renew,verb
+ຍົກເລີກການຕິດຕາມ,Yok loek follow,Unsubscribe,verb
+ຕັ້ງຄ່າຄວາມປອດໄພ,Tang kha safety,Security settings,noun
+ກວດສອບໄວຣັສ,Guat sop virus,Virus scan,verb
+ໄຟລ໌ຂີ້ເຫຍື້ອ,File khee nyeua,Junk files,noun
+ລ້າງຂໍ້ມູນ,Lang kho moon,Clear data,verb
+ຄວາມຈຳເຕັມ,Khuam cham tem,Memory full,adjective
+ສຳຮອງຂໍ້ມູນ,Sam hong kho moon,Back up data,verb
+ກູ້ຄືນ,Goo kheun,Restore / Recover,verb
+ອັບເດດລະບົບ,Update ra bop,System update,verb
+ເວີຊັນໃໝ່,Version mai,New version,noun
+ມີຫຍັງໃໝ່,Mee nyang mai,What's new,phrase
+ແກ້ໄຂບັກ,Gae khai bug,Fix bug,verb
+ເພີ່ມປະສິດທິພາບ,Phurm pa sit thi phap,Optimize,verb
+ຄວາມໄວ,Khuam vai,Speed,noun
+ຄວາມໝັ້ນຄົງ,Khuam man khong,Stability,noun
+ຄວາມເຂົ້າກັນໄດ້,Khuam khao gan dai,Compatibility,noun
+ຮອງຮັບ,Hong hap,Support / Compatible,verb
+ການຕັ້ງຄ່າຂັ້ນສູງ,Advanced settings,Advanced settings,noun
+ໂໝດກາງຄືນ,Night mode,Night mode,noun
+ຄວາມສະຫວ່າງ,Khuam sa vang,Brightness,noun
+ລະດັບສຽງ,Ra dap siang,Volume level,noun
+ສັ່ນ,San,Vibrate,verb
+ງຽບ,Ngiap,Silent,adjective
+ຫ້າມລົບກວນ,Ham lop kuan,Do not disturb,phrase
+ການຊ່ວຍເຫຼືອ,Gan xuay hleu,Help / Support,noun
+ຕິດຕໍ່ພວກເຮົາ,Tit tor phuak hao,Contact us,verb
+ກ່ຽວກັບພວກເຮົາ,Giao gap phuak hao,About us,phrase
+ສະຖານທີ່,Sa tha na thee,Location,noun
+ແຜນທີ່ກູເກີນ,Google Map,Google Map,noun
+ຄົ້ນຫາໃກ້ຄຽງ,Khon ha gai khiang,Search nearby,verb
+ໄລຍະທາງ,Lai ya thang,Distance,noun
+ເວລາເດີນທາງ,Ve la deun thang,Travel time,noun
+ການຈະລາຈອນ,Gan cha la chon,Traffic,noun
+ລົດຕິດ,Lot tit,Traffic jam,noun
+ທາງລັດ,Thang lat,Shortcut,noun
+ທາງດ່ວນ,Thang duan,Expressway,noun
+ຄ່າຜ່ານທາງ,Kha phan thang,Toll fee,noun
+ປ້ຳນ້ຳມັນ,Pam nam man,Gas station,noun
+ບ່ອນຊາດລົດໄຟຟ້າ,Charging station,EV charger,noun
+ຫ້ອງນ້ຳສາທາລະນະ,Hong nam,Public toilet,noun
+ບ່ອນຈອດລົດ,Bon chot lot,Parking,noun
+ເຕັມແລ້ວ,Tem laew,Full,adjective
+ຍັງວ່າງ,Nyang vang,Available / Vacant,adjective
+ຈອງລ່ວງໜ້າ,Xong luang na,Pre-book,verb
+ຍົກເລີກການຈອງ,Yok loek xong,Cancel booking,verb
+ຄືນເງິນມັດຈຳ,Kheun ngin mat cham,Refund deposit,verb
+ໃບຢັ້ງຢືນ,Bai nyang yeun,Certificate / Voucher,noun
+ສະແດງຕໍ່ພະນັກງານ,Sa daeng tor pha nak ngan,Show to staff,verb
+ບໍ່ສາມາດໃຊ້ໄດ້,Bor xa mat xai dai,Unavailable,adjective
+ໝົດອາຍຸ,Mot a nyoo,Expired,adjective
+ຖືກຕ້ອງ,Theuk tong,Valid / Correct,adjective
+ບໍ່ຖືກຕ້ອງ,Bor theuk tong,Invalid / Incorrect,adjective
+ກະລຸນາກວດສອບ,Ga lu na guat sop,Please check,phrase
+ຂໍອະໄພ,Kho a phai,Apologies,phrase
+ຄວາມບໍ່ສະດວກ,Khuam bor sa duak,Inconvenience,noun
+ຄຳຕິຊົມ,Kham ti xom,Feedback,noun
+ການປັບປຸງ,Gan pap poong,Improvement,noun
+ຂອບໃຈທີ່ໃຊ້ບໍລິການ,Khop chai xai bo ri gan,Thanks for using our service,phrase
+ມາໃໝ່,Ma mai,Come again,phrase
+ຍິນດີຕ້ອນຮັບ,Yin dee ton hap,Welcome,phrase
+ເຊີນທາງນີ້,Seun thang nee,This way please,phrase
+ນັ່ງລໍຖ້າ,Nang lor tha,Sit and wait,verb
+ບັດຄິວ,Bat queue,Queue ticket,noun
+ຮອດຄິວຂອງທ່ານແລ້ວ,Hot queue than laew,It's your turn,phrase
+ຕິດຕໍ່ຊ່ອງບໍລິການ,Tit tor xong bo ri gan,Contact service counter,verb
+ພະນັກງານຈະຊ່ວຍທ່ານ,Pha nak ngan xuay than,Staff will help you,phrase
+ລາຍເຊັນ,Lai xen,Signature,noun
+ປະທັບຕາ,Pa thap ta,Stamp / Seal,verb
+ເອກະສານສຳຄັນ,Ek ga san sam khan,Important document,noun
+ຕົ້ນສະບັບ,Ton sa bap,Original copy,noun
+ສຳເນົາ,Sam nao,Copy / Duplicate,noun
+ຂີດຂ້າ,Kheet kha,Cross out,verb
+ແກ້ໄຂຂໍ້ມູນ,Gae khai kho moon,Edit info,verb
+ຖືກຕ້ອງຕາມກົດໝາຍ,Theuk tong got mai,Legal,adjective
+ຜິດກົດໝາຍ,Phit got mai,Illegal,adjective
+ແຈ້ງຕຳຫຼວດ,Chaeng tam luat,Report to police,verb
+ຂອງຫາຍ,Khong hai,Lost property,noun
+ພົບເຫັນ,Phop hen,Found,verb
+ປະກາດຫາເຈົ້າຂອງ,Pa gat ha chao khong,Look for owner,verb
+ລາງວັນຕອບແທນ,Lang van top thaen,Reward,noun
+ຄວາມຊື່ສັດ,Khuam seu sat,Honesty,noun
+ຄົນດີ,Khon dee,Good person,noun
+ຊ່ວຍເຫຼືອສັງຄົມ,Xuay hleu sang khom,Help society,verb
+ອາສາສະໝັກ,A xa xa moot,Volunteer,noun
+ການບໍລິຈາກ,Gan bo ri chak,Donation,noun
+ເງິນສົດ,Ngin xot,Cash,noun
+ສິ່ງຂອງ,Sing khong,Things / Items,noun
+ແບ່ງປັນ,Baeng pan,Share,verb
+ຄວາມຮັກ,Khuam huk,Love,noun
+ຄວາມເມດຕາ,Khuam met ta,Kindness,noun
+ຄວາມສາມັກຄີ,Khuam sa mak khee,Unity,noun
+ຄວາມສະຫງົບ,Khuam xa ngop,Peace,noun
+ຄວາມສຸກ,Khuam suk,Happiness,noun
+ຄວາມຫວັງ,Khuam vang,Hope,noun
+ອະນາຄົດ,A na khot,Future,noun
+ຊີວິດໃໝ່,Xee vit mai,New life,noun
+ການເລີ່ມຕົ້ນ,Gan loem ton,The beginning,noun
+ຄວາມສຳເລັດ,Khuam sam let,Success,noun
+ຄວາມພະຍາຍາມ,Khuam pha nya yam,Effort,noun
+ຄວາມອົດທົນ,Khuam ot thon,Patience,noun
+ຄວາມກ້າຫານ,Khuam ga han,Bravery,noun
+ຄວາມໝັ້ນໃຈ,Khuam man chai,Confidence,noun
+ການຮຽນຮູ້,Gan hian roo,Learning,noun
+ປະສົບການ,Pa xop gan,Experience,noun
+ຄວາມຮູ້,Khuam roo,Knowledge,noun
+ສະຕິປັນຍາ,Sa ti pan nya,Wisdom,noun
+ຄວາມຈິງ,Khuam ching,Truth,noun
+ຍຸດຕິທຳ,Yu ti tham,Justice,noun
+ເສລີພາບ,Se lee phap,Freedom,noun
+ປະຊາທິປະໄຕ,Pa xa thi pa tai,Democracy,noun
+ສິດທິມະນຸດ,Sit thi ma noot,Human rights,noun
+ຄວາມສະເໝີພາບ,Khuam sa mur phap,Equality,noun
+ໂລກາພິວັດ,Lo ga phi vat,Globalization,noun
+ເຕັກໂນໂລຊີ,Tek no lo xee,Technology,noun
+ນະວັດຕະກຳ,Na vat ta gam,Innovation,noun
+ການປ່ຽນແປງ,Gan pian paeng,Change,noun
+ການພັດທະນາ,Gan phat tha na,Development,noun
+ຄວາມຍືນຍົງ,Khuam yeun yong,Sustainability,noun
+ສິ່ງແວດລ້ອມ,Sing vaet lom,Environment,noun
+ທຳມະຊາດ,Tham ma xat,Nature,noun
+ການອະນຸລັກ,Gan a nu lak,Conservation,noun
+ໂລກຮ້ອນ,Lok hon,Global warming,noun
+ພະລັງງານສະອາດ,Pha lang ngan sa at,Clean energy,noun
+ຂີ້ເຫຍື້ອ,Khee nyeua,Garbage,noun
+ມົນລະພິດ,Mon la phit,Pollution,noun
+ສຸຂະພາບ,Suk ha phap,Health,noun
+ຮ່າງກາຍ,Hang gai,Body,noun
+ຈິດໃຈ,Chit chai,Mind / Spirit,noun
+ອາຫານດີ,A han dee,Good food,noun
+ອອກກຳລັງກາຍ,Ok gam lang gai,Exercise,verb
+ພັກຜ່ອນ,Phak phon,Rest,verb
+ນອນຫຼັບ,Non hlap,Sleep,verb
+ຄວາມຝັນ,Khuam fan,Dream,noun
+ຄວາມຈິງ,Khuam ching,Reality,noun
+ເວລາ,Ve la,Time,noun
+ວິນາທີ,Vi na thee,Second,noun
+ນາທີ,Na thee,Minute,noun
+ຊົ່ວໂມງ,Xua mong,Hour,noun
+ມື້,Meu,Day,noun
+ອາທິດ,A thit,Week,noun
+ເດືອນ,Deuan,Month,noun
+ປີ,Pee,Year,noun
+ຕອນເຊົ້າ,Ton xao,Morning,noun
+ຕອນທ່ຽງ,Ton thiang,Noon,noun
+ຕອນແລງ,Ton laeng,Evening,noun
+ຕອນກາງຄືນ,Ton gang kheun,Night,noun
+ມື້ນີ້,Meu nee,Today,noun
+ມື້ອື່ນ,Meu eun,Tomorrow,noun
+ມື້ວານນີ້,Meu van nee,Yesterday,noun
+ອາທິດໜ້າ,A thit na,Next week,noun
+ເດືອນກ່ອນ,Deuan kon,Last month,noun
+ປີໃໝ່,Pee mai,New year,noun
+ວັດທະນະທຳ,Wat tha na tham,Culture,noun
+ປະເພນີ,Pa phe nee,Tradition,noun
+ພາສາລາວ,Pha sa Lao,Lao language,noun
+ຕົວອັກສອນ,Tua ak xon,Alphabet / Character,noun
+ການອ່ານ,Gan an,Reading,noun
+ການຂຽນ,Gan khian,Writing,noun
+ການເວົ້າ,Gan vao,Speaking,noun
+ການຟັງ,Gan fang,Listening,noun
+ຄວາມເຂົ້າໃຈ,Khuam khao jai,Understanding,noun
+ມິດຕະພາບ,Mit ta phap,Friendship,noun
+ຄອບຄົວ,Khop khua,Family,noun
+ຄວາມຮັກ,Khuam huk,Love,noun
+ຄວາມຜູກພັນ,Khuam phook phan,Bond / Connection,noun
+ການແບ່ງປັນ,Baeng pan,Sharing,noun
+ການຊ່ວຍເຫຼືອ,Xuay hleu,Helping,noun
+ຄວາມກະຕັນຍູ,Ga tan nyoo,Gratitude,noun
+ສິນລະທຳ,Sin la tham,Morality,noun
+ຄວາມດີ,Khuam dee,Goodness,noun
+ຄວາມງາມ,Khuam ngam,Beauty,noun
+ສິລະປະ,Sin la pa,Art,noun
+ດົນຕີ,Don tee,Music,noun
+ເພງ,Pheng,Song,noun
+ການເຕັ້ນ,Gan ten,Dancing,noun
+ຮູບເງົາ,Hoop ngao,Movie,noun
+ກິລາ,Gi la,Sport,noun
+ການທ່ອງທ່ຽວ,Gan thong thiao,Tourism,noun
+ການເດີນທາງ,Gan deun thang,Journey,noun
+ໂລກ,Lok,World,noun
+ປະເທດ,Pa thet,Country,noun
+ເມືອງ,Meuang,City / Town,noun
+ບ້ານ,Ban,Village / Home,noun
+ທ້ອງຟ້າ,Thong fa,Sky,noun
+ແສງຕາເວັນ,Saeng ta ven,Sunlight,noun
+ດວງຈັນ,Duang chan,Moon,noun
+ດາວ,Dao,Star,noun
+ເມກ,Mek,Cloud,noun
+ຝົນ,Fon,Rain,noun
+ລົມ,Lom,Wind,noun
+ພູເຂົາ,Phoo khao,Mountain,noun
+ແມ່ນ້ຳ,Mae nam,River,noun
+ທະເລ,Tha lae,Sea,noun
+ປ່າໄມ້,Pa mai,Forest,noun
+ຕົ້ນໄມ້,Ton mai,Tree,noun
+ດອກໄມ້,Dok mai,Flower,noun
+ສັດ,Sat,Animal,noun
+ນົກ,Nok,Bird,noun
+ປາ,Pa,Fish,noun
+ແມງໄມ້,Maeng mai,Insect,noun
+ຊີວິດ,Xee vit,Life,noun
+ຄວາມຕາຍ,Khuam tai,Death,noun

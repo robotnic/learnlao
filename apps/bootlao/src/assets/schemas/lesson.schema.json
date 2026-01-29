@@ -1,0 +1,466 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://bootlao.app/schemas/lesson.schema.json",
+  "title": "Bootlao Lesson",
+  "description": "Complete lesson structure for Bootlao language learning application",
+  "type": "object",
+  "required": ["lesson"],
+  "properties": {
+    "lesson": {
+      "type": "object",
+      "required": [
+        "id",
+        "title",
+        "path",
+        "level",
+        "duration",
+        "proficiencyGoal",
+        "introText",
+        "learningObjectives",
+        "vocabulary",
+        "culturalContext",
+        "games",
+        "activityFlow",
+        "sessions",
+        "quiz",
+        "celebration",
+        "spacedRepetition",
+        "pedagogicalNotes",
+        "implementation"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique lesson identifier (e.g., '1-1-1')",
+          "pattern": "^[0-9]+-[0-9]+-[0-9]+$"
+        },
+        "title": {
+          "type": "string",
+          "description": "Lesson title",
+          "minLength": 1
+        },
+        "path": {
+          "type": "object",
+          "required": ["id", "name"],
+          "properties": {
+            "id": {
+              "type": "string",
+              "description": "Path identifier (e.g., 'path-1')"
+            },
+            "name": {
+              "type": "string",
+              "description": "Path name"
+            }
+          }
+        },
+        "level": {
+          "type": "object",
+          "required": ["id", "name"],
+          "properties": {
+            "id": {
+              "type": "string",
+              "description": "Level identifier (e.g., '1.1')"
+            },
+            "name": {
+              "type": "string",
+              "description": "Level name"
+            }
+          }
+        },
+        "duration": {
+          "type": "number",
+          "description": "Total lesson duration in minutes",
+          "minimum": 1
+        },
+        "proficiencyGoal": {
+          "type": "string",
+          "description": "CEFR-aligned proficiency goal"
+        },
+        "introText": {
+          "type": "string",
+          "description": "Lesson introduction text"
+        },
+        "learningObjectives": {
+          "type": "array",
+          "description": "List of learning objectives",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1
+        },
+        "vocabulary": {
+          "type": "array",
+          "description": "Vocabulary items taught in this lesson",
+          "items": {
+            "type": "object",
+            "required": ["id", "laoScript", "romanization", "ipa", "english", "notes"],
+            "properties": {
+              "id": {
+                "type": "number",
+                "description": "Vocabulary item ID"
+              },
+              "laoScript": {
+                "type": "string",
+                "description": "Lao script representation"
+              },
+              "romanization": {
+                "type": "string",
+                "description": "Romanized transcription"
+              },
+              "ipa": {
+                "type": "string",
+                "description": "IPA phonetic transcription"
+              },
+              "english": {
+                "type": "string",
+                "description": "English translation"
+              },
+              "notes": {
+                "type": "string",
+                "description": "Usage notes or context"
+              }
+            }
+          },
+          "minItems": 1
+        },
+        "culturalContext": {
+          "type": "string",
+          "description": "Cultural context and usage notes"
+        },
+        "games": {
+          "type": "array",
+          "description": "Game definitions used in this lesson",
+          "items": {
+            "type": "object",
+            "required": ["id", "name", "type", "duration", "purpose", "difficulty", "description"],
+            "properties": {
+              "id": {
+                "type": "string",
+                "description": "Game identifier"
+              },
+              "name": {
+                "type": "string",
+                "description": "Game display name"
+              },
+              "type": {
+                "type": "string",
+                "description": "Game type (e.g., Recognition, Production)"
+              },
+              "duration": {
+                "type": "number",
+                "description": "Game duration in minutes",
+                "minimum": 1
+              },
+              "purpose": {
+                "type": "string",
+                "description": "Learning purpose of the game"
+              },
+              "difficulty": {
+                "type": "string",
+                "description": "Difficulty level"
+              },
+              "description": {
+                "type": "string",
+                "description": "Game description"
+              }
+            }
+          },
+          "minItems": 1
+        },
+        "activityFlow": {
+          "type": "array",
+          "description": "Ordered sequence of activities",
+          "items": {
+            "type": "object",
+            "required": ["step", "name", "duration", "gameId"],
+            "properties": {
+              "step": {
+                "type": "number",
+                "description": "Step number",
+                "minimum": 1
+              },
+              "name": {
+                "type": "string",
+                "description": "Step name"
+              },
+              "duration": {
+                "type": "number",
+                "description": "Step duration in minutes"
+              },
+              "gameId": {
+                "type": "string",
+                "description": "Game ID reference"
+              }
+            }
+          },
+          "minItems": 1
+        },
+        "sessions": {
+          "type": "array",
+          "description": "Learning sessions across multiple days",
+          "items": {
+            "type": "object",
+            "required": ["id", "name", "duration", "day", "content", "activity", "accuracyTarget", "notes"],
+            "properties": {
+              "id": {
+                "type": "number",
+                "description": "Session ID"
+              },
+              "name": {
+                "type": "string",
+                "description": "Session name"
+              },
+              "duration": {
+                "type": "number",
+                "description": "Session duration in minutes"
+              },
+              "day": {
+                "oneOf": [
+                  { "type": "number" },
+                  { "type": "string" }
+                ],
+                "description": "Day number or range (e.g., 1 or '2-3')"
+              },
+              "content": {
+                "type": "object",
+                "required": ["description"],
+                "properties": {
+                  "description": {
+                    "type": "string"
+                  },
+                  "videoDescription": {
+                    "type": "string"
+                  },
+                  "additionalContent": {
+                    "type": "string"
+                  }
+                }
+              },
+              "activity": {
+                "type": "string",
+                "description": "Activity description"
+              },
+              "accuracyTarget": {
+                "type": "number",
+                "description": "Target accuracy percentage",
+                "minimum": 0,
+                "maximum": 100
+              },
+              "notes": {
+                "type": "string",
+                "description": "Session notes"
+              }
+            }
+          },
+          "minItems": 1
+        },
+        "quiz": {
+          "type": "object",
+          "required": ["format", "passingScore", "duration", "questions"],
+          "properties": {
+            "format": {
+              "type": "string",
+              "description": "Quiz format description"
+            },
+            "passingScore": {
+              "type": "number",
+              "description": "Passing score percentage",
+              "minimum": 0,
+              "maximum": 100
+            },
+            "duration": {
+              "type": "number",
+              "description": "Quiz duration in minutes"
+            },
+            "questions": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["id", "type", "prompt"],
+                "properties": {
+                  "id": {
+                    "type": "number",
+                    "description": "Question ID"
+                  },
+                  "type": {
+                    "type": "string",
+                    "enum": ["recognition", "production-speaking", "context", "application", "listening"],
+                    "description": "Question type"
+                  },
+                  "prompt": {
+                    "type": "string",
+                    "description": "Question prompt"
+                  },
+                  "options": {
+                    "type": "array",
+                    "description": "Multiple choice options",
+                    "items": {
+                      "type": "object",
+                      "required": ["letter", "text"],
+                      "properties": {
+                        "letter": {
+                          "type": "string",
+                          "description": "Option letter (A, B, C, D)"
+                        },
+                        "text": {
+                          "type": "string",
+                          "description": "Option text"
+                        }
+                      }
+                    }
+                  },
+                  "answer": {
+                    "type": "string",
+                    "description": "Correct answer letter (for multiple choice)"
+                  },
+                  "expected": {
+                    "type": "string",
+                    "description": "Expected response (for production questions)"
+                  },
+                  "audioPhrase": {
+                    "type": "string",
+                    "description": "Audio phrase for listening questions"
+                  }
+                }
+              },
+              "minItems": 1
+            }
+          }
+        },
+        "celebration": {
+          "type": "object",
+          "required": ["title", "subtitle", "reward", "animations", "celebratoryMessage", "statsDisplayed", "nextLesson", "actions"],
+          "properties": {
+            "title": {
+              "type": "string",
+              "description": "Celebration title"
+            },
+            "subtitle": {
+              "type": "string",
+              "description": "Celebration subtitle"
+            },
+            "reward": {
+              "type": "string",
+              "description": "Reward symbol/icon"
+            },
+            "animations": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "description": "Animation effects"
+            },
+            "celebratoryMessage": {
+              "type": "string",
+              "description": "Congratulatory message"
+            },
+            "statsDisplayed": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "description": "Stats to display"
+            },
+            "nextLesson": {
+              "type": "object",
+              "required": ["id", "title"],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                }
+              }
+            },
+            "actions": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "description": "Available actions"
+            }
+          }
+        },
+        "spacedRepetition": {
+          "type": "object",
+          "required": ["carryForwardItems", "reviewSchedule"],
+          "properties": {
+            "carryForwardItems": {
+              "type": "string",
+              "description": "Description of items carried forward"
+            },
+            "reviewSchedule": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["timing", "activity"],
+                "properties": {
+                  "timing": {
+                    "type": "string",
+                    "description": "Review timing (e.g., 'Day 1', 'Day 3')"
+                  },
+                  "activity": {
+                    "type": "string",
+                    "description": "Review activity description"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "pedagogicalNotes": {
+          "type": "object",
+          "required": ["gameRationale", "difficultyProgression", "motivationFactors", "toneLanguageConsideration"],
+          "properties": {
+            "gameRationale": {
+              "type": "object",
+              "description": "Rationale for each game",
+              "additionalProperties": {
+                "type": "string"
+              }
+            },
+            "difficultyProgression": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["session", "description"],
+                "properties": {
+                  "session": {
+                    "type": "number"
+                  },
+                  "description": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "motivationFactors": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "toneLanguageConsideration": {
+              "type": "string",
+              "description": "Notes on tone language handling"
+            }
+          }
+        },
+        "implementation": {
+          "type": "object",
+          "required": ["checklist"],
+          "properties": {
+            "checklist": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "description": "Implementation checklist items"
+            }
+          }
+        }
+      }
+    }
+  }
+}

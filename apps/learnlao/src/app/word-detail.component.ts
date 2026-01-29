@@ -46,9 +46,29 @@ import { VocabularyItem, PhraseItem } from '../../../../libs/shared/types/knowle
             <h2>Phrases containing this word</h2>
             <div class="phrase-list">
               <div class="phrase-item" *ngFor="let phrase of relatedPhrases">
-                <div class="phrase-lao">{{ phrase.lao }}</div>
-                <div class="phrase-english">{{ phrase.english }}</div>
-                <div class="phrase-phonetic" *ngIf="phrase.phonetic">{{ phrase.phonetic }}</div>
+                <div class="phrase-content">
+                  <div class="phrase-lao">{{ phrase.lao }}</div>
+                  <div class="phrase-english">{{ phrase.english }}</div>
+                  <div class="phrase-phonetic" *ngIf="phrase.phonetic">{{ phrase.phonetic }}</div>
+                </div>
+                <div class="phrase-actions">
+                  <button
+                    class="play-btn"
+                    type="button"
+                    (click)="togglePlayPhrase(phrase, 'female')"
+                    [attr.aria-label]="(isPlayingPhrase(phrase, 'female') ? 'Stop' : 'Play') + ' female audio'"
+                  >
+                    {{ isPlayingPhrase(phrase, 'female') ? '⏹ F' : '▶ F' }}
+                  </button>
+                  <button
+                    class="play-btn"
+                    type="button"
+                    (click)="togglePlayPhrase(phrase, 'male')"
+                    [attr.aria-label]="(isPlayingPhrase(phrase, 'male') ? 'Stop' : 'Play') + ' male audio'"
+                  >
+                    {{ isPlayingPhrase(phrase, 'male') ? '⏹ M' : '▶ M' }}
+                  </button>
+                </div>
               </div>
             </div>
           </section>
@@ -198,6 +218,14 @@ import { VocabularyItem, PhraseItem } from '../../../../libs/shared/types/knowle
       border: 1px solid #e5e5e5;
       border-radius: 8px;
       background: #fafafa;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+
+    .phrase-content {
+      flex: 1;
     }
 
     .phrase-lao {
@@ -213,6 +241,30 @@ import { VocabularyItem, PhraseItem } from '../../../../libs/shared/types/knowle
     .phrase-phonetic {
       color: #666;
       font-size: 0.9rem;
+    }
+
+    .phrase-actions {
+      display: flex;
+      gap: 0.5rem;
+      flex-shrink: 0;
+    }
+
+    .play-btn {
+      border: 1px solid #e5e5e5;
+      background: #fff;
+      color: #000;
+      border-radius: 999px;
+      padding: 0.35rem 0.7rem;
+      font-size: 0.9rem;
+      cursor: pointer;
+      white-space: nowrap;
+      font-weight: 500;
+      transition: all 0.2s ease;
+    }
+
+    .play-btn:hover {
+      border-color: #000;
+      background: #f5f5f5;
     }
 
     .no-phrases {
@@ -254,6 +306,9 @@ export class WordDetailComponent implements OnInit {
   relatedPhrases: PhraseItem[] = [];
   emoji: string = '';
   private wordId: string = '';
+  private audio: HTMLAudioElement | null = null;
+  private playingPhraseId: string | null = null;
+  private playingPhrasesGender: 'male' | 'female' | null = null;
 
   constructor(
     private route: ActivatedRoute,
@@ -401,6 +456,67 @@ export class WordDetailComponent implements OnInit {
     }
 
     return '';
+  }
+
+  isPlayingPhrase(phrase: PhraseItem, gender: 'male' | 'female'): boolean {
+    return this.playingPhraseId === phrase.id && this.playingPhrasesGender === gender;
+  }
+
+  togglePlayPhrase(phrase: PhraseItem, gender: 'male' | 'female'): void {
+    if (this.isPlayingPhrase(phrase, gender)) {
+      this.stopAudio();
+      return;
+    }
+
+    this.playPhraseAudio(phrase, gender);
+  }
+
+  private playPhraseAudio(phrase: PhraseItem, gender: 'male' | 'female'): void {
+    this.stopAudio();
+
+    const url = `/assets/audio/${encodeURIComponent(phrase.id)}_${gender}.mp3`;
+    const audio = new Audio(url);
+    audio.preload = 'none';
+
+    const clear = () => {
+      if (this.audio === audio) {
+        this.audio = null;
+        this.playingPhraseId = null;
+        this.playingPhrasesGender = null;
+      }
+    };
+
+    audio.addEventListener('ended', clear);
+    audio.addEventListener('pause', clear);
+    audio.addEventListener('error', () => {
+      console.warn(`Failed to load audio: ${url}`);
+      clear();
+    });
+
+    this.audio = audio;
+    this.playingPhraseId = phrase.id;
+    this.playingPhrasesGender = gender;
+
+    void audio.play().catch(() => {
+      clear();
+    });
+  }
+
+  private stopAudio(): void {
+    if (!this.audio) {
+      this.playingPhraseId = null;
+      this.playingPhrasesGender = null;
+      return;
+    }
+
+    try {
+      this.audio.pause();
+      this.audio.currentTime = 0;
+    } finally {
+      this.audio = null;
+      this.playingPhraseId = null;
+      this.playingPhrasesGender = null;
+    }
   }
 
   getFeedbackUrl(): string {

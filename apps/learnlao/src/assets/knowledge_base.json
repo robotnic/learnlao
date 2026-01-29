@@ -2615,7 +2615,7 @@
       "phonetic": "To",
       "category": "noun",
       "usage_rank": 154,
-      "emoji": "🪑"
+      "emoji": "📦"
     },
     {
       "id": "chair_01",
@@ -5940,7 +5940,7 @@
       "id": "black_pepper_01",
       "lao": "ພິກໄທ",
       "english": "Black pepper",
-      "emoji": "🧂",
+      "emoji": "🫑",
       "level_id": "food_01",
       "phonetic": "Phik thai",
       "category": "noun",
@@ -20189,7 +20189,8 @@
       "level_id": "food_01",
       "phonetic": "A han dee",
       "category": "noun",
-      "usage_rank": 1946
+      "usage_rank": 1946,
+      "emoji": "😋"
     },
     {
       "id": "exercise_01",
@@ -20823,7 +20824,8 @@
       "level_id": "food_01",
       "phonetic": "Pa",
       "category": "noun",
-      "usage_rank": 2016
+      "usage_rank": 2016,
+      "emoji": "🐟"
     },
     {
       "id": "insect_01",
@@ -20889,7 +20891,8 @@
       "category": "noun",
       "usage_rank": 2023,
       "level_id": "food_01",
-      "audio_key": "mu_01_v1"
+      "audio_key": "mu_01_v1",
+      "emoji": "🐷"
     },
     {
       "id": "hai_01",
@@ -21006,7 +21009,8 @@
       "category": "phrase",
       "usage_rank": 2035,
       "level_id": "food_01",
-      "audio_key": "tao_dai_01_v1"
+      "audio_key": "tao_dai_01_v1",
+      "emoji": "💵"
     },
     {
       "id": "suay_02",
@@ -21303,7 +21307,8 @@
       "level_id": "food_01",
       "phonetic": "Pa",
       "category": "noun",
-      "usage_rank": 2066
+      "usage_rank": 2066,
+      "emoji": "🐟"
     },
     {
       "id": "kho_01",
@@ -21435,7 +21440,8 @@
       "english": "sheep",
       "category": "noun",
       "usage_rank": 2080,
-      "level_id": "basics_01"
+      "level_id": "basics_01",
+      "emoji": "🐑"
     },
     {
       "id": "ao_01",
@@ -21529,7 +21535,8 @@
       "category": "noun",
       "usage_rank": 2090,
       "level_id": "food_01",
-      "audio_key": "ahan_01_v1"
+      "audio_key": "ahan_01_v1",
+      "emoji": "🍽️"
     },
     {
       "id": "dae_01",
@@ -21597,7 +21604,8 @@
       "category": "verb",
       "usage_rank": 2097,
       "level_id": "basics_01",
-      "audio_key": "lot_lakha_01_v1"
+      "audio_key": "lot_lakha_01_v1",
+      "emoji": "🏷️"
     },
     {
       "id": "khwai_buffalo_01",
@@ -21721,7 +21729,8 @@
       "english": "goat",
       "category": "noun",
       "usage_rank": 2110,
-      "level_id": "basics_01"
+      "level_id": "basics_01",
+      "emoji": "🐐"
     },
     {
       "id": "ling_monkey_01",
@@ -22113,6 +22122,836 @@
       "category": "number",
       "level_id": "basics_01",
       "usage_rank": 2153
+    },
+    {
+      "id": "noun_01",
+      "english": "Noun",
+      "lao": "ຄຳນາມ",
+      "emoji": "📝",
+      "phonetic": "Kham nam",
+      "usage_rank": 1901
+    },
+    {
+      "id": "verb_01",
+      "english": "Verb",
+      "lao": "ຄຳກຳມະ",
+      "emoji": "⚡",
+      "phonetic": "Kham kamma",
+      "usage_rank": 1902
+    },
+    {
+      "id": "word_01",
+      "english": "Word",
+      "lao": "ຄຳສັບ",
+      "emoji": "📖",
+      "phonetic": "Kham sap",
+      "usage_rank": 1903
+    },
+    {
+      "id": "sentence_01",
+      "english": "Sentence",
+      "lao": "ປະໂຫຍກ",
+      "emoji": "✍️",
+      "phonetic": "Pa nyoak",
+      "usage_rank": 1904
+    },
+    {
+      "id": "character_letter_01",
+      "english": "Character / Letter",
+      "lao": "ຕົວອັກສອນ",
+      "emoji": "🔤",
+      "phonetic": "Tua ak sawn",
+      "usage_rank": 1905
+    },
+    {
+      "id": "number_01",
+      "english": "Number",
+      "lao": "ຕົວເລກ",
+      "emoji": "🔢",
+      "phonetic": "Tua lek",
+      "usage_rank": 1906
+    },
+    {
+      "id": "tone_01",
+      "english": "Tone",
+      "lao": "ສຽງວັນນະຍຸດ",
+      "emoji": "🎵",
+      "phonetic": "Siang van na nyut",
+      "usage_rank": 1907
+    },
+    {
+      "id": "say_01",
+      "english": "Say / Tell",
+      "lao": "ບອກ",
+      "phonetic": "bauk",
+      "emoji": "💬",
+      "usage_rank": 1801,
+      "category": "verb"
+    },
+    {
+      "id": "kamlang_progressive_01",
+      "english": "Progressive Marker",
+      "lao": "ກຳລັງ",
+      "phonetic": "kamlang",
+      "emoji": "⏳",
+      "usage_rank": 1911,
+      "category": "verb"
+    },
+    {
+      "id": "teum_more_01",
+      "english": "More / Additionally",
+      "lao": "ຕື່ມ",
+      "phonetic": "teum",
+      "emoji": "➕",
+      "usage_rank": 1911,
+      "category": "verb"
+    },
+    {
+      "id": "angkit_english_01",
+      "english": "English",
+      "lao": "ອັງກິດ",
+      "phonetic": "angkit",
+      "emoji": "🇬🇧",
+      "usage_rank": 1911,
+      "category": "verb"
+    },
+    {
+      "id": "mai_ek_tone_01",
+      "english": "Mai Ek (Tone Marker 1)",
+      "lao": "ໄມ້ເອກ ( ່ )",
+      "phonetic": "mai ek",
+      "emoji": "▔",
+      "category": "tone marker",
+      "usage_rank": 1911
+    },
+    {
+      "id": "mai_tho_tone_01",
+      "english": "Mai Tho (Tone Marker 2)",
+      "lao": "ໄມ້ໂທ ( ້ )",
+      "phonetic": "mai tho",
+      "emoji": "▀",
+      "category": "tone marker",
+      "usage_rank": 1912
+    },
+    {
+      "id": "mai_ti_tone_01",
+      "english": "Mai Ti (Tone Marker 3)",
+      "lao": "ໄມ້ຕີ ( ໊ )",
+      "phonetic": "mai ti",
+      "emoji": "◎",
+      "category": "tone marker",
+      "usage_rank": 1913
+    },
+    {
+      "id": "mai_chat_tone_01",
+      "english": "Mai Chat-ta-wa (Tone Marker 4)",
+      "lao": "ໄມ້ຈັດຕະວາ ( ໋ )",
+      "phonetic": "mai chat-ta-wa",
+      "emoji": "◉",
+      "category": "tone marker",
+      "usage_rank": 1914
+    },
+    {
+      "id": "nok_eagle_01",
+      "english": "Eagle",
+      "lao": "ນົກອິນຊີ",
+      "phonetic": "Nok in chi",
+      "emoji": "🦅",
+      "usage_rank": 1920
+    },
+    {
+      "id": "nok_owl_01",
+      "english": "Owl",
+      "lao": "ນົກເຄົ້າ",
+      "phonetic": "Nok khao",
+      "emoji": "🦉",
+      "usage_rank": 1921
+    },
+    {
+      "id": "nok_parrot_01",
+      "english": "Parrot",
+      "lao": "ນົກແກ້ວ",
+      "phonetic": "Nok kaew",
+      "emoji": "🦜",
+      "usage_rank": 1922
+    },
+    {
+      "id": "nok_pigeon_01",
+      "english": "Pigeon",
+      "lao": "ນົກເພາະ",
+      "phonetic": "Nok pha",
+      "emoji": "🕊️",
+      "usage_rank": 1923
+    },
+    {
+      "id": "nok_crow_01",
+      "english": "Crow",
+      "lao": "ນົກກາ",
+      "phonetic": "Nok ka",
+      "emoji": "🐦",
+      "usage_rank": 1924
+    },
+    {
+      "id": "wing_01",
+      "english": "Wing",
+      "lao": "ປີກ",
+      "phonetic": "Peek",
+      "emoji": "🪶",
+      "usage_rank": 1925
+    },
+    {
+      "id": "feather_01",
+      "english": "Feather",
+      "lao": "ຂົນ",
+      "phonetic": "Khon",
+      "emoji": "🪶",
+      "usage_rank": 1926
+    },
+    {
+      "id": "fly_01",
+      "english": "Fly (verb)",
+      "lao": "ບິນ",
+      "phonetic": "Bin",
+      "emoji": "✈️",
+      "usage_rank": 1927
+    },
+    {
+      "id": "seuasai_shirt_01",
+      "english": "Shirt",
+      "lao": "ເສື້ອ",
+      "phonetic": "Seua",
+      "emoji": "👔",
+      "usage_rank": 1930
+    },
+    {
+      "id": "geng_pants_01",
+      "english": "Pants",
+      "lao": "ກະເบງ",
+      "phonetic": "Ka beng",
+      "emoji": "👖",
+      "usage_rank": 1931
+    },
+    {
+      "id": "dress_01",
+      "english": "Dress",
+      "lao": "ກະโปງ",
+      "phonetic": "Ka pong",
+      "emoji": "👗",
+      "usage_rank": 1932
+    },
+    {
+      "id": "seua_coat_01",
+      "english": "Coat / Jacket",
+      "lao": "ເສື້ອກ່ຽວ",
+      "phonetic": "Seua khiao",
+      "emoji": "🧥",
+      "usage_rank": 1933
+    },
+    {
+      "id": "sock_01",
+      "english": "Sock",
+      "lao": "ຖົງຕີນ",
+      "phonetic": "Thong tin",
+      "emoji": "🧦",
+      "usage_rank": 1934
+    },
+    {
+      "id": "glove_01",
+      "english": "Glove",
+      "lao": "ຖົງມື",
+      "phonetic": "Thong mue",
+      "emoji": "🧤",
+      "usage_rank": 1935
+    },
+    {
+      "id": "scarf_01",
+      "english": "Scarf",
+      "lao": "ມ້ວນຄໍ",
+      "phonetic": "Muan kho",
+      "emoji": "🧣",
+      "usage_rank": 1936
+    },
+    {
+      "id": "belt_01",
+      "english": "Belt",
+      "lao": "ສາຍພາຍ",
+      "phonetic": "Sai phai",
+      "emoji": "🪝",
+      "usage_rank": 1937
+    },
+    {
+      "id": "tie_01",
+      "english": "Tie",
+      "lao": "ເນກະວາດ",
+      "phonetic": "Ne ka wat",
+      "emoji": "👔",
+      "usage_rank": 1938
+    },
+    {
+      "id": "sweater_01",
+      "english": "Sweater",
+      "lao": "ເສື້ອຖັກ",
+      "phonetic": "Seua thak",
+      "emoji": "🧶",
+      "usage_rank": 1939
+    },
+    {
+      "id": "skirt_01",
+      "english": "Skirt",
+      "lao": "ກະโปງ",
+      "phonetic": "Ka pong",
+      "emoji": "👚",
+      "usage_rank": 1940
+    },
+    {
+      "id": "ngu_snake_01",
+      "english": "Snake",
+      "lao": "ງູ",
+      "phonetic": "Ngu",
+      "emoji": "🐍",
+      "usage_rank": 1945
+    },
+    {
+      "id": "jing_crocodile_01",
+      "english": "Crocodile",
+      "lao": "ຈີງ",
+      "phonetic": "Jing",
+      "emoji": "🐊",
+      "usage_rank": 1946
+    },
+    {
+      "id": "tao_turtle_01",
+      "english": "Turtle",
+      "lao": "ເຕົ່າ",
+      "phonetic": "Tao",
+      "emoji": "🐢",
+      "usage_rank": 1947
+    },
+    {
+      "id": "ngao_lizard_01",
+      "english": "Lizard",
+      "lao": "ງໍ້າວ",
+      "phonetic": "Ngao",
+      "emoji": "🦎",
+      "usage_rank": 1948
+    },
+    {
+      "id": "scaley_01",
+      "english": "Scale / Scaly",
+      "lao": "ເກັດ",
+      "phonetic": "Get",
+      "emoji": "🪟",
+      "usage_rank": 1949
+    },
+    {
+      "id": "cold_blooded_01",
+      "english": "Cold-blooded",
+      "lao": "ເລືອດເຢັນ",
+      "phonetic": "Leuat yen",
+      "emoji": "❄️",
+      "usage_rank": 1950
+    },
+    {
+      "id": "gecko_01",
+      "english": "Gecko",
+      "lao": "ແກັກໂກ",
+      "phonetic": "Gecko",
+      "emoji": "🦎",
+      "usage_rank": 1951
+    },
+    {
+      "id": "larb_01",
+      "english": "Larb",
+      "lao": "ລາບ",
+      "phonetic": "Laab",
+      "emoji": "🍗",
+      "usage_rank": 1960
+    },
+    {
+      "id": "khao_jiao_sticky_rice_01",
+      "english": "Sticky Rice",
+      "lao": "ເຂົ້າຈີ່ວ",
+      "phonetic": "Khao jiao",
+      "emoji": "🍚",
+      "usage_rank": 1961
+    },
+    {
+      "id": "som_tam_01",
+      "english": "Som Tam",
+      "lao": "ສົ້ມຕໍາ",
+      "phonetic": "Som tam",
+      "emoji": "🥗",
+      "usage_rank": 1962
+    },
+    {
+      "id": "khao_poon_01",
+      "english": "Khao Poon",
+      "lao": "ເຂົ້າປູ່ນ",
+      "phonetic": "Khao poon",
+      "emoji": "🍝",
+      "usage_rank": 1963
+    },
+    {
+      "id": "satay_01",
+      "english": "Satay",
+      "lao": "ສະເຕະ",
+      "phonetic": "Sa tay",
+      "emoji": "🍢",
+      "usage_rank": 1964
+    },
+    {
+      "id": "spring_roll_01",
+      "english": "Spring Roll",
+      "lao": "ລະມໍຸ່",
+      "phonetic": "La mo",
+      "emoji": "🥟",
+      "usage_rank": 1965
+    },
+    {
+      "id": "gaeng_lao_01",
+      "english": "Lao Curry",
+      "lao": "ແກງ",
+      "phonetic": "Gaeng",
+      "emoji": "🥘",
+      "usage_rank": 1966
+    },
+    {
+      "id": "pad_krapow_01",
+      "english": "Pad Krapow",
+      "lao": "ຜັດກະເພາະ",
+      "phonetic": "Pad krapow",
+      "emoji": "🍳",
+      "usage_rank": 1967
+    },
+    {
+      "id": "papaya_salad_01",
+      "english": "Papaya Salad",
+      "lao": "ຕໍາມັກຮຸ່ງ",
+      "phonetic": "Tam mak huong",
+      "emoji": "🥗",
+      "usage_rank": 1968
+    },
+    {
+      "id": "tam_kao_01",
+      "english": "Tam Kao",
+      "lao": "ຕໍາເຂົ້າ",
+      "phonetic": "Tam khao",
+      "emoji": "🍚",
+      "usage_rank": 1969
+    },
+    {
+      "id": "face_01",
+      "english": "Face",
+      "lao": "ໜ້າ",
+      "phonetic": "Nha",
+      "emoji": "😊",
+      "usage_rank": 1970
+    },
+    {
+      "id": "nose_01",
+      "english": "Nose",
+      "lao": "ໂคນ",
+      "phonetic": "Khon",
+      "emoji": "👃",
+      "usage_rank": 1971
+    },
+    {
+      "id": "tooth_01",
+      "english": "Tooth",
+      "lao": "ຟັນ",
+      "phonetic": "Fan",
+      "emoji": "🦷",
+      "usage_rank": 1972
+    },
+    {
+      "id": "lip_01",
+      "english": "Lip",
+      "lao": "ຝາପາຍ",
+      "phonetic": "Pha pai",
+      "emoji": "👄",
+      "usage_rank": 1973
+    },
+    {
+      "id": "tongue_01",
+      "english": "Tongue",
+      "lao": "ລີ້ນ",
+      "phonetic": "Lin",
+      "emoji": "👅",
+      "usage_rank": 1974
+    },
+    {
+      "id": "neck_01",
+      "english": "Neck",
+      "lao": "ຄໍ",
+      "phonetic": "Kho",
+      "emoji": "🤏",
+      "usage_rank": 1975
+    },
+    {
+      "id": "shoulder_01",
+      "english": "Shoulder",
+      "lao": "ບ່າ",
+      "phonetic": "Ba",
+      "emoji": "💪",
+      "usage_rank": 1976
+    },
+    {
+      "id": "arm_01",
+      "english": "Arm",
+      "lao": "ແບ",
+      "phonetic": "Bae",
+      "emoji": "💪",
+      "usage_rank": 1977
+    },
+    {
+      "id": "elbow_01",
+      "english": "Elbow",
+      "lao": "ສໍ້າ",
+      "phonetic": "Sua",
+      "emoji": "🎋",
+      "usage_rank": 1978
+    },
+    {
+      "id": "wrist_01",
+      "english": "Wrist",
+      "lao": "ຕໍ່ມື",
+      "phonetic": "To mue",
+      "emoji": "⌚",
+      "usage_rank": 1979
+    },
+    {
+      "id": "finger_01",
+      "english": "Finger",
+      "lao": "ນິ້ວມື",
+      "phonetic": "Nua mue",
+      "emoji": "👆",
+      "usage_rank": 1980
+    },
+    {
+      "id": "thumb_01",
+      "english": "Thumb",
+      "lao": "ນິ້ວໂປ້",
+      "phonetic": "Nua po",
+      "emoji": "👍",
+      "usage_rank": 1981
+    },
+    {
+      "id": "heart_01",
+      "english": "Heart",
+      "lao": "ໃຈ",
+      "phonetic": "Chai",
+      "emoji": "❤️",
+      "usage_rank": 1982
+    },
+    {
+      "id": "lung_01",
+      "english": "Lung",
+      "lao": "ປອດ",
+      "phonetic": "Pod",
+      "emoji": "💨",
+      "usage_rank": 1983
+    },
+    {
+      "id": "liver_01",
+      "english": "Liver",
+      "lao": "ຕັບ",
+      "phonetic": "Tab",
+      "emoji": "🫘",
+      "usage_rank": 1984
+    },
+    {
+      "id": "kidney_01",
+      "english": "Kidney",
+      "lao": "ໄຕ",
+      "phonetic": "Tai",
+      "emoji": "🫘",
+      "usage_rank": 1985
+    },
+    {
+      "id": "leg_01",
+      "english": "Leg",
+      "lao": "ຂາ",
+      "phonetic": "Kha",
+      "emoji": "🦵",
+      "usage_rank": 1986
+    },
+    {
+      "id": "knee_01",
+      "english": "Knee",
+      "lao": "ເຂົ່າ",
+      "phonetic": "Khao",
+      "emoji": "🦵",
+      "usage_rank": 1987
+    },
+    {
+      "id": "ankle_01",
+      "english": "Ankle",
+      "lao": "ຂໍ້ຕີນ",
+      "phonetic": "Kho tin",
+      "emoji": "⛓️",
+      "usage_rank": 1988
+    },
+    {
+      "id": "toe_01",
+      "english": "Toe",
+      "lao": "ນິ້ວຕີນ",
+      "phonetic": "Nua tin",
+      "emoji": "🦶",
+      "usage_rank": 1989
+    },
+    {
+      "id": "sunday_01",
+      "english": "Sunday",
+      "lao": "ວັນອາທິດ",
+      "phonetic": "Van a-thit",
+      "emoji": "🌞",
+      "usage_rank": 1990
+    },
+    {
+      "id": "monday_01",
+      "english": "Monday",
+      "lao": "ວັນຈັນ",
+      "phonetic": "Van jan",
+      "emoji": "🌙",
+      "usage_rank": 1991
+    },
+    {
+      "id": "tuesday_01",
+      "english": "Tuesday",
+      "lao": "ວັນອັງຄານ",
+      "phonetic": "Van ang khan",
+      "emoji": "🔴",
+      "usage_rank": 1992
+    },
+    {
+      "id": "wednesday_01",
+      "english": "Wednesday",
+      "lao": "ວັນພຸດ",
+      "phonetic": "Van phut",
+      "emoji": "💚",
+      "usage_rank": 1993
+    },
+    {
+      "id": "thursday_01",
+      "english": "Thursday",
+      "lao": "ວັນພະຫັດ",
+      "phonetic": "Van pha hat",
+      "emoji": "🟠",
+      "usage_rank": 1994
+    },
+    {
+      "id": "friday_01",
+      "english": "Friday",
+      "lao": "ວັນສຸກ",
+      "phonetic": "Van suk",
+      "emoji": "💛",
+      "usage_rank": 1995
+    },
+    {
+      "id": "saturday_01",
+      "english": "Saturday",
+      "lao": "ວັນເສົາ",
+      "phonetic": "Van sao",
+      "emoji": "💜",
+      "usage_rank": 1996
+    },
+    {
+      "id": "frog_01",
+      "english": "Frog",
+      "lao": "ກົບ",
+      "phonetic": "Kop",
+      "emoji": "🐸",
+      "category": "noun",
+      "usage_rank": 1997
+    },
+    {
+      "id": "toad_01",
+      "english": "Toad",
+      "lao": "ກົບໃຫຍ່",
+      "phonetic": "Kop yai",
+      "emoji": "🐸",
+      "category": "noun",
+      "usage_rank": 1998
+    },
+    {
+      "id": "salamander_01",
+      "english": "Salamander",
+      "lao": "ສາກ",
+      "phonetic": "Sak",
+      "emoji": "🦎",
+      "category": "noun",
+      "usage_rank": 1999
+    },
+    {
+      "id": "tadpole_01",
+      "english": "Tadpole",
+      "lao": "ລູກກົບ",
+      "phonetic": "Luk kop",
+      "emoji": "🐛",
+      "category": "noun",
+      "usage_rank": 2000
+    },
+    {
+      "id": "newt_01",
+      "english": "Newt",
+      "lao": "ງາມ",
+      "phonetic": "Ngam",
+      "emoji": "🦎",
+      "category": "noun",
+      "usage_rank": 2001
+    },
+    {
+      "id": "slimy_01",
+      "english": "Slimy",
+      "lao": "ລື่ນ",
+      "phonetic": "Luen",
+      "emoji": "💧",
+      "category": "adjective",
+      "usage_rank": 2002
+    },
+    {
+      "id": "moist_01",
+      "english": "Moist",
+      "lao": "ຊຸ່ມ",
+      "phonetic": "Chum",
+      "emoji": "💧",
+      "category": "adjective",
+      "usage_rank": 2003
+    },
+    {
+      "id": "croak_01",
+      "english": "Croak",
+      "lao": "ຮ້ອງກະ",
+      "phonetic": "Hong ka",
+      "emoji": "🔊",
+      "category": "verb",
+      "usage_rank": 2004
+    },
+    {
+      "id": "north_01",
+      "english": "North",
+      "lao": "ທິດເໜືອ",
+      "phonetic": "Thit neua",
+      "emoji": "⬆️",
+      "category": "noun",
+      "usage_rank": 2005
+    },
+    {
+      "id": "south_01",
+      "english": "South",
+      "lao": "ທິດໃຕ້",
+      "phonetic": "Thit tai",
+      "emoji": "⬇️",
+      "category": "noun",
+      "usage_rank": 2006
+    },
+    {
+      "id": "east_01",
+      "english": "East",
+      "lao": "ທິດອອກ",
+      "phonetic": "Thit awk",
+      "emoji": "➡️",
+      "category": "noun",
+      "usage_rank": 2007
+    },
+    {
+      "id": "west_01",
+      "english": "West",
+      "lao": "ທິດຕາເວັນຕົກ",
+      "phonetic": "Thit ta ven tok",
+      "emoji": "⬅️",
+      "category": "noun",
+      "usage_rank": 2008
+    },
+    {
+      "id": "up_01",
+      "english": "Up",
+      "lao": "ຂຶ້ນ",
+      "phonetic": "Khun",
+      "emoji": "⬆️",
+      "category": "adverb",
+      "usage_rank": 2009
+    },
+    {
+      "id": "down_01",
+      "english": "Down",
+      "lao": "ລົງ",
+      "phonetic": "Long",
+      "emoji": "⬇️",
+      "category": "adverb",
+      "usage_rank": 2010
+    },
+    {
+      "id": "left_01",
+      "english": "Left",
+      "lao": "ຊ້າຍ",
+      "phonetic": "Saai",
+      "emoji": "⬅️",
+      "category": "adverb",
+      "usage_rank": 2011
+    },
+    {
+      "id": "right_01",
+      "english": "Right",
+      "lao": "ຂວາ",
+      "phonetic": "Khwa",
+      "emoji": "➡️",
+      "category": "adverb",
+      "usage_rank": 2012
+    },
+    {
+      "id": "forward_01",
+      "english": "Forward",
+      "lao": "ກ່ອນ",
+      "phonetic": "Gon",
+      "emoji": "➡️",
+      "category": "adverb",
+      "usage_rank": 2013
+    },
+    {
+      "id": "backward_01",
+      "english": "Backward",
+      "lao": "ຫລັງ",
+      "phonetic": "Lang",
+      "emoji": "⬅️",
+      "category": "adverb",
+      "usage_rank": 2014
+    },
+    {
+      "id": "northeast_01",
+      "english": "Northeast",
+      "lao": "ທິດຕາເວັນອອກສຽງເໜືອ",
+      "phonetic": "Thit ta ven awk siang neua",
+      "emoji": "↗️",
+      "category": "noun",
+      "usage_rank": 2015
+    },
+    {
+      "id": "northwest_01",
+      "english": "Northwest",
+      "lao": "ທິດຕາເວັນຕົກສຽງເໜືອ",
+      "phonetic": "Thit ta ven tok siang neua",
+      "emoji": "↖️",
+      "category": "noun",
+      "usage_rank": 2016
+    },
+    {
+      "id": "southeast_01",
+      "english": "Southeast",
+      "lao": "ທິດຕາເວັນອອກສຽງໃຕ້",
+      "phonetic": "Thit ta ven awk siang tai",
+      "emoji": "↘️",
+      "category": "noun",
+      "usage_rank": 2017
+    },
+    {
+      "id": "southwest_01",
+      "english": "Southwest",
+      "lao": "ທິດຕາເວັນຕົກສຽງໃຕ້",
+      "phonetic": "Thit ta ven tok siang tai",
+      "emoji": "↙️",
+      "category": "noun",
+      "usage_rank": 2018
     }
   ],
   "phrases": [
@@ -22461,6 +23300,707 @@
       ],
       "complexity": 2,
       "use_case": "Food"
+    },
+    {
+      "id": "ph_23",
+      "english": "I hear, but I don't understand",
+      "lao": "ຂ້ອຍຟັງ, ແຕ່ຂ້ອຍບໍ່ເຂົ້າໃຈ",
+      "phonetic": "Khoy fang, tae khoy baw khao chai",
+      "related_word_ids": [
+        "fang_01",
+        "understand_01"
+      ],
+      "level_id": "intermediate_01",
+      "complexity": 2,
+      "audio_key": "ph_23_v1"
+    },
+    {
+      "id": "ph_24",
+      "english": "Can you read this for me?",
+      "lao": "ອ່ານອັນນີ້ໃຫ້ຂ້ອຍໄດ້ບໍ່?",
+      "phonetic": "Aan an nee hai khoy dai baw?",
+      "related_word_ids": [
+        "read_01"
+      ],
+      "level_id": "intermediate_01",
+      "complexity": 2,
+      "audio_key": "ph_24_v1"
+    },
+    {
+      "id": "ph_25",
+      "english": "How do you write [word]?",
+      "lao": "[word] ຂຽນແນວໃດ?",
+      "phonetic": "[word] khian naew dai?",
+      "related_word_ids": [
+        "write_01"
+      ],
+      "level_id": "intermediate_01",
+      "complexity": 2,
+      "audio_key": "ph_25_v1"
+    },
+    {
+      "id": "ph_26",
+      "english": "I want to learn more",
+      "lao": "ຂ້ອຍຢາກຮຽນຕື່ມ",
+      "phonetic": "Khoy yak hian teum",
+      "related_word_ids": [
+        "hian_01",
+        "learn_wanting_01"
+      ],
+      "level_id": "intermediate_01",
+      "complexity": 2,
+      "audio_key": "ph_26_v1"
+    },
+    {
+      "id": "ph_27",
+      "english": "Do you know this word?",
+      "lao": "ເຈົ້າຮູ້ຄຳສັບນີ້ບໍ່?",
+      "phonetic": "Jao hoo kham sap nee baw?",
+      "related_word_ids": [
+        "know_01",
+        "word_01"
+      ],
+      "level_id": "intermediate_01",
+      "complexity": 2,
+      "audio_key": "ph_27_v1"
+    },
+    {
+      "id": "ph_28",
+      "english": "What is the tone?",
+      "lao": "ສຽງວັນນະຍຸດແມ່ນຫຍັງ?",
+      "phonetic": "Siang van na nyut maen nyang?",
+      "related_word_ids": [
+        "tone_01"
+      ],
+      "level_id": "intermediate_01",
+      "complexity": 2,
+      "audio_key": "ph_28_v1"
+    },
+    {
+      "id": "ph_29",
+      "english": "Is the tone correct?",
+      "lao": "ສຽງຖືກຕ້ອງບໍ່?",
+      "phonetic": "Siang theuk tong baw?",
+      "related_word_ids": [
+        "tone_01",
+        "valid_correct_01"
+      ],
+      "level_id": "intermediate_01",
+      "complexity": 2,
+      "audio_key": "ph_29_v1"
+    },
+    {
+      "id": "ph_30",
+      "english": "Which tone is this?",
+      "lao": "ອັນນີ້ແມ່ນສຽງໃດ?",
+      "phonetic": "An nee maen siang dai?",
+      "related_word_ids": [
+        "tone_01",
+        "ni_01"
+      ],
+      "level_id": "intermediate_01",
+      "complexity": 2,
+      "audio_key": "ph_30_v1"
+    },
+    {
+      "id": "ph_31",
+      "english": "Please say the pronunciation for me to hear.",
+      "lao": "ເວົ້າອອກສຽງໃຫ້ຟັງແດ່",
+      "phonetic": "Vao awk siang hai fang dae.",
+      "related_word_ids": [
+        "speak_01",
+        "pronunciation_01",
+        "fang_01",
+        "dae_polite_01"
+      ],
+      "level_id": "intermediate_01",
+      "complexity": 2,
+      "audio_key": "ph_31_v1"
+    },
+    {
+      "id": "ph_32",
+      "english": "The pronunciation is very difficult.",
+      "lao": "ອອກສຽງຍາກຫຼາຍ",
+      "phonetic": "Awk siang nyak lai.",
+      "related_word_ids": [
+        "pronunciation_01"
+      ],
+      "level_id": "intermediate_01",
+      "complexity": 2,
+      "audio_key": "ph_32_v1"
+    },
+    {
+      "id": "ph_33",
+      "english": "Mai Ek or Mai Tho?",
+      "lao": "ໄມ້ເອກ ຫຼື ໄມ້ໂທ?",
+      "phonetic": "Mai ek leu mai tho?",
+      "related_word_ids": [
+        "mai_ek_tone_01",
+        "mai_tho_tone_01"
+      ],
+      "level_id": "intermediate_01",
+      "complexity": 2,
+      "audio_key": "ph_33_v1"
+    },
+    {
+      "id": "ph_34",
+      "english": "High tone or low tone?",
+      "lao": "ສຽງສູງ ຫຼື ສຽງຕ່ຳ?",
+      "phonetic": "Siang sung leu siang tam?",
+      "related_word_ids": [
+        "tone_01"
+      ],
+      "level_id": "intermediate_01",
+      "complexity": 2,
+      "audio_key": "ph_34_v1"
+    },
+    {
+      "id": "ph_35",
+      "english": "I pronounced it wrong.",
+      "lao": "ຂ້ອຍອອກສຽງຜິດ",
+      "phonetic": "Khoy awk siang phit.",
+      "related_word_ids": [
+        "pronunciation_01"
+      ],
+      "level_id": "intermediate_01",
+      "complexity": 2,
+      "audio_key": "ph_35_v1"
+    },
+    {
+      "id": "ph_36",
+      "english": "Please say it one more time.",
+      "lao": "ກະລຸນາເວົ້າອີກເທື່ອໜຶ່ງ",
+      "phonetic": "Kaluna vao eek theua nung.",
+      "related_word_ids": [
+        "speak_01",
+        "please_01"
+      ],
+      "level_id": "intermediate_01",
+      "complexity": 2,
+      "audio_key": "ph_36_v1"
+    },
+    {
+      "id": "ph_37",
+      "english": "Have you eaten yet? (Common greeting)",
+      "lao": "ກິນເຂົ້າ ແລ້ວບໍ່?",
+      "phonetic": "Gin khao laew baw?",
+      "related_word_ids": [
+        "gin_01",
+        "khao_01"
+      ],
+      "level_id": "basics_01",
+      "complexity": 1,
+      "audio_key": "ph_37_v1"
+    },
+    {
+      "id": "ph_38",
+      "english": "Just kidding / Speaking for fun",
+      "lao": "ເວົ້າ ຫຼິ້ນໆ",
+      "phonetic": "Vao lin lin",
+      "related_word_ids": [
+        "speak_01"
+      ],
+      "level_id": "basics_01",
+      "complexity": 1,
+      "audio_key": "ph_38_v1"
+    },
+    {
+      "id": "ph_39",
+      "english": "Where are you going?",
+      "lao": "ໄປ ໃສ?",
+      "phonetic": "Pai sai?",
+      "related_word_ids": [
+        "pai_01",
+        "sai_where_01"
+      ],
+      "level_id": "basics_01",
+      "complexity": 1,
+      "audio_key": "ph_39_v1"
+    },
+    {
+      "id": "ph_40",
+      "english": "I don't know either",
+      "lao": "ບໍ່ ຮູ້ ຄື ກັນ",
+      "phonetic": "Baw hoo kheu kan",
+      "related_word_ids": [
+        "baw_01",
+        "know_01"
+      ],
+      "level_id": "basics_01",
+      "complexity": 1,
+      "audio_key": "ph_40_v1"
+    },
+    {
+      "id": "ph_41",
+      "english": "Is that true? / Really?",
+      "lao": "ແມ່ນ ແທ້ ບໍ່?",
+      "phonetic": "Maen thae baw?",
+      "related_word_ids": [
+        "men_01"
+      ],
+      "level_id": "basics_01",
+      "complexity": 1,
+      "audio_key": "ph_41_v1"
+    },
+    {
+      "id": "ph_42",
+      "english": "See you again",
+      "lao": "ພົບ ກັນ ໃໝ່",
+      "phonetic": "Phop kan mai",
+      "related_word_ids": [
+        "phop_01"
+      ],
+      "level_id": "basics_01",
+      "complexity": 1,
+      "audio_key": "ph_42_v1"
+    },
+    {
+      "id": "ph_43",
+      "english": "Where will you go?",
+      "lao": "ຊິ ໄປ ໃສ?",
+      "phonetic": "Si pai sai?",
+      "related_word_ids": [
+        "pai_01",
+        "sai_where_01"
+      ],
+      "level_id": "basics_01",
+      "complexity": 1,
+      "audio_key": "ph_43_v1"
+    },
+    {
+      "id": "ph_44",
+      "english": "Where have you been?",
+      "lao": "ໄປ ໃສ ມາ?",
+      "phonetic": "Pai sai ma?",
+      "related_word_ids": [
+        "pai_01",
+        "sai_where_01",
+        "ma_01"
+      ],
+      "level_id": "basics_01",
+      "complexity": 1,
+      "audio_key": "ph_44_v1"
+    },
+    {
+      "id": "ph_45",
+      "english": "Right now",
+      "lao": "ດຽວ ນີ້",
+      "phonetic": "Diao nee",
+      "related_word_ids": [
+        "diao_01",
+        "ni_01"
+      ],
+      "level_id": "basics_01",
+      "complexity": 1,
+      "audio_key": "ph_45_v1"
+    },
+    {
+      "id": "ph_46",
+      "english": "In a little bit / Soon",
+      "lao": "ຈັກ ໜ້ອຍ",
+      "phonetic": "Jak noy",
+      "related_word_ids": [],
+      "level_id": "basics_01",
+      "complexity": 1,
+      "audio_key": "ph_46_v1"
+    },
+    {
+      "id": "ph_47",
+      "english": "I don't understand very much",
+      "lao": "ບໍ່ ເຂົ້າ ໃຈ ປານ ໃດ",
+      "phonetic": "Baw khao chai pan dai",
+      "related_word_ids": [
+        "baw_01",
+        "understand_01"
+      ],
+      "level_id": "basics_01",
+      "complexity": 2,
+      "audio_key": "ph_47_v1"
+    },
+    {
+      "id": "ph_48",
+      "english": "Why? / What happened?",
+      "lao": "ເປັນ ຫຍັງ?",
+      "phonetic": "Pen nyang?",
+      "related_word_ids": [
+        "why_01",
+        "nyang_01"
+      ],
+      "level_id": "basics_01",
+      "complexity": 1,
+      "audio_key": "ph_48_v1"
+    },
+    {
+      "id": "ph_49",
+      "english": "How do you do it?",
+      "lao": "ເຮັດ ແນວ ໃດ?",
+      "phonetic": "Het naew dai?",
+      "related_word_ids": [
+        "het_01"
+      ],
+      "level_id": "basics_01",
+      "complexity": 1,
+      "audio_key": "ph_49_v1"
+    },
+    {
+      "id": "ph_50",
+      "english": "What is the price?",
+      "lao": "ລາ ຄາ ເທົ່າ ໃດ?",
+      "phonetic": "La kha thao dai?",
+      "related_word_ids": [
+        "lakha_01",
+        "tao_dai_01"
+      ],
+      "level_id": "food_01",
+      "complexity": 1,
+      "audio_key": "ph_50_v1"
+    },
+    {
+      "id": "ph_51",
+      "english": "Can you discount it?",
+      "lao": "ຫຼຸດ ໄດ້ ບໍ່?",
+      "phonetic": "Lut dai baw?",
+      "related_word_ids": [
+        "tao_dai_01"
+      ],
+      "level_id": "food_01",
+      "complexity": 1,
+      "audio_key": "ph_51_v1"
+    },
+    {
+      "id": "ph_52",
+      "english": "Good morning",
+      "lao": "ສະບາຍດີ ຕອນເຊົ້າ",
+      "phonetic": "Sabaidee tawn sao",
+      "related_word_ids": [
+        "sabaidee_01"
+      ],
+      "level_id": "basics_01",
+      "complexity": 1,
+      "audio_key": "ph_52_v1"
+    },
+    {
+      "id": "ph_53",
+      "english": "The check, please",
+      "lao": "ເຊັກ ບິນ",
+      "phonetic": "Chek bin",
+      "related_word_ids": [
+        "please_01"
+      ],
+      "level_id": "food_01",
+      "complexity": 1,
+      "audio_key": "ph_53_v1"
+    },
+    {
+      "id": "ph_54",
+      "english": "I'm hungry",
+      "lao": "ຂ້ອຍ ຫິວ ເຂົ້າ",
+      "phonetic": "Khoy hew khao",
+      "related_word_ids": [
+        "hiu_01",
+        "khao_01"
+      ],
+      "level_id": "food_01",
+      "complexity": 1,
+      "audio_key": "ph_54_v1"
+    },
+    {
+      "id": "ph_55",
+      "english": "Very delicious",
+      "lao": "ແຊບ ຫຼາຍ",
+      "phonetic": "Saep lai lai",
+      "related_word_ids": [
+        "aroy_01"
+      ],
+      "level_id": "food_01",
+      "complexity": 1,
+      "audio_key": "ph_55_v1"
+    },
+    {
+      "id": "ph_56",
+      "english": "Not spicy",
+      "lao": "ບໍ່ ເຜັດ",
+      "phonetic": "Baw phet",
+      "related_word_ids": [
+        "phet_01"
+      ],
+      "level_id": "food_01",
+      "complexity": 1,
+      "audio_key": "ph_56_v1"
+    },
+    {
+      "id": "ph_57",
+      "english": "A little spicy",
+      "lao": "ເຜັດ ໜ້ອຍ ໜຶ່ງ",
+      "phonetic": "Phet noy nung",
+      "related_word_ids": [
+        "phet_01"
+      ],
+      "level_id": "food_01",
+      "complexity": 1,
+      "audio_key": "ph_57_v1"
+    },
+    {
+      "id": "ph_58",
+      "english": "Don't put sugar",
+      "lao": "ບໍ່ ໃສ່ ນ້ຳ ຕານ",
+      "phonetic": "Baw sai nam tan",
+      "related_word_ids": [
+        "baw_01"
+      ],
+      "level_id": "food_01",
+      "complexity": 1,
+      "audio_key": "ph_58_v1"
+    },
+    {
+      "id": "ph_59",
+      "english": "Beer Lao",
+      "lao": "ເບຍ ລາວ",
+      "phonetic": "Bia Lao",
+      "related_word_ids": [
+        "beer_01"
+      ],
+      "level_id": "food_01",
+      "complexity": 1,
+      "audio_key": "ph_59_v1"
+    },
+    {
+      "id": "ph_60",
+      "english": "I am sick",
+      "lao": "ຂ້ອຍ ບໍ່ ສະບາຍ",
+      "phonetic": "Khoy baw sabai",
+      "related_word_ids": [
+        "pain_sick_01"
+      ],
+      "level_id": "basics_01",
+      "complexity": 1,
+      "audio_key": "ph_60_v1"
+    },
+    {
+      "id": "ph_61",
+      "english": "Help!",
+      "lao": "ຊ່ວຍ ແດ່",
+      "phonetic": "Suay dae",
+      "related_word_ids": [],
+      "level_id": "basics_01",
+      "complexity": 1,
+      "audio_key": "ph_61_v1"
+    },
+    {
+      "id": "ph_62",
+      "english": "Stop!",
+      "lao": "ຢຸດ",
+      "phonetic": "Yuut",
+      "related_word_ids": [],
+      "level_id": "basics_01",
+      "complexity": 1,
+      "audio_key": "ph_62_v1"
+    },
+    {
+      "id": "ph_63",
+      "english": "Police!",
+      "lao": "ຕຳຫຼວດ",
+      "phonetic": "Dtum louat",
+      "related_word_ids": [],
+      "level_id": "basics_01",
+      "complexity": 1,
+      "audio_key": "ph_63_v1"
+    },
+    {
+      "id": "ph_64",
+      "english": "I am lost",
+      "lao": "ຂ້ອຍ ຫຼົງ ທາງ",
+      "phonetic": "Khoy long thang",
+      "related_word_ids": [],
+      "level_id": "basics_01",
+      "complexity": 1,
+      "audio_key": "ph_64_v1"
+    },
+    {
+      "id": "ph_65",
+      "english": "Turn left",
+      "lao": "ລ້ຽວ ຊ້າຍ",
+      "phonetic": "Leo sai",
+      "related_word_ids": [
+        "left_01"
+      ],
+      "level_id": "basics_01",
+      "complexity": 1,
+      "audio_key": "ph_65_v1"
+    },
+    {
+      "id": "ph_66",
+      "english": "Turn right",
+      "lao": "ລ້ຽວ ຂວາ",
+      "phonetic": "Leo khua",
+      "related_word_ids": [
+        "right_01"
+      ],
+      "level_id": "basics_01",
+      "complexity": 1,
+      "audio_key": "ph_66_v1"
+    },
+    {
+      "id": "ph_67",
+      "english": "Market",
+      "lao": "ຕະຫຼາດ",
+      "phonetic": "Ta lat",
+      "related_word_ids": [],
+      "level_id": "basics_01",
+      "complexity": 1,
+      "audio_key": "ph_67_v1"
+    },
+    {
+      "id": "ph_68",
+      "english": "Hospital",
+      "lao": "ໂຮງ ໝໍ",
+      "phonetic": "Hong maw",
+      "related_word_ids": [],
+      "level_id": "basics_01",
+      "complexity": 1,
+      "audio_key": "ph_68_v1"
+    },
+    {
+      "id": "ph_69",
+      "english": "Hotel",
+      "lao": "ໂຮງ ແຮມ",
+      "phonetic": "Hong haem",
+      "related_word_ids": [],
+      "level_id": "basics_01",
+      "complexity": 1,
+      "audio_key": "ph_69_v1"
+    },
+    {
+      "id": "ph_70",
+      "english": "I want to go to ...",
+      "lao": "ຂ້ອຍ ຢາກ ໄປ ...",
+      "phonetic": "Khoy yak pai ...",
+      "related_word_ids": [
+        "pai_01"
+      ],
+      "level_id": "basics_01",
+      "complexity": 1,
+      "audio_key": "ph_70_v1"
+    },
+    {
+      "id": "ph_71",
+      "english": "May I see the room first?",
+      "lao": "ເບິ່ງ ຫ້ອງ ກ່ອນ ໄດ້ ບໍ່?",
+      "phonetic": "Berng hawng gawn dai baw?",
+      "related_word_ids": [],
+      "level_id": "basics_01",
+      "complexity": 2,
+      "audio_key": "ph_71_v1"
+    },
+    {
+      "id": "ph_72",
+      "english": "I've already eaten.",
+      "lao": "ກິນເຂົ້າແລ້ວ",
+      "phonetic": "kin khao laew",
+      "context": "Most common daily phrase",
+      "related_word_ids": [],
+      "level_id": "food_01",
+      "complexity": 1,
+      "audio_key": "ph_72_v1"
+    },
+    {
+      "id": "ph_73",
+      "english": "Already finished doing it.",
+      "lao": "ເຮັດແລ້ວແລ້ວ",
+      "phonetic": "het laew laew",
+      "context": "Double 'laew' for emphasis",
+      "related_word_ids": [],
+      "level_id": "basics_01",
+      "complexity": 1,
+      "audio_key": "ph_73_v1"
+    },
+    {
+      "id": "ph_74",
+      "english": "I'm going now / Leaving now.",
+      "lao": "ໄປແລ້ວເດີ້",
+      "phonetic": "pai laew der",
+      "context": "Polished way to announce departure",
+      "related_word_ids": [],
+      "level_id": "basics_01",
+      "complexity": 1,
+      "audio_key": "ph_74_v1"
+    },
+    {
+      "id": "ph_75",
+      "english": "I understand now.",
+      "lao": "ເຂົ້າໃຈແລ້ວ",
+      "phonetic": "khao jai laew",
+      "context": "Indicates a shift in understanding",
+      "related_word_ids": [],
+      "level_id": "basics_01",
+      "complexity": 1,
+      "audio_key": "ph_75_v1"
+    },
+    {
+      "id": "ph_76",
+      "english": "I already know.",
+      "lao": "ຮູ້ແລ້ວ",
+      "phonetic": "hoo laew",
+      "context": "Common response to information",
+      "related_word_ids": [],
+      "level_id": "basics_01",
+      "complexity": 1,
+      "audio_key": "ph_76_v1"
+    },
+    {
+      "id": "ph_77",
+      "english": "I'm already drunk.",
+      "lao": "ເມົາແລ້ວ",
+      "phonetic": "mao laew",
+      "context": "Social setting / Nightlife",
+      "related_word_ids": [],
+      "level_id": "basics_01",
+      "complexity": 1,
+      "audio_key": "ph_77_v1"
+    },
+    {
+      "id": "ph_78",
+      "english": "That's enough / Already sufficient.",
+      "lao": "ພໍແລ້ວ",
+      "phonetic": "phor laew",
+      "context": "Used when ordering food or drink",
+      "related_word_ids": [],
+      "level_id": "food_01",
+      "complexity": 1,
+      "audio_key": "ph_78_v1"
+    },
+    {
+      "id": "ph_79",
+      "english": "And then see you again.",
+      "lao": "ແລ້ວພົບກັນໃໝ່",
+      "phonetic": "laew phop kan mai",
+      "context": "Standard goodbye phrase",
+      "related_word_ids": [],
+      "level_id": "basics_01",
+      "complexity": 1,
+      "audio_key": "ph_79_v1"
+    },
+    {
+      "id": "ph_80",
+      "english": "I don't want it anymore.",
+      "lao": "ບໍ່ເອົາແລ້ວ",
+      "phonetic": "baw ao laew",
+      "context": "Declining an offer",
+      "related_word_ids": [],
+      "level_id": "basics_01",
+      "complexity": 1,
+      "audio_key": "ph_80_v1"
+    },
+    {
+      "id": "ph_81",
+      "english": "It's up to you.",
+      "lao": "ແລ້ວແຕ່ເຈົ້າ",
+      "phonetic": "laew tae jao",
+      "context": "Giving someone else the choice",
+      "related_word_ids": [],
+      "level_id": "basics_01",
+      "complexity": 1,
+      "audio_key": "ph_81_v1"
     }
   ],
   "topics": [
@@ -22619,11 +24159,20 @@
         "luk_01",
         "phi_01",
         "nong_01",
-        "ban_01",
-        "man_khon_01",
-        "khoi_01",
-        "jao_01",
-        "an_01"
+        "son_01",
+        "daughter_01",
+        "ai_02",
+        "euay_01",
+        "husband_01",
+        "wife_01",
+        "aunt_01",
+        "uncle_01",
+        "grandchild_niece_nephew_01",
+        "paternal_grandfather_01",
+        "paternal_grandmother_01",
+        "maternal_grandmother_01",
+        "ta_eye_01_02",
+        "relatives_01"
       ],
       "phrases": [],
       "emoji": "👪"
@@ -22737,21 +24286,21 @@
       "description": "Common animals and related vocabulary",
       "pinned": false,
       "words": [
-        "maew_cat_01",
-        "maa_dog_01",
-        "xang_elephant_01",
-        "ngua_cow_01",
-        "khwai_buffalo_01",
-        "maa_horse_01",
-        "pet_duck_01",
         "bae_goat_01",
         "kae_sheep_01",
-        "nok_bird_01",
-        "suea_tiger_01",
-        "ling_monkey_01",
-        "pa_01",
         "kai_chicken_01",
-        "mu_01"
+        "khwai_buffalo_01",
+        "ling_monkey_01",
+        "maa_dog_01",
+        "maa_horse_01",
+        "maew_cat_01",
+        "mu_01",
+        "ngua_cow_01",
+        "nok_bird_01",
+        "pa_01",
+        "pet_duck_01",
+        "suea_tiger_01",
+        "xang_elephant_01"
       ],
       "phrases": [],
       "emoji": "🐾"
@@ -22833,12 +24382,33 @@
         "mue_hand_01",
         "ta_eye_01",
         "thong_stomach_01",
-        "jep_01",
-        "mor_01",
-        "ya_01",
-        "khai_01",
-        "sabai_01",
-        "chep_01"
+        "hu_ear_01",
+        "pak_mouth_01",
+        "skin_01",
+        "bone_01",
+        "muscle_01",
+        "tin_01",
+        "toothbrush_01",
+        "face_01",
+        "nose_01",
+        "tooth_01",
+        "lip_01",
+        "tongue_01",
+        "neck_01",
+        "shoulder_01",
+        "arm_01",
+        "elbow_01",
+        "wrist_01",
+        "finger_01",
+        "thumb_01",
+        "heart_01",
+        "lung_01",
+        "liver_01",
+        "kidney_01",
+        "leg_01",
+        "knee_01",
+        "ankle_01",
+        "toe_01"
       ],
       "phrases": [
         "ph_11"
@@ -22873,16 +24443,19 @@
       "description": "Clothing, sizes, and shopping vocabulary",
       "pinned": false,
       "words": [
-        "suay_02",
-        "ngam_01",
-        "thuek_01",
-        "pheng_01",
-        "sue_buy_01",
-        "khai_sell_01",
-        "ngoen_01",
-        "lakha_01",
-        "talat_01",
-        "took_01"
+        "shoes_01",
+        "seuasai_shirt_01",
+        "geng_pants_01",
+        "dress_01",
+        "seua_coat_01",
+        "hat_01",
+        "sock_01",
+        "glove_01",
+        "scarf_01",
+        "belt_01",
+        "tie_01",
+        "sweater_01",
+        "skirt_01"
       ],
       "phrases": [
         "ph_09"
@@ -22940,15 +24513,34 @@
       "pinned": false,
       "words": [
         "ahan_01",
-        "khao_01",
-        "nam_01",
-        "gin_01",
-        "duem_01",
-        "het_01",
         "ao_02",
-        "sue_buy_01",
         "aroy_01",
-        "phet_01"
+        "beef_01",
+        "black_pepper_01",
+        "chef_cook_01",
+        "chicken_meat_01",
+        "drink_01",
+        "duem_01",
+        "eat_01",
+        "fish_sauce_01",
+        "gin_01",
+        "good_food_01",
+        "het_01",
+        "hon_01",
+        "khao_01",
+        "knife_01",
+        "kuea_01",
+        "mak_mai_01",
+        "nam_01",
+        "nao_01",
+        "pa_01",
+        "pan_01",
+        "phak_01",
+        "phet_01",
+        "pork_01",
+        "pot_01",
+        "spoon_01",
+        "sue_buy_01"
       ],
       "phrases": [
         "ph_02"
@@ -23043,17 +24635,44 @@
       "description": "Food and drink vocabulary",
       "pinned": false,
       "words": [
+        "ahan_01",
+        "aroy_01",
+        "beef_01",
+        "beer_01",
+        "black_pepper_01",
+        "bread_01",
+        "chicken_meat_01",
+        "drink_01",
+        "duem_01",
+        "fish_sauce_01",
+        "gaeng_lao_01",
+        "gafe_01",
+        "gin_01",
+        "hon_01",
+        "kai_chicken_01",
+        "khai_egg_01",
+        "khao_01",
+        "khao_jiao_sticky_rice_01",
+        "khao_poon_01",
+        "kuea_01",
+        "larb_01",
+        "mak_mai_01",
+        "mu_01",
         "nam_01",
         "nam_khaeng_01",
-        "gafe_01",
-        "beer_01",
-        "khao_01",
-        "ahan_01",
-        "gin_01",
-        "duem_01",
-        "aroy_01",
+        "nao_01",
+        "nom_01",
+        "pa_01",
+        "pad_krapow_01",
+        "papaya_salad_01",
+        "phak_01",
         "phet_01",
-        "drink_01"
+        "pork_01",
+        "satay_01",
+        "shellfish_snail_01",
+        "som_tam_01",
+        "spring_roll_01",
+        "tam_kao_01"
       ],
       "phrases": [
         "ph_03",
@@ -23334,14 +24953,10 @@
         "phai_01",
         "sai_where_01",
         "muea_dai_01",
-        "naeo_dai_01",
-        "phao_nyang_01",
+        "why_01",
         "tao_dai_01",
-        "ni_01",
-        "nan_01",
-        "khoi_01",
-        "sleep_01",
-        "wake_up_01"
+        "ask_01",
+        "answer_01"
       ],
       "phrases": [
         "ph_09"
@@ -23449,16 +25064,25 @@
       "words": [
         "het_wiak_01",
         "het_01",
-        "dai_01",
-        "ngoen_01",
-        "vao_01",
-        "khian_01",
-        "an_02",
-        "chuay_01",
-        "hu_01",
+        "doctor_01",
+        "mor_01",
+        "teacher_professor_01",
+        "nurse_01",
+        "phayaban_01",
+        "engineer_01",
+        "lawyer_01",
+        "chef_cook_01",
+        "driver_01",
+        "pilot_01",
+        "carpenter_01",
+        "farmer_01",
+        "electrician_01",
+        "plumber_01",
+        "accountant_01",
+        "secretary_01",
+        "manager_01_02_02",
         "work_01",
-        "like_01",
-        "love_01"
+        "task_job_01"
       ],
       "phrases": [],
       "emoji": "💼"
@@ -23621,20 +25245,16 @@
       "description": "Common birds and poultry.",
       "words": [
         "kai_chicken_01",
-        "chicken_meat_01",
-        "pet_duck_01",
         "nok_bird_01",
-        "maew_cat_01",
-        "maa_dog_01",
-        "xang_elephant_01",
-        "ngua_cow_01",
-        "khwai_buffalo_01",
-        "maa_horse_01",
-        "bae_goat_01",
-        "kae_sheep_01",
-        "suea_tiger_01",
-        "ling_monkey_01",
-        "pa_01"
+        "pet_duck_01",
+        "nok_eagle_01",
+        "nok_owl_01",
+        "nok_parrot_01",
+        "nok_pigeon_01",
+        "nok_crow_01",
+        "wing_01",
+        "feather_01",
+        "maengvan_fly_01"
       ],
       "phrases": [],
       "emoji": "🐦"
@@ -23668,21 +25288,15 @@
       "name": "Reptiles",
       "description": "Common reptiles.",
       "words": [
-        "maew_cat_01",
-        "maa_dog_01",
-        "xang_elephant_01",
-        "ngua_cow_01",
-        "khwai_buffalo_01",
-        "maa_horse_01",
-        "pet_duck_01",
-        "bae_goat_01",
-        "kae_sheep_01",
-        "nok_bird_01",
-        "suea_tiger_01",
-        "ling_monkey_01",
-        "pa_01",
-        "kai_chicken_01",
-        "mu_01"
+        "ngu_snake_01",
+        "jing_crocodile_01",
+        "tao_turtle_01",
+        "ngao_lizard_01",
+        "gecko_01",
+        "scaley_01",
+        "cold_blooded_01",
+        "small_01",
+        "nyai_01"
       ],
       "phrases": [],
       "emoji": "🐍"
@@ -23690,23 +25304,17 @@
     {
       "id": "topic_amphibians",
       "name": "Amphibians",
-      "description": "Common amphibians.",
+      "description": "Common amphibians and related vocabulary",
+      "pinned": false,
       "words": [
-        "maew_cat_01",
-        "maa_dog_01",
-        "xang_elephant_01",
-        "ngua_cow_01",
-        "khwai_buffalo_01",
-        "maa_horse_01",
-        "pet_duck_01",
-        "bae_goat_01",
-        "kae_sheep_01",
-        "nok_bird_01",
-        "suea_tiger_01",
-        "ling_monkey_01",
-        "pa_01",
-        "kai_chicken_01",
-        "mu_01"
+        "frog_01",
+        "toad_01",
+        "salamander_01",
+        "tadpole_01",
+        "newt_01",
+        "slimy_01",
+        "moist_01",
+        "croak_01"
       ],
       "phrases": [],
       "emoji": "🐸"
@@ -23777,6 +25385,135 @@
       ],
       "phrases": [],
       "emoji": "📅"
+    },
+    {
+      "emoji": "🏨",
+      "name": "Hotel",
+      "words": [
+        "rong_raem_01",
+        "rong_raem_01_02",
+        "guest_01",
+        "guesthouse_01",
+        "reservation_booking_01",
+        "cancel_booking_01",
+        "checkout_pay_01",
+        "hong_01",
+        "hong_nam_01",
+        "bed_01",
+        "key_01",
+        "suitcase_luggage_01",
+        "service_01",
+        "service_01_02",
+        "service_01_03",
+        "service_center_01",
+        "contact_service_counter_01",
+        "excellence_service_01",
+        "to_check_inspect_01",
+        "please_check_01",
+        "double_check_01",
+        "review_re_check_01",
+        "thanks_for_using_our_service_01"
+      ],
+      "phrases": []
+    },
+    {
+      "id": "language_structure",
+      "name": "Language Structure",
+      "description": "Vocabulary for discussing grammar, language structure, and linguistic concepts",
+      "pinned": false,
+      "words": [
+        "character_letter_01",
+        "grammar_01",
+        "mai_chat_tone_01",
+        "mai_ek_tone_01",
+        "mai_tho_tone_01",
+        "mai_ti_tone_01",
+        "meaning_01",
+        "noun_01",
+        "number_01",
+        "pronunciation_01",
+        "sentence_01",
+        "tone_01",
+        "verb_01",
+        "word_01"
+      ],
+      "emoji": "🗣️",
+      "phrases": []
+    },
+    {
+      "id": "learning_understanding",
+      "name": "Learning & Understanding",
+      "description": "Verbs for communication, comprehension, and language skills",
+      "pinned": false,
+      "words": [
+        "ability_01",
+        "again_01",
+        "already_01",
+        "angkit_english_01",
+        "before_01",
+        "boeng_01",
+        "forgiveness_01",
+        "hian_01",
+        "kamlang_progressive_01",
+        "know_01",
+        "lao_language_01",
+        "listen_01",
+        "man_01",
+        "ni_01",
+        "read_01",
+        "say_01",
+        "speak_01",
+        "tae_01",
+        "teum_more_01",
+        "to_return_01",
+        "translate_01",
+        "true_happiness_01_02_02",
+        "understand_01",
+        "valid_correct_01",
+        "want_01",
+        "write_01"
+      ],
+      "emoji": "📚",
+      "phrases": []
+    },
+    {
+      "id": "topic_days_of_week",
+      "name": "Days of Week",
+      "words": [
+        "sunday_01",
+        "monday_01",
+        "tuesday_01",
+        "wednesday_01",
+        "thursday_01",
+        "friday_01",
+        "saturday_01"
+      ],
+      "phrases": [],
+      "emoji": "📅"
+    },
+    {
+      "id": "topic_directions",
+      "name": "Directions",
+      "description": "Cardinal and ordinal directions",
+      "pinned": false,
+      "words": [
+        "north_01",
+        "south_01",
+        "east_01",
+        "west_01",
+        "up_01",
+        "down_01",
+        "left_01",
+        "right_01",
+        "forward_01",
+        "backward_01",
+        "northeast_01",
+        "northwest_01",
+        "southeast_01",
+        "southwest_01"
+      ],
+      "phrases": [],
+      "emoji": "🧭"
     }
   ]
 }

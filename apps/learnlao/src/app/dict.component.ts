@@ -93,11 +93,18 @@ import { VocabularyItem } from '../../../../libs/shared/types/knowledge-base.typ
                   <button
                     class="audio"
                     type="button"
-                    *ngIf="word.audio_key"
-                    (click)="togglePlay(word)"
-                    [attr.aria-label]="(isPlaying(word) ? 'Stop audio for ' : 'Play audio for ') + (word.english || word.id)"
+                    (click)="togglePlay(word, 'female')"
+                    [attr.aria-label]="(isPlaying(word, 'female') ? 'Stop female audio for ' : 'Play female audio for ') + (word.english || word.id)"
                   >
-                    {{ isPlaying(word) ? 'Stop' : 'Play' }}
+                    {{ isPlaying(word, 'female') ? '⏹ F' : '▶ F' }}
+                  </button>
+                  <button
+                    class="audio"
+                    type="button"
+                    (click)="togglePlay(word, 'male')"
+                    [attr.aria-label]="(isPlaying(word, 'male') ? 'Stop male audio for ' : 'Play male audio for ') + (word.english || word.id)"
+                  >
+                    {{ isPlaying(word, 'male') ? '⏹ M' : '▶ M' }}
                   </button>
                 </div>
                 <div class="right">
@@ -373,10 +380,12 @@ import { VocabularyItem } from '../../../../libs/shared/types/knowledge-base.typ
       font-size: 0.9rem;
       cursor: pointer;
       white-space: nowrap;
+      font-weight: 500;
     }
 
     .audio:hover {
       border-color: #000;
+      background: #f5f5f5;
     }
 
     .info-btn {
@@ -490,6 +499,7 @@ export class DictComponent implements OnInit, OnDestroy {
 
   private audio: HTMLAudioElement | null = null;
   private playingId: string | null = null;
+  private currentGender: 'male' | 'female' | null = null;
 
   constructor(
     private kbService: KnowledgeBaseService,
@@ -799,19 +809,17 @@ export class DictComponent implements OnInit, OnDestroy {
     return item.id;
   }
 
-  isPlaying(word: VocabularyItem): boolean {
-    return !!this.playingId && this.playingId === word.id;
+  isPlaying(word: VocabularyItem, gender: 'male' | 'female'): boolean {
+    return !!this.playingId && this.playingId === word.id && this.currentGender === gender;
   }
 
-  togglePlay(word: VocabularyItem): void {
-    if (!word.audio_key) return;
-
-    if (this.isPlaying(word)) {
+  togglePlay(word: VocabularyItem, gender: 'male' | 'female'): void {
+    if (this.isPlaying(word, gender)) {
       this.stopAudio();
       return;
     }
 
-    this.playAudio(word);
+    this.playAudio(word, gender);
   }
 
   private updateUrl(): void {
@@ -894,12 +902,10 @@ export class DictComponent implements OnInit, OnDestroy {
     return [...set].sort((a, b) => a.localeCompare(b));
   }
 
-  private playAudio(word: VocabularyItem): void {
-    if (!word.audio_key) return;
-
+  private playAudio(word: VocabularyItem, gender: 'male' | 'female'): void {
     this.stopAudio();
 
-    const url = `/assets/audio/${encodeURIComponent(word.audio_key)}.mp3`;
+    const url = `/assets/audio/${encodeURIComponent(word.id)}_${gender}.mp3`;
     const audio = new Audio(url);
     audio.preload = 'none';
 
@@ -907,6 +913,7 @@ export class DictComponent implements OnInit, OnDestroy {
       if (this.audio === audio) {
         this.audio = null;
         this.playingId = null;
+        this.currentGender = null;
       }
     };
 
@@ -919,6 +926,7 @@ export class DictComponent implements OnInit, OnDestroy {
 
     this.audio = audio;
     this.playingId = word.id;
+    this.currentGender = gender;
 
     void audio.play().catch(() => {
       // e.g. browser autoplay policy or missing file
@@ -929,6 +937,7 @@ export class DictComponent implements OnInit, OnDestroy {
   private stopAudio(): void {
     if (!this.audio) {
       this.playingId = null;
+      this.currentGender = null;
       return;
     }
 
@@ -938,6 +947,7 @@ export class DictComponent implements OnInit, OnDestroy {
     } finally {
       this.audio = null;
       this.playingId = null;
+      this.currentGender = null;
     }
   }
 

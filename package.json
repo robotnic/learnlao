@@ -8,10 +8,22 @@
     "learnlao": "ng serve learnlao --port 4201",
     "build": "ng build",
     "test": "ng test",
-    "lint": "ng lint"
+    "lint": "ng lint",
+    "generate-tts": "node tools/generate-tts.mjs",
+    "generate-tts-curl": "bash tools/generate-tts-curl.sh",
+    "generate-tts-edge": "node tools/generate-tts-edge.mjs",
+    "generate-tts-vocab-100": "node tools/generate-tts-vocab-100.mjs",
+    "generate-tts-phrases": "node tools/generate-tts-phrases.mjs",
+    "generate-tts-chars": "node tools/generate-tts-chars.mjs",
+    "generate-tts-all-vocab": "node tools/generate-tts-all-vocab.mjs",
+    "generate-tts-all": "node tools/generate-tts-all.mjs",
+    "test-endpoints": "node tools/test-endpoints.mjs",
+    "test-tls": "node tools/test-tls.mjs",
+    "generate-tts-insecure": "NODE_TLS_REJECT_UNAUTHORIZED=0 node tools/generate-tts.mjs"
   },
   "private": true,
   "dependencies": {
+    "@andresaya/edge-tts": "^1.8.0",
     "@angular/animations": "^17.0.0",
     "@angular/common": "^17.0.0",
     "@angular/compiler": "^17.0.0",

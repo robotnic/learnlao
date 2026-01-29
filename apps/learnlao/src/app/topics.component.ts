@@ -129,6 +129,18 @@ import { Topic } from '../../../../libs/shared/types/knowledge-base.types';
       gap: 1rem;
     }
 
+    .topics-grid .topic-card {
+      animation: scaleInFade 0.4s ease-out;
+      animation-fill-mode: both;
+    }
+
+    .topics-grid .topic-card:nth-child(1) { animation-delay: 0s; }
+    .topics-grid .topic-card:nth-child(2) { animation-delay: 0.05s; }
+    .topics-grid .topic-card:nth-child(3) { animation-delay: 0.1s; }
+    .topics-grid .topic-card:nth-child(4) { animation-delay: 0.15s; }
+    .topics-grid .topic-card:nth-child(5) { animation-delay: 0.2s; }
+    .topics-grid .topic-card:nth-child(n+6) { animation-delay: 0.25s; }
+
     .topic-index {
       margin-top: 2rem;
       padding-top: 1.5rem;
@@ -249,11 +261,23 @@ import { Topic } from '../../../../libs/shared/types/knowledge-base.types';
       text-decoration: underline;
     }
 
+    @keyframes scaleInFade {
+      from {
+        opacity: 0;
+        transform: scale(0.9);
+      }
+      to {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+
     .topic-card {
       padding: 2rem;
       border: 1px solid #e5e5e5;
       cursor: pointer;
       transition: all 0.2s ease;
+      animation: scaleInFade 0.4s ease-out;
     }
 
     .topic-card:hover {

@@ -9,17 +9,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "generate-tts": "node tools/generate-tts.mjs",
-    "generate-tts-curl": "bash tools/generate-tts-curl.sh",
-    "generate-tts-edge": "node tools/generate-tts-edge.mjs",
-    "generate-tts-vocab-100": "node tools/generate-tts-vocab-100.mjs",
-    "generate-tts-phrases": "node tools/generate-tts-phrases.mjs",
-    "generate-tts-chars": "node tools/generate-tts-chars.mjs",
-    "generate-tts-all-vocab": "node tools/generate-tts-all-vocab.mjs",
     "generate-tts-all": "node tools/generate-tts-all.mjs",
-    "test-endpoints": "node tools/test-endpoints.mjs",
-    "test-tls": "node tools/test-tls.mjs",
-    "generate-tts-insecure": "NODE_TLS_REJECT_UNAUTHORIZED=0 node tools/generate-tts.mjs"
+    "test-endpoints": "node tools/test-endpoints.mjs"
   },
   "private": true,
   "dependencies": {

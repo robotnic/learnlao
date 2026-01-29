@@ -42,7 +42,12 @@ import { Topic } from '../../../../libs/shared/types/knowledge-base.types';
           </div>
 
           <section class="topic-index" *ngIf="topicIndexGroups.length > 0">
-            <h2 class="topic-index-title">Topic index (A–Z)</h2>
+            <div class="topic-index-header">
+              <h2 class="topic-index-title">Topic index ({{ sortByLao ? 'ກ-ຮ' : 'A–Z' }})</h2>
+              <button type="button" class="sort-toggle" (click)="toggleLaoSort()">
+                {{ sortByLao ? 'Sort by English' : 'ຈັດລຽງຕາມອັກษອນລາວ' }}
+              </button>
+            </div>
             <div class="topic-index-groups">
               <section class="topic-index-group" *ngFor="let group of topicIndexGroups">
                 <h3 class="topic-index-letter">{{ group.letter }}</h3>
@@ -128,6 +133,37 @@ import { Topic } from '../../../../libs/shared/types/knowledge-base.types';
       margin-top: 2rem;
       padding-top: 1.5rem;
       border-top: 1px solid #f0f0f0;
+    }
+
+    .topic-index-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .sort-toggle {
+      appearance: none;
+      background: white;
+      border: 1px solid #e5e5e5;
+      border-radius: 4px;
+      padding: 0.5rem 1rem;
+      cursor: pointer;
+      font-size: 0.9rem;
+      color: #333;
+      transition: all 0.2s ease;
+      white-space: nowrap;
+      font-family: inherit;
+    }
+
+    .sort-toggle:hover {
+      border-color: #333;
+      background: #f9f9f9;
+    }
+
+    .sort-toggle:active {
+      background: #f0f0f0;
     }
 
     /* feedback button styles live in global styles.css */
@@ -400,6 +436,7 @@ export class TopicsComponent implements OnInit {
   topics: Topic[] = [];
   topicIndexGroups: Array<{ letter: string; topics: Topic[] }> = [];
   pinnedTopics: Topic[] = [];
+  sortByLao: boolean = false;
 
   constructor(
     private kbService: KnowledgeBaseService,
@@ -417,8 +454,18 @@ export class TopicsComponent implements OnInit {
     });
   }
 
+  toggleLaoSort(): void {
+    this.sortByLao = !this.sortByLao;
+    this.topicIndexGroups = this.buildTopicIndexGroups(this.topics);
+  }
+
   private buildTopicIndexGroups(topics: Topic[]): Array<{ letter: string; topics: Topic[] }> {
     const normalized = (value: string) => value.trim();
+    
+    if (this.sortByLao) {
+      return this.buildLaoTopicIndexGroups(topics);
+    }
+
     const topicsByName = topics.map(t => ({ ...t, searchName: normalized(t.name) })).filter(t => t.searchName);
 
     const uniqueSorted = Array.from(new Set(topicsByName.map(t => t.searchName)))
@@ -437,6 +484,45 @@ export class TopicsComponent implements OnInit {
     return Array.from(groups.entries())
       .sort(([a], [b]) => a.localeCompare(b))
       .map(([letter, topics]) => ({ letter, topics }));
+  }
+
+  private buildLaoTopicIndexGroups(topics: Topic[]): Array<{ letter: string; topics: Topic[] }> {
+    // Lao consonants in order
+    const laoConsonants = [
+      'ກ', 'ຂ', 'ຄ', 'ງ', 'ຈ', 'ສ', 'ຊ', 'ຍ', 'ດ', 'ຕ', 'ຖ', 'ທ', 'ນ', 'ບ', 'ປ', 'ຜ', 'ພ', 'ມ', 'ຢ', 'ຣ', 'ລ', 'ວ', 'ສ', 'ຫ', 'ອ'
+    ];
+
+    const groups = new Map<string, Topic[]>();
+
+    for (const topic of topics) {
+      const laoName = topic.name_lao || topic.name;
+      const firstChar = laoName.trim().charAt(0);
+      
+      let letter = '#';
+      const charIndex = laoConsonants.indexOf(firstChar);
+      if (charIndex !== -1) {
+        letter = firstChar;
+      }
+
+      const arr = groups.get(letter) ?? [];
+      arr.push(topic);
+      groups.set(letter, arr);
+    }
+
+    // Sort by Lao consonant order for consonants, '#' at end
+    const sortedLetters = [
+      ...laoConsonants.filter(c => groups.has(c)),
+      ...(groups.has('#') ? ['#'] : [])
+    ];
+
+    return sortedLetters.map(letter => ({
+      letter,
+      topics: (groups.get(letter) ?? []).sort((a, b) => {
+        const aLao = a.name_lao || a.name;
+        const bLao = b.name_lao || b.name;
+        return aLao.localeCompare(bLao, 'lo');
+      })
+    }));
   }
 
   navigateToTopic(id: string) {

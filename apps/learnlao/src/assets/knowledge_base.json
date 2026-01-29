@@ -24766,6 +24766,7 @@
     {
       "id": "language_structure",
       "name": "Language Structure",
+      "name_lao": "ໂຄງສ້າງພາສາ",
       "description": "Vocabulary for discussing grammar, language structure, and linguistic concepts",
       "pinned": false,
       "words": [
@@ -24790,6 +24791,7 @@
     {
       "id": "learning_understanding",
       "name": "Learning & Understanding",
+      "name_lao": "ການຮຽນຮູ້ & ຄວາມເຂົ້າໃຈ",
       "description": "Verbs for communication, comprehension, and language skills",
       "pinned": false,
       "words": [

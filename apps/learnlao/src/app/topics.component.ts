@@ -18,7 +18,7 @@ import { Topic } from '../../../../libs/shared/types/knowledge-base.types';
         </header>
         <main>
           <div class="topics-grid">
-            <div class="topic-card" *ngFor="let topic of pinnedTopics" (click)="navigateToTopic(topic.id)">
+            <div class="topic-card" [class.animate-in]="topic.id === animatingTopicId" [class.animate-out]="fadingOutTopicIds.has(topic.id)" *ngFor="let topic of pinnedTopics" (click)="navigateToTopic(topic.id)">
               <div class="topic-card-header">
                 <div class="topic-names">
                   <span class="topic-emoji" aria-hidden="true">{{ getTopicEmoji(topic.id) }}</span>
@@ -128,18 +128,6 @@ import { Topic } from '../../../../libs/shared/types/knowledge-base.types';
       grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
       gap: 1rem;
     }
-
-    .topics-grid .topic-card {
-      animation: scaleInFade 0.4s ease-out;
-      animation-fill-mode: both;
-    }
-
-    .topics-grid .topic-card:nth-child(1) { animation-delay: 0s; }
-    .topics-grid .topic-card:nth-child(2) { animation-delay: 0.05s; }
-    .topics-grid .topic-card:nth-child(3) { animation-delay: 0.1s; }
-    .topics-grid .topic-card:nth-child(4) { animation-delay: 0.15s; }
-    .topics-grid .topic-card:nth-child(5) { animation-delay: 0.2s; }
-    .topics-grid .topic-card:nth-child(n+6) { animation-delay: 0.25s; }
 
     .topic-index {
       margin-top: 2rem;
@@ -264,11 +252,33 @@ import { Topic } from '../../../../libs/shared/types/knowledge-base.types';
     @keyframes scaleInFade {
       from {
         opacity: 0;
-        transform: scale(0.9);
+        transform: scale(0);
       }
       to {
         opacity: 1;
         transform: scale(1);
+      }
+    }
+
+    @keyframes scaleInFadeSlow {
+      from {
+        opacity: 0;
+        transform: scale(0);
+      }
+      to {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+
+    @keyframes scaleOutFade {
+      from {
+        opacity: 1;
+        transform: scale(1);
+      }
+      to {
+        opacity: 0;
+        transform: scale(0);
       }
     }
 
@@ -277,7 +287,18 @@ import { Topic } from '../../../../libs/shared/types/knowledge-base.types';
       border: 1px solid #e5e5e5;
       cursor: pointer;
       transition: all 0.2s ease;
-      animation: scaleInFade 0.4s ease-out;
+    }
+
+    .topic-card.animate-in {
+      transition: none !important;
+      animation: scaleInFade 2s ease-out forwards;
+      will-change: opacity, transform;
+    }
+
+    .topic-card.animate-out {
+      transition: none !important;
+      animation: scaleOutFade 2s ease-out forwards;
+      will-change: opacity, transform;
     }
 
     .topic-card:hover {
@@ -461,6 +482,8 @@ export class TopicsComponent implements OnInit {
   topicIndexGroups: Array<{ letter: string; topics: Topic[] }> = [];
   pinnedTopics: Topic[] = [];
   sortByLao: boolean = false;
+  animatingTopicId: string | null = null;
+  fadingOutTopicIds: Set<string> = new Set();
 
   constructor(
     private kbService: KnowledgeBaseService,
@@ -568,14 +591,48 @@ export class TopicsComponent implements OnInit {
 
   onTopicLikeClick(event: Event, topicId: string): void {
     event.stopPropagation();
-    this.likeService.toggle('topic:' + topicId);
-    this.updatePinnedTopics();
+    const isCurrentlyLiked = this.likeService.isLiked('topic:' + topicId);
+    
+    if (isCurrentlyLiked) {
+      // Fade out before removing
+      this.fadingOutTopicIds.add(topicId);
+      setTimeout(() => {
+        this.likeService.toggle('topic:' + topicId);
+        this.updatePinnedTopics();
+        this.fadingOutTopicIds.delete(topicId);
+      }, 2000);
+    } else {
+      // Fade in when adding
+      this.likeService.toggle('topic:' + topicId);
+      this.updatePinnedTopics();
+      this.animatingTopicId = topicId;
+      setTimeout(() => {
+        this.animatingTopicId = null;
+      }, 2000);
+    }
   }
 
   onTopicIndexLikeClick(event: Event, topicId: string): void {
     event.stopPropagation();
-    this.likeService.toggle('topic:' + topicId);
-    this.updatePinnedTopics();
+    const isCurrentlyLiked = this.likeService.isLiked('topic:' + topicId);
+    
+    if (isCurrentlyLiked) {
+      // Fade out before removing
+      this.fadingOutTopicIds.add(topicId);
+      setTimeout(() => {
+        this.likeService.toggle('topic:' + topicId);
+        this.updatePinnedTopics();
+        this.fadingOutTopicIds.delete(topicId);
+      }, 2000);
+    } else {
+      // Fade in when adding
+      this.likeService.toggle('topic:' + topicId);
+      this.updatePinnedTopics();
+      this.animatingTopicId = topicId;
+      setTimeout(() => {
+        this.animatingTopicId = null;
+      }, 2000);
+    }
   }
 
   getTopicIdByName(name: string): string {

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, AfterViewInit, ViewChild, ElementRef } from '@angular/core';
 import { RouterLink } from '@angular/router';
 
 @Component({
@@ -27,6 +27,10 @@ import { RouterLink } from '@angular/router';
               Progress
             </a>
           </nav>
+
+          <div class="qr-section">
+            <canvas #qrcanvas></canvas>
+          </div>
         </main>
       </div>
     </div>
@@ -93,6 +97,19 @@ import { RouterLink } from '@angular/router';
       background: #fafafa;
     }
 
+    .qr-section {
+      margin-top: 3rem;
+      padding-top: 2rem;
+      border-top: 1px solid #e5e5e5;
+      display: flex;
+      justify-content: center;
+    }
+
+    canvas {
+      max-width: 150px;
+      height: auto;
+    }
+
     @media (max-width: 768px) {
       .nav-grid {
         grid-template-columns: 1fr;
@@ -102,7 +119,43 @@ import { RouterLink } from '@angular/router';
       .nav-item {
         padding: 2rem;
       }
+
+      .qr-section {
+        margin-top: 2rem;
+        padding-top: 1.5rem;
+      }
     }
   `]
 })
-export class HomeComponent {}
+export class HomeComponent implements AfterViewInit {
+  @ViewChild('qrcanvas') qrCanvas!: ElementRef<HTMLCanvasElement>;
+
+  ngAfterViewInit(): void {
+    this.generateQRCode();
+  }
+
+  private generateQRCode(): void {
+    const url = 'https://robotnic.github.io/learnlao/';
+    const canvas = this.qrCanvas.nativeElement;
+
+    // Simple QR code generation using a third-party service embedded as data
+    // Using the API endpoint approach with canvas
+    const encodedUrl = encodeURIComponent(url);
+    const qrSize = 150;
+
+    // Create a simple implementation using canvas
+    // For a production app, consider using qrcode.js library
+    const ctx = canvas.getContext('2d');
+    if (!ctx) return;
+
+    canvas.width = qrSize;
+    canvas.height = qrSize;
+
+    // Use a simple QR code library approach via image
+    const img = new Image();
+    img.src = `https://api.qrserver.com/v1/create-qr-code/?size=${qrSize}x${qrSize}&data=${encodedUrl}`;
+    img.onload = () => {
+      ctx.drawImage(img, 0, 0, qrSize, qrSize);
+    };
+  }
+}

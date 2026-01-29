@@ -23,8 +23,7 @@ import { Topic } from '../../../../libs/shared/types/knowledge-base.types';
                 <div class="topic-names">
                   <span class="topic-emoji" aria-hidden="true">{{ getTopicEmoji(topic.id) }}</span>
                   <div class="topic-text">
-                    <div class="topic-lao">{{ topic.name_lao || topic.name }}</div>
-                    <div class="topic-eng">{{ topic.name }}</div>
+                    <div class="topic-lao">{{ topic.name }}</div>
                   </div>
                 </div>
                 <button
@@ -65,8 +64,7 @@ import { Topic } from '../../../../libs/shared/types/knowledge-base.types';
                     </button>
                     <button type="button" class="topic-index-link" (click)="openTopicById(topic.id)">
                       <div class="topic-index-text">
-                        <div class="topic-index-lao">{{ topic.name_lao || topic.name }}</div>
-                        <div class="topic-index-eng">{{ topic.name }}</div>
+                        <div class="topic-index-lao">{{ topic.name }}</div>
                       </div>
                     </button>
                   </li>
@@ -542,8 +540,7 @@ export class TopicsComponent implements OnInit {
     const groups = new Map<string, Topic[]>();
 
     for (const topic of topics) {
-      const laoName = topic.name_lao || topic.name;
-      const firstChar = laoName.trim().charAt(0);
+      const firstChar = topic.name.trim().charAt(0);
       
       let letter = '#';
       const charIndex = laoConsonants.indexOf(firstChar);
@@ -565,9 +562,7 @@ export class TopicsComponent implements OnInit {
     return sortedLetters.map(letter => ({
       letter,
       topics: (groups.get(letter) ?? []).sort((a, b) => {
-        const aLao = a.name_lao || a.name;
-        const bLao = b.name_lao || b.name;
-        return aLao.localeCompare(bLao, 'lo');
+        return a.name.localeCompare(b.name, 'lo');
       })
     }));
   }

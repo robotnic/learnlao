@@ -18,15 +18,15 @@ export const routes: Routes = [
     loadComponent: () => import('./learn.component').then(m => m.LearnComponent)
   },
   {
+    path: 'progress',
+    loadComponent: () => import('./learn-fsrs/components/progress.component').then(m => m.ProgressComponent)
+  },
+  {
     path: 'dict',
     loadComponent: () => import('./dict.component').then(m => m.DictComponent)
   },
   {
     path: 'word/:id',
     loadComponent: () => import('./word-detail.component').then(m => m.WordDetailComponent)
-  },
-  {
-    path: 'progress',
-    loadComponent: () => import('./progress.component').then(m => m.ProgressComponent)
   }
 ];

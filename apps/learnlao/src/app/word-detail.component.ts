@@ -1,6 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Inject } from '@angular/core';
 import { ActivatedRoute, RouterLink } from '@angular/router';
-import { CommonModule } from '@angular/common';
+import { CommonModule, DOCUMENT } from '@angular/common';
 import { KnowledgeBaseService } from '../../../../libs/shared/services/knowledge-base.service';
 import { LikeService } from '../../../../libs/shared/services/like.service';
 import { VocabularyItem, PhraseItem } from '../../../../libs/shared/types/knowledge-base.types';
@@ -313,7 +313,8 @@ export class WordDetailComponent implements OnInit {
   constructor(
     private route: ActivatedRoute,
     private kbService: KnowledgeBaseService,
-    public likeService: LikeService
+    public likeService: LikeService,
+    @Inject(DOCUMENT) private document: Document
   ) {}
 
   ngOnInit(): void {
@@ -474,7 +475,8 @@ export class WordDetailComponent implements OnInit {
   private playPhraseAudio(phrase: PhraseItem, gender: 'male' | 'female'): void {
     this.stopAudio();
 
-    const url = `/assets/audio/${encodeURIComponent(phrase.id)}_${gender}.mp3`;
+    const baseHref = this.document.querySelector('base')?.getAttribute('href') || '/';
+    const url = `${baseHref}assets/audio/${encodeURIComponent(phrase.id)}_${gender}.mp3`;
     const audio = new Audio(url);
     audio.preload = 'none';
 

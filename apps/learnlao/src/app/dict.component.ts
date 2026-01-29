@@ -1,6 +1,6 @@
-import { Component, OnDestroy, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit, Inject } from '@angular/core';
 import { ActivatedRoute, Router, RouterLink } from '@angular/router';
-import { CommonModule } from '@angular/common';
+import { CommonModule, DOCUMENT } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { KnowledgeBaseService } from '../../../../libs/shared/services/knowledge-base.service';
 import { LikeService } from '../../../../libs/shared/services/like.service';
@@ -505,7 +505,8 @@ export class DictComponent implements OnInit, OnDestroy {
     private kbService: KnowledgeBaseService,
     public likeService: LikeService,
     private router: Router,
-    private route: ActivatedRoute
+    private route: ActivatedRoute,
+    @Inject(DOCUMENT) private document: Document
   ) {}
 
   ngOnInit(): void {
@@ -905,7 +906,8 @@ export class DictComponent implements OnInit, OnDestroy {
   private playAudio(word: VocabularyItem, gender: 'male' | 'female'): void {
     this.stopAudio();
 
-    const url = `/assets/audio/${encodeURIComponent(word.id)}_${gender}.mp3`;
+    const baseHref = this.document.querySelector('base')?.getAttribute('href') || '/';
+    const url = `${baseHref}assets/audio/${encodeURIComponent(word.id)}_${gender}.mp3`;
     const audio = new Audio(url);
     audio.preload = 'none';
 

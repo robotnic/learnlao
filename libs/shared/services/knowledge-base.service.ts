@@ -1,5 +1,6 @@
-import { Injectable } from '@angular/core';
+import { Injectable, Inject } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { DOCUMENT } from '@angular/common';
 import { BehaviorSubject, Observable, firstValueFrom } from 'rxjs';
 import { KnowledgeBase, VocabularyItem, PhraseItem, Topic } from '../types/knowledge-base.types';
 
@@ -10,14 +11,16 @@ export class KnowledgeBaseService {
   private knowledgeBase$ = new BehaviorSubject<KnowledgeBase | null>(null);
   private loaded = false;
 
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient, @Inject(DOCUMENT) private document: Document) {}
 
   async loadKnowledgeBase(): Promise<void> {
     if (this.loaded) return;
     
     try {
+      const baseHref = this.document.querySelector('base')?.getAttribute('href') || '/';
+      const url = `${baseHref}assets/knowledge_base.json`;
       const kb = await firstValueFrom(
-        this.http.get<KnowledgeBase>('/assets/knowledge_base.json')
+        this.http.get<KnowledgeBase>(url)
       );
       this.knowledgeBase$.next(kb);
       this.loaded = true;

@@ -18,7 +18,8 @@ export class KnowledgeBaseService {
     
     try {
       const baseHref = this.document.querySelector('base')?.getAttribute('href') || '/';
-      const url = `${baseHref}assets/knowledge_base.json`;
+      const separator = baseHref.endsWith('/') ? '' : '/';
+      const url = `${baseHref}${separator}assets/knowledge_base.json`;
       const kb = await firstValueFrom(
         this.http.get<KnowledgeBase>(url)
       );

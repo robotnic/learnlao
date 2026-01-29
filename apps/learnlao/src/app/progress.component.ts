@@ -32,7 +32,7 @@ interface ProgressStats {
                   [style.--offset]="getCircleOffset(stats.overall)"></circle>
               </svg>
               <div class="circle-text">
-                <span class="percentage">{{ stats.overall | number:'1.0-0' }}%</span>
+                <span class="percentage">{{ stats.overall.activePercent | number:'1.0-0' }}%</span>
                 <span class="label">Learned</span>
               </div>
             </div>

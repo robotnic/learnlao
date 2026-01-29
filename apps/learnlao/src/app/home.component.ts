@@ -1,30 +1,52 @@
 import { Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [RouterLink],
+  imports: [RouterLink, CommonModule],
   template: `
     <div class="home">
       <div class="container">
         <header class="header">
-          <h1 class="logo">LearnLao</h1>
+          <div class="header-top">
+            <h1 class="logo">LearnLao</h1>
+            <button class="lang-toggle" (click)="toggleLanguage()">
+              {{ isEnglish ? 'ລາວ' : 'EN' }}
+            </button>
+          </div>
+          <p class="subtitle" [ngSwitch]="isEnglish">
+            <span *ngSwitchCase="true">Learn Lao Language</span>
+            <span *ngSwitchDefault>ຮຽນພາສາລາວ</span>
+          </p>
         </header>
 
         <main class="main-content">
           <nav class="nav-grid">
             <a class="nav-item" routerLink="/topics">
-              Topics
+              <span [ngSwitch]="isEnglish">
+                <span *ngSwitchCase="true">Topics</span>
+                <span *ngSwitchDefault>ຫົວຂໍ້</span>
+              </span>
             </a>
             <a class="nav-item" routerLink="/learn">
-              Learn
+              <span [ngSwitch]="isEnglish">
+                <span *ngSwitchCase="true">Learn</span>
+                <span *ngSwitchDefault>ຮຽນ</span>
+              </span>
             </a>
             <a class="nav-item" routerLink="/dict">
-              Dict
+              <span [ngSwitch]="isEnglish">
+                <span *ngSwitchCase="true">Dict</span>
+                <span *ngSwitchDefault>ວັດຈະນານຸກຣົມ</span>
+              </span>
             </a>
             <a class="nav-item" routerLink="/progress">
-              Progress
+              <span [ngSwitch]="isEnglish">
+                <span *ngSwitchCase="true">Progress</span>
+                <span *ngSwitchDefault>ກ້າວຫນ້າ</span>
+              </span>
             </a>
           </nav>
 
@@ -57,12 +79,46 @@ import { RouterLink } from '@angular/router';
       margin-bottom: 4rem;
     }
 
+    .header-top {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
     .logo {
       font-size: 3rem;
       font-weight: 300;
       margin: 0;
       color: #000;
       letter-spacing: -0.5px;
+    }
+
+    .lang-toggle {
+      position: absolute;
+      right: 0;
+      padding: 0.5rem 1rem;
+      font-size: 0.9rem;
+      border: 1px solid #e5e5e5;
+      background: #fff;
+      color: #000;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      border-radius: 4px;
+      font-weight: 500;
+    }
+
+    .lang-toggle:hover {
+      border-color: #000;
+      background: #fafafa;
+    }
+
+    .subtitle {
+      margin-top: 0.5rem;
+      font-size: 1rem;
+      color: #666;
+      font-weight: 300;
+      letter-spacing: 0.3px;
     }
 
     .main-content {
@@ -90,6 +146,7 @@ import { RouterLink } from '@angular/router';
       display: flex;
       align-items: center;
       justify-content: center;
+      min-height: 120px;
     }
 
     .nav-item:hover {
@@ -127,7 +184,18 @@ import { RouterLink } from '@angular/router';
         margin-top: 2rem;
         padding-top: 1.5rem;
       }
+
+      .lang-toggle {
+        position: static;
+        margin-top: 1rem;
+      }
     }
   `]
 })
-export class HomeComponent {}
+export class HomeComponent {
+  isEnglish = true;
+
+  toggleLanguage(): void {
+    this.isEnglish = !this.isEnglish;
+  }
+}

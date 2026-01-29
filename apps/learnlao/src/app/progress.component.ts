@@ -88,7 +88,7 @@ interface ProgressStats {
   styles: [`
     :host {
       --mastered: #4CAF50;
-      --learning: #2196F3;
+      --learning: #FFD600;
       --lapses: #f44336;
       --unseen: #ccc;
     }
@@ -247,15 +247,12 @@ interface ProgressStats {
     .color-box.mastered {
       background: var(--mastered);
     }
-
     .color-box.learning {
       background: var(--learning);
     }
-
     .color-box.lapses {
       background: var(--lapses);
     }
-
     .color-box.unseen {
       background: var(--unseen);
     }
@@ -277,15 +274,13 @@ interface ProgressStats {
     .card.mastered {
       background: var(--mastered);
     }
-
     .card.learning {
       background: var(--learning);
+      color: #333;
     }
-
     .card.lapses {
       background: var(--lapses);
     }
-
     .card.unseen {
       background: var(--unseen);
       color: #333;

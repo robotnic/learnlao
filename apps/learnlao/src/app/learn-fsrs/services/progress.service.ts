@@ -15,14 +15,12 @@ export class ProgressService {
     const all = await db.progress.toArray();
 
     const counts = {
-      new: all.filter(c => c.state === State.New).length,
       learning: all.filter(c => c.state === State.Learning).length,
       review: all.filter(c => c.state === State.Review).length,
       relearning: all.filter(c => c.state === State.Relearning).length,
     };
-
-    // Active = Learning + Review + Relearning (all non-New)
-    const activeCount = counts.learning + counts.review + counts.relearning;
+    const seenCount = counts.learning + counts.review + counts.relearning;
+    const unseen = this.TOTAL_WORDS - seenCount;
     
     // Group by day (last 7 days)
     const dayNames = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
@@ -33,14 +31,14 @@ export class ProgressService {
 
     return {
       overall: {
-        activePercent: (activeCount / this.TOTAL_WORDS) * 100,
-        grayPercent: 100 - (activeCount / this.TOTAL_WORDS) * 100
+        activePercent: (seenCount / this.TOTAL_WORDS) * 100,
+        grayPercent: 100 - (seenCount / this.TOTAL_WORDS) * 100
       },
       states: [
-        { label: 'Unseen', val: counts.new, color: 'bg-gray-500' },
-        { label: 'Learning', val: counts.learning, color: 'bg-blue-400' },
-        { label: 'Mastered', val: counts.review, color: 'bg-green-500' },
-        { label: 'Lapses', val: counts.relearning, color: 'bg-red-500' }
+        { label: 'Mastered', val: counts.review, color: 'mastered' },
+        { label: 'Learning', val: counts.learning, color: 'learning' },
+        { label: 'Lapses', val: counts.relearning, color: 'lapses' },
+        { label: 'Unseen', val: unseen, color: 'unseen' }
       ],
       weekly
     };

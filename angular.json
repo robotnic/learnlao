@@ -86,7 +86,8 @@
             ],
             "tsConfig": "apps/learnlao/tsconfig.app.json",
             "assets": [
-              "apps/learnlao/src/assets"
+              "apps/learnlao/src/assets",
+              "apps/learnlao/src/404.html"
             ],
             "styles": [
               "apps/learnlao/src/styles.css"

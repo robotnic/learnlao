@@ -20,10 +20,13 @@ import { Topic } from '../../../../libs/shared/types/knowledge-base.types';
           <div class="topics-grid">
             <div class="topic-card" *ngFor="let topic of pinnedTopics" (click)="navigateToTopic(topic.id)">
               <div class="topic-card-header">
-                <h3>
+                <div class="topic-names">
                   <span class="topic-emoji" aria-hidden="true">{{ getTopicEmoji(topic.id) }}</span>
-                  <span>{{ topic.name }}</span>
-                </h3>
+                  <div class="topic-text">
+                    <div class="topic-lao">{{ topic.name_lao || topic.name }}</div>
+                    <div class="topic-eng">{{ topic.name }}</div>
+                  </div>
+                </div>
                 <button
                   type="button"
                   class="like"
@@ -44,19 +47,22 @@ import { Topic } from '../../../../libs/shared/types/knowledge-base.types';
               <section class="topic-index-group" *ngFor="let group of topicIndexGroups">
                 <h3 class="topic-index-letter">{{ group.letter }}</h3>
                 <ul class="topic-index-list">
-                  <li class="topic-index-item" *ngFor="let name of group.topics">
-                    <span class="topic-index-emoji" aria-hidden="true">{{ getTopicEmojiByName(name) }}</span>
+                  <li class="topic-index-item" *ngFor="let topic of group.topics">
+                    <span class="topic-index-emoji" aria-hidden="true">{{ getTopicEmoji(topic.id) }}</span>
                     <button
                       type="button"
                       class="like"
-                      [class.liked]="likeService.isLiked('topic:' + getTopicIdByName(name))"
-                      (click)="onTopicIndexLikeClick($event, name)"
+                      [class.liked]="likeService.isLiked('topic:' + topic.id)"
+                      (click)="onTopicIndexLikeClick($event, topic.id)"
                       aria-label="Toggle like"
                     >
                       ★
                     </button>
-                    <button type="button" class="topic-index-link" (click)="openTopicByName(name)">
-                      {{ name }}
+                    <button type="button" class="topic-index-link" (click)="openTopicById(topic.id)">
+                      <div class="topic-index-text">
+                        <div class="topic-index-lao">{{ topic.name_lao || topic.name }}</div>
+                        <div class="topic-index-eng">{{ topic.name }}</div>
+                      </div>
                     </button>
                   </li>
                 </ul>
@@ -186,6 +192,22 @@ import { Topic } from '../../../../libs/shared/types/knowledge-base.types';
       flex: 1;
     }
 
+    .topic-index-text {
+      display: flex;
+      flex-direction: column;
+      gap: 0.1rem;
+    }
+
+    .topic-index-lao {
+      font-size: 0.85rem;
+      font-weight: 400;
+    }
+
+    .topic-index-eng {
+      font-size: 0.75rem;
+      color: #999;
+    }
+
     .topic-index-link:hover {
       color: #000;
       text-decoration: underline;
@@ -209,6 +231,31 @@ import { Topic } from '../../../../libs/shared/types/knowledge-base.types';
       align-items: flex-start;
       gap: 1rem;
       margin-bottom: 0.5rem;
+    }
+
+    .topic-names {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.8rem;
+      flex: 1;
+    }
+
+    .topic-text {
+      display: flex;
+      flex-direction: column;
+      gap: 0.2rem;
+    }
+
+    .topic-lao {
+      font-size: 1.25rem;
+      font-weight: 400;
+      line-height: 1.3;
+    }
+
+    .topic-eng {
+      font-size: 0.95rem;
+      color: #666;
+      line-height: 1.3;
     }
 
     .topic-card h3 {
@@ -351,7 +398,7 @@ import { Topic } from '../../../../libs/shared/types/knowledge-base.types';
 })
 export class TopicsComponent implements OnInit {
   topics: Topic[] = [];
-  topicIndexGroups: Array<{ letter: string; topics: string[] }> = [];
+  topicIndexGroups: Array<{ letter: string; topics: Topic[] }> = [];
   pinnedTopics: Topic[] = [];
 
   constructor(
@@ -365,23 +412,25 @@ export class TopicsComponent implements OnInit {
       if (kb) {
         this.topics = this.kbService.getTopics();
         this.updatePinnedTopics();
-        this.topicIndexGroups = this.buildTopicIndexGroups(this.topics.map(t => t.name));
+        this.topicIndexGroups = this.buildTopicIndexGroups(this.topics);
       }
     });
   }
 
-  private buildTopicIndexGroups(existingTopicNames: string[]): Array<{ letter: string; topics: string[] }> {
+  private buildTopicIndexGroups(topics: Topic[]): Array<{ letter: string; topics: Topic[] }> {
     const normalized = (value: string) => value.trim();
-    const all = existingTopicNames.map(normalized).filter(Boolean);
+    const topicsByName = topics.map(t => ({ ...t, searchName: normalized(t.name) })).filter(t => t.searchName);
 
-    const uniqueSorted = Array.from(new Set(all)).sort((a, b) => a.localeCompare(b));
+    const uniqueSorted = Array.from(new Set(topicsByName.map(t => t.searchName)))
+      .map(name => topicsByName.find(t => t.searchName === name)!)
+      .sort((a, b) => a.name.localeCompare(b.name));
 
-    const groups = new Map<string, string[]>();
-    for (const name of uniqueSorted) {
-      const firstChar = name.trim().charAt(0).toUpperCase();
+    const groups = new Map<string, Topic[]>();
+    for (const topic of uniqueSorted) {
+      const firstChar = topic.name.trim().charAt(0).toUpperCase();
       const letter = /[A-Z]/.test(firstChar) ? firstChar : '#';
       const arr = groups.get(letter) ?? [];
-      arr.push(name);
+      arr.push(topic);
       groups.set(letter, arr);
     }
 
@@ -403,19 +452,20 @@ export class TopicsComponent implements OnInit {
     this.navigateToTopic(topic.id);
   }
 
+  openTopicById(topicId: string) {
+    this.navigateToTopic(topicId);
+  }
+
   onTopicLikeClick(event: Event, topicId: string): void {
     event.stopPropagation();
     this.likeService.toggle('topic:' + topicId);
     this.updatePinnedTopics();
   }
 
-  onTopicIndexLikeClick(event: Event, topicName: string): void {
+  onTopicIndexLikeClick(event: Event, topicId: string): void {
     event.stopPropagation();
-    const topicId = this.getTopicIdByName(topicName);
-    if (topicId) {
-      this.likeService.toggle('topic:' + topicId);
-      this.updatePinnedTopics();
-    }
+    this.likeService.toggle('topic:' + topicId);
+    this.updatePinnedTopics();
   }
 
   getTopicIdByName(name: string): string {

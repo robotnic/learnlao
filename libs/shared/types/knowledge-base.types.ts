@@ -76,6 +76,7 @@ export interface PhraseItem {
 export interface Topic {
   id: string;
   name: string;
+  name_lao?: string;
   emoji?: string;
   description?: string;
   pinned?: boolean;

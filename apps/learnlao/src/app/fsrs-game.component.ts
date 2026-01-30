@@ -118,7 +118,7 @@ export class FsrsGameComponent implements OnInit {
     
     const audioElement = document.querySelector('audio') as HTMLAudioElement;
     if (audioElement && this.currentQuestion.wordId) {
-      const audioPath = `assets/audio/${this.currentQuestion.wordId}_male.mp3`;
+      const audioPath = `https://robotnic.github.io/audiofiles/audio/${this.currentQuestion.wordId}_male.mp3`;
       audioElement.src = audioPath;
       audioElement.play().catch(e => {
         // Silently fail if audio doesn't exist - not all words have audio

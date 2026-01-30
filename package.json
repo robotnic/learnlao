@@ -3,14 +3,16 @@
   "version": "0.1.0",
   "description": "Lao language learning app - Award system prototype",
   "scripts": {
+      "deploy-gh-pages": "npx angular-cli-ghpages@1.0.7 --dir=dist/apps/learnlao",
     "ng": "ng",
     "start": "ng serve",
     "learnlao": "ng serve learnlao --port 4201",
-    "build": "ng build",
+    "build": "ng build learnlao --configuration production --base-href /learnlao/",
     "test": "ng test",
     "lint": "ng lint",
     "generate-tts-all": "node tools/generate-tts-all.mjs",
-    "test-endpoints": "node tools/test-endpoints.mjs"
+    "test-endpoints": "node tools/test-endpoints.mjs",
+      "deploy": "npm run build && npx angular-cli-ghpages --dir=dist/apps/learnlao"
   },
   "private": true,
   "dependencies": {

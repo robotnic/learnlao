@@ -70,7 +70,7 @@ import { KnowledgeBaseService } from '../../../../../../libs/shared/services/kno
               </div>
 
               <div *ngIf="!gameState.isCorrect" class="continue">
-                <p>Auto-rated as "Hard" - Next review in 4 days</p>
+                <p>Auto-rated as "Hard" </p>
                 <button (click)="nextQuestion()" class="continue-btn">Continue</button>
               </div>
             </div>
@@ -230,13 +230,13 @@ import { KnowledgeBaseService } from '../../../../../../libs/shared/services/kno
     }
 
     .feedback-text {
-      font-size: 1.3rem;
+      font-size: 1.0rem;
       font-weight: 500;
       margin-bottom: 1rem;
     }
 
     .translation {
-      font-size: 1.1rem;
+      font-size: 1.6rem;
       margin-top: 0.5rem;
     }
 
@@ -425,7 +425,7 @@ export class FsrsGameComponent implements OnInit {
 
     // If wrong, auto-submit with Rating.Again (1) after 3 seconds to show the answer
     if (!this.gameState.isCorrect) {
-      setTimeout(() => this.submitRating(1), 3000); // Auto-continue after 3 seconds
+      setTimeout(() => this.submitRating(1), 7000); // Auto-continue after 3 seconds
     }
   }
 

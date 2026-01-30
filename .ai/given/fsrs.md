@@ -125,11 +125,11 @@ export const LearningService = {
     const distractors = await this._getDistractors(word.english);
     const choices = [...distractors, word.english].sort(() => 0.5 - Math.random());
     const voice = Math.random() > 0.5 ? 'male' : 'female';
-
+console.log('voice', voice)
     return {
       word,
       choices,
-      audioUrl: `/audio/${word.id}_${voice}.mp3`
+      audioUrl: `https://robotnic.github.io/audiofiles/audio/${word.id}_${voice}.mp3`
     };
   },
 

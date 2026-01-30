@@ -82,7 +82,8 @@ export class LearningService {
     return {
       word,
       choices,
-      audioUrl: `assets/audio/${word.id}_${voice}.mp3`
+      audioUrl: `https://robotnic.github.io/audiofiles/audio/${word.id}_${voice}.mp3`
+
     };
   }
 

@@ -5,11 +5,12 @@ import { FormsModule } from '@angular/forms';
 import { KnowledgeBaseService } from '../../../../libs/shared/services/knowledge-base.service';
 import { LikeService } from '../../../../libs/shared/services/like.service';
 import { VocabularyItem } from '../../../../libs/shared/types/knowledge-base.types';
+import { PlayAudioComponent } from '@bootlao/shared/components/audio-button.component';
 
 @Component({
   selector: 'app-dict',
   standalone: true,
-  imports: [RouterLink, CommonModule, FormsModule],
+  imports: [RouterLink, CommonModule, FormsModule, PlayAudioComponent],
   template: `
     <div class="page">
       <div class="container">
@@ -90,22 +91,7 @@ import { VocabularyItem } from '../../../../libs/shared/types/knowledge-base.typ
                     (click)="searchForWord(word.lao)"
                   >{{ word.lao || '—' }}</span>
                   <span class="badge" *ngIf="word.needs_translation">UNTRANSLATED</span>
-                  <button
-                    class="audio"
-                    type="button"
-                    (click)="togglePlay(word, 'female')"
-                    [attr.aria-label]="(isPlaying(word, 'female') ? 'Stop female audio for ' : 'Play female audio for ') + (word.english || word.id)"
-                  >
-                    {{ isPlaying(word, 'female') ? '⏹ F' : '▶ F' }}
-                  </button>
-                  <button
-                    class="audio"
-                    type="button"
-                    (click)="togglePlay(word, 'male')"
-                    [attr.aria-label]="(isPlaying(word, 'male') ? 'Stop male audio for ' : 'Play male audio for ') + (word.english || word.id)"
-                  >
-                    {{ isPlaying(word, 'male') ? '⏹ M' : '▶ M' }}
-                  </button>
+                 <playaudio [id]="word.id" ></playaudio>
                 </div>
                 <div class="right">
                   <button
@@ -247,6 +233,8 @@ import { VocabularyItem } from '../../../../libs/shared/types/knowledge-base.typ
       gap: 0.75rem;
       align-items: center;
       width: 100%;
+      flex-wrap: wrap; 
+
     }
 
     .search {
@@ -309,12 +297,14 @@ import { VocabularyItem } from '../../../../libs/shared/types/knowledge-base.typ
     .list {
       display: grid;
       gap: 0.5rem;
+      width: calc(100vw - 2rem); 
     }
 
     .row {
       border: 1px solid #f0f0f0;
       padding: 1rem;
       border-radius: 12px;
+      width:calc(100vw - 50px)
     }
 
     .top {

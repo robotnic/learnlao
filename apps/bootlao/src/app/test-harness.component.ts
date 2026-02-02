@@ -2,7 +2,7 @@ import { Component, OnInit, OnDestroy } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { AwardService } from '../../../../libs/shared/services/award.service';
-import { LearningActivity } from '../../../../libs/shared/types/learning.types';
+import { LearningActivity } from '../../../../libs/types/learning.types';
 import { ScoreboardComponent } from '../../../../libs/shared/components/scoreboard/scoreboard.component';
 
 @Component({

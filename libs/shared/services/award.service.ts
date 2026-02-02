@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { BehaviorSubject, Observable } from 'rxjs';
-import { LearningActivity } from '../types/learning.types';
-import { AwardState, LevelProgress, MedalCollection } from '../types/award.types';
+import { LearningActivity } from '../../types/learning.types';
+import { AwardState, LevelProgress, MedalCollection } from '../../types/award.types';
 
 @Injectable({
   providedIn: 'root'

@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Lao language learning app - Award system prototype",
   "scripts": {
-      "deploy-gh-pages": "npx angular-cli-ghpages@1.0.7 --dir=dist/apps/learnlao",
+    "deploy-gh-pages": "npx angular-cli-ghpages@1.0.7 --dir=dist/apps/learnlao",
     "ng": "ng",
     "start": "ng serve",
     "learnlao": "ng serve learnlao --port 4201",
@@ -12,7 +12,7 @@
     "lint": "ng lint",
     "generate-tts-all": "node tools/generate-tts-all.mjs",
     "test-endpoints": "node tools/test-endpoints.mjs",
-      "deploy": "npm run build && npx angular-cli-ghpages --dir=dist/apps/learnlao"
+    "deploy": "npm run build && npx angular-cli-ghpages --dir=dist/apps/learnlao"
   },
   "private": true,
   "dependencies": {
@@ -25,7 +25,10 @@
     "@angular/platform-browser": "^17.0.0",
     "@angular/platform-browser-dynamic": "^17.0.0",
     "@angular/router": "^17.0.0",
-    "dexie": "^4.0.8",
+    "@squeakyrobot/fsrs": "^1.0.0",
+    "canvas-confetti": "^1.9.4",
+    "dexie": "^4.3.0",
+    "fast-levenshtein": "^3.0.0",
     "rxjs": "^7.8.0",
     "ts-fsrs": "^5.2.1",
     "tslib": "^2.6.0",
@@ -35,6 +38,8 @@
     "@angular-devkit/build-angular": "^17.0.0",
     "@angular/cli": "^17.0.0",
     "@angular/compiler-cli": "^17.0.0",
+    "@types/canvas-confetti": "^1.9.0",
+    "@types/fast-levenshtein": "^0.0.4",
     "@types/jasmine": "^5.0.0",
     "jasmine-core": "^5.0.0",
     "karma": "^6.4.0",

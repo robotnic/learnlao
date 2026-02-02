@@ -1,4 +1,6 @@
 import { Routes } from '@angular/router';
+import { MarathonViewComponent } from './marathon-view.component';
+import { DiagnosticViewComponent } from './diagnostic-view.component';
 
 export const routes: Routes = [
   {
@@ -32,5 +34,10 @@ export const routes: Routes = [
   {
     path: 'word/:id',
     loadComponent: () => import('./word-detail.component').then(m => m.WordDetailComponent)
-  }
+  },
+    // THE GAME: Real-world English-Lao-German learning
+  { path: 'marathon', component: MarathonViewComponent },
+  
+  // THE LAB: High-speed FSRS simulation (Sandbox)
+  { path: 'test-lab', component: DiagnosticViewComponent },
 ];

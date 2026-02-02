@@ -3,7 +3,7 @@ import { Router, RouterLink } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { KnowledgeBaseService } from '../../../../libs/shared/services/knowledge-base.service';
 import { LikeService } from '../../../../libs/shared/services/like.service';
-import { Topic } from '../../../../libs/shared/types/knowledge-base.types';
+import { Topic } from '../../../../libs/types/knowledge-base.types';
 
 @Component({
   selector: 'app-topics',

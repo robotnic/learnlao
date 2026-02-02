@@ -3,7 +3,7 @@ import { ActivatedRoute, RouterLink } from '@angular/router';
 import { CommonModule, DOCUMENT } from '@angular/common';
 import { KnowledgeBaseService } from '../../../../libs/shared/services/knowledge-base.service';
 import { LikeService } from '../../../../libs/shared/services/like.service';
-import { VocabularyItem, PhraseItem } from '../../../../libs/shared/types/knowledge-base.types';
+import { VocabularyItem, PhraseItem } from '../../../../libs/types/knowledge-base.types';
 
 @Component({
   selector: 'app-word-detail',

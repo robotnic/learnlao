@@ -4,7 +4,7 @@ import { CommonModule, DOCUMENT } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { KnowledgeBaseService } from '../../../../libs/shared/services/knowledge-base.service';
 import { LikeService } from '../../../../libs/shared/services/like.service';
-import { VocabularyItem } from '../../../../libs/shared/types/knowledge-base.types';
+import { VocabularyItem } from '../../../../libs/types/knowledge-base.types';
 import { PlayAudioComponent } from '@bootlao/shared/components/audio-button.component';
 
 @Component({

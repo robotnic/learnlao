@@ -44,6 +44,12 @@ import { RouterLink } from '@angular/router';
                 <div class="text-eng">Progress</div>
               </div>
             </a>
+                        <a class="nav-item" routerLink="/marathon">
+              <div class="text-bilingual">
+                <div class="text-lao">ຮຽນ2</div>
+                <div class="text-eng">Learn hard</div>
+              </div>
+            </a>
           </nav>
 
           <div class="qr-section">

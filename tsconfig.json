@@ -1,6 +1,9 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
@@ -23,7 +26,9 @@
       "dom"
     ],
     "paths": {
-      "@bootlao/shared/*": ["libs/shared/*"]
+      "@bootlao/shared/*": ["libs/shared/*"],
+      "@libs/types": ["libs/types/index.ts"],
+      "@libs/fsrs-engine": ["libs/fsrs-engine/index.ts"]
     }
   },
   "angularCompilerOptions": {

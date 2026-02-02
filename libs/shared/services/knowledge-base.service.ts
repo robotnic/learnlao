@@ -2,7 +2,7 @@ import { Injectable, Inject } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { DOCUMENT } from '@angular/common';
 import { BehaviorSubject, Observable, firstValueFrom } from 'rxjs';
-import { KnowledgeBase, VocabularyItem, PhraseItem, Topic } from '../types/knowledge-base.types';
+import { KnowledgeBase, VocabularyItem, PhraseItem, Topic } from '../../types/knowledge-base.types';
 
 @Injectable({
   providedIn: 'root'

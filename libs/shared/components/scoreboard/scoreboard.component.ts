@@ -1,8 +1,8 @@
 import { Component, OnInit, OnDestroy, ChangeDetectorRef } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { AwardService } from '../../services/award.service';
-import { AwardState, LevelProgress } from '../../types/award.types';
-import { LearningActivity } from '../../types/learning.types';
+import { AwardState, LevelProgress } from '../../../types/award.types';
+import { LearningActivity } from '../../../types/learning.types';
 import { Subject } from 'rxjs';
 import { takeUntil } from 'rxjs/operators';
 

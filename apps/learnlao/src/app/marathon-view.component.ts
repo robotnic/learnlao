@@ -24,9 +24,8 @@ import { RouterLink } from "@angular/router";
   imports: [CommonModule, MemoryMonitorComponent, RouterLink],
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `
-
     <div class="marathon-canvas">
-    <a routerLink="/" class="back-link">← Back</a>
+      <a routerLink="/" class="back-link">← Back</a>
       <!-- HUD: Pinned to top, follows the white theme -->
       <app-memory-monitor class="minimal-hud"></app-memory-monitor>
 
@@ -175,9 +174,9 @@ import { RouterLink } from "@angular/router";
         margin-bottom: 4rem;
       }
       .challenge-term {
-        font-family: 'Noto Sans Lao Looped', sans-serif;
+        font-family: "Noto Sans Lao Looped", sans-serif;
 
-        font-size: 5rem;
+        font-size: 3rem;
         font-weight: 800;
         line-height: 1.1;
         margin-bottom: 1rem;
@@ -204,14 +203,18 @@ import { RouterLink } from "@angular/router";
         gap: 1.5rem;
       }
       .choice-card {
-        font-family: 'Noto Sans Lao Looped', sans-serif;
+        font-family: "Noto Sans Lao Looped", sans-serif;
 
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+        font-variation-settings: "wdth" 600;
 
         background: #fff;
         border: 2px solid var(--border);
         padding: 2.5rem 1.5rem;
         border-radius: 20px;
-        font-size: 2.2rem;
+        font-size: 1.8rem;
         font-weight: 600;
         cursor: pointer;
         transition: all 0.2s;

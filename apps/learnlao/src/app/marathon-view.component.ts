@@ -57,7 +57,7 @@ import { RouterLink } from "@angular/router";
           <h1 class="challenge-term">{{ quiz.challenge }}</h1>
           <div class="audio-row" *ngIf="quiz.isStandard">
             <button
-              (click)="playAudio(quiz.entry.id)"
+              (click)="playAudio(quiz.entry.originalId)"
               class="btn-audio-minimal"
             >
               🔊
@@ -113,7 +113,7 @@ import { RouterLink } from "@angular/router";
         --text: #1a202c;
         --muted: #a0aec0;
         --bg: #ffffff;
-        --border: #edf2f7;
+        --border: #545555;
         --accent: #3182ce;
         --success: #48bb78;
         --error: #f56565;
@@ -137,7 +137,7 @@ import { RouterLink } from "@angular/router";
         width: 100%;
         max-width: 800px;
         margin-top: 1rem;
-        border: 1px solid var(--border);
+        border: 0px solid var(--border);
       }
 
       .zen-gate {
@@ -406,7 +406,11 @@ export class MarathonViewComponent implements OnInit {
   }
 
   playAudio(id: number | string | undefined) {
-    const selectedVoice = "female";
+    let selectedVoice = "male";
+    if (sessionStorage.getItem('voicetype') === 'male'){
+      selectedVoice = 'female';
+    }
+      sessionStorage.setItem('voicetype', selectedVoice)
     const url = `https://robotnic.github.io/audiofiles/audio/${id}_${selectedVoice}.mp3`;
     new Audio(url).play();
   }
